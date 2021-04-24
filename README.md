@@ -4,7 +4,7 @@ Alternate KiCad Library
 
 License:
 Alternate KiCad Library by Dawid Cisło is a derivative of KiCad Library made by KiCad community
-(see: KiCad library GitLab), used under Creative Commons CC-BY-SA 4.0 License, with the following
+(see: KiCad library GitLab: https://gitlab.com/kicad/libraries), used under Creative Commons CC-BY-SA 4.0 License (https://creativecommons.org/licenses/by-sa/4.0/legalcode), with the following
 exception:
 
 To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to
