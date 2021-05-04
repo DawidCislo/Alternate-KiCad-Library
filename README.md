@@ -50,3 +50,48 @@ If you find any errors please send me an e-mail with the details (footprint name
 screenshots showing the error) here: dawid_cislo@o2.pl
 It might take months between updates, because I’m making this project in my spare time, but more
 features are coming.
+
+Changelog:
+Version 1.1
+- SMD Diode, Capacitor and Inductor footprint libraries have been split into standard and hand soldering variants.
+Capacitor_SMD_Handsoldering_AKL
+Capacitor_Tantalum_SMD_Handsoldering_AKL
+Diode_SMD_Handsoldering_AKL
+Inductor_SMD_Handsoldering_AKL
+- Standard libraries are suitable for machine soldering and have no silkscreen under the parts.
+- Hand soldering libraries have silkscreen under the part to improve readability of the PCB and reduce component placement errors.
+- Footprints (included in those libraries) with bigger pads that used to be called the ‘HandSoldering’ variants have been renamed to ‘BigPads’ to reduce confusion.
+- Footprint names between standard and hand soldering libraries are consistent. You can easily swap the footprint by using ‘change footprint’ option and renaming the library in PCBNew.
+- Minor improvements to SMD inductor library.
+- Some SMD TVS diode footprints had unnecessary polarity marks.
+- Crystal and SMD resistor libraries have no silkscreen under the SMD parts.
+
+Version 1.0
+- Modified KiCad Libraries:
+Capacitor_SMD_AKL
+Capacitor_Tantalum_AKL
+Capacitor_THT_AKL
+Crystal_AKL
+Diode_SMD_AKL
+Diode_THT_AKL
+Inductor_SMD_AKL
+Inductor_THT_AKL
+Package_DFN_QFN_AKL
+Package_DIP_AKL
+Package_LCC_AKL
+Package_QFP_AKL
+Package_SO_AKL
+Package_SON_AKL
+Package_TO_SOT_SMD_AKL
+Package_TO_SOT_THT_AKL
+Resistor_SMD_AKL
+Resistor_THT_AKL
+These libraries inherit KiCad’s pad layout and footprint names so you can easily swap footprints using ‘change footprint’ option and renaming the library in PCBNew.
+Some new footprints have been added, see the showcase folder for details.
+- New footprint library:
+Jumper_AKL
+Adds THT jumpers with multiple pin pitch and two wire diameters variants. Helpful during single-sided PCB layout.
+
+
+
+
