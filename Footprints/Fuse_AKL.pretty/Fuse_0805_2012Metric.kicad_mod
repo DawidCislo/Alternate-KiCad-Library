@@ -1,5 +1,6 @@
-(footprint "Fuse_0805_2012Metric" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD02B0)
+(footprint "Fuse_0805_2012Metric" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12C3C)
   (descr "Fuse SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), Alternate KiCAD Library")
   (tags "fuse")
   (attr smd)
@@ -27,9 +28,9 @@
   (fp_line (start -1 0.6) (end -1 -0.6) (layer "F.Fab") (width 0.1) (tstamp 5b656edb-c35c-4965-8e3b-05e62d74d1ab))
   (fp_line (start -1 -0.6) (end 1 -0.6) (layer "F.Fab") (width 0.1) (tstamp 66a85ca4-8ad9-48d9-bfb4-c86e7912c0d9))
   (fp_line (start 1 0.6) (end -1 0.6) (layer "F.Fab") (width 0.1) (tstamp 910b1309-3af9-4f28-a5f4-a5a31e7cfdac))
-  (pad "1" smd roundrect locked (at -0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 926a9cb9-5ba2-4f82-bdb8-0aee3afad265))
-  (pad "2" smd roundrect locked (at 0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1c584c5e-39aa-46e0-9195-3ab01a680a8d))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_0805_2012Metric.wrl"
+  (pad "1" smd roundrect (at -0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 926a9cb9-5ba2-4f82-bdb8-0aee3afad265))
+  (pad "2" smd roundrect (at 0.9375 0) (size 0.975 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1c584c5e-39aa-46e0-9195-3ab01a680a8d))
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_0805_2012Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

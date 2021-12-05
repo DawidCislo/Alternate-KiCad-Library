@@ -1,5 +1,6 @@
-(footprint "TO-220-2_Horizontal_TabDown_KA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162B8F5)
+(footprint "TO-220-2_Horizontal_TabDown_KA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A75575)
   (descr "TO-220-2, Horizontal, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF, Alternate KiCad Library")
   (tags "TO-220-2 Horizontal RM 5.08mm")
   (fp_text reference "REF**" (at 2.54 -20.58) (layer "F.SilkS")
@@ -58,8 +59,8 @@
   (fp_line (start 5.58 -1.4) (end 5.38 -1.2) (layer "F.SilkS") (width 0.12) (tstamp dca5f865-db39-4d61-b830-d39954903e0a))
   (fp_line (start -0.5 -3.65) (end -0.5 -1.4) (layer "F.SilkS") (width 0.12) (tstamp e54fa63d-5121-4e3b-a754-1275fcaba095))
   (fp_line (start 7.1 -18.05) (end 7.66 -18.05) (layer "F.SilkS") (width 0.12) (tstamp f83d494c-34c2-4f7b-be7d-b3dace21ccc4))
-  (fp_arc (start 7.6 -7) (end 7.6 -8.35) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 3437e33a-8afa-4cdf-b603-043002a638ca))
-  (fp_arc (start -2.55 -7) (end -2.55 -5.65) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp d65faf40-a6f7-4fd1-9948-24fb04c0f04f))
+  (fp_arc (start 7.6 -5.65) (mid 6.25 -7) (end 7.6 -8.35) (layer "F.SilkS") (width 0.12) (tstamp 3437e33a-8afa-4cdf-b603-043002a638ca))
+  (fp_arc (start -2.55 -8.35) (mid -1.2 -7) (end -2.55 -5.65) (layer "F.SilkS") (width 0.12) (tstamp d65faf40-a6f7-4fd1-9948-24fb04c0f04f))
   (fp_poly (pts
       (xy 3.3 1)
       (xy 1.8 0)
@@ -83,7 +84,7 @@
   (pad "" np_thru_hole oval (at 2.54 -16.66) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp 05b60ab6-152c-4c20-9c1f-0510dde4ff8d))
   (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 428662c0-e5a3-4e21-84e7-c72c6ebea5f5))
   (pad "2" thru_hole oval (at 5.08 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 69c58ff4-6e46-4c89-a133-211662cafa58))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-2_Horizontal_TabDown.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Horizontal_TabDown.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

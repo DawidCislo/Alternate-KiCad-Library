@@ -1,5 +1,6 @@
-(footprint "Fuse_2816_7142Metric_Castellated" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F8630B)
+(footprint "Fuse_2816_7142Metric_Castellated" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12D1B)
   (descr "Fuse SMD 2816 (7142 Metric), castellated end terminal, IPC_7351. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), Alternate KiCAD Library")
   (tags "fuse castellated")
   (attr smd)
@@ -29,9 +30,4 @@
   (fp_line (start 3.55 -2.1) (end 3.55 2.1) (layer "F.Fab") (width 0.1) (tstamp cecb88a9-a554-44ce-af8d-ab2ace7d717e))
   (pad "1" smd roundrect (at -2.5375 0) (size 3.375 4.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.074074) (tstamp 4e0b35a9-8eff-4eca-9efc-86bf3fac5153))
   (pad "2" smd roundrect (at 2.5375 0) (size 3.375 4.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.074074) (tstamp cf2a9c1d-ea33-41a3-95c6-1fc3fd62b327))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_2816_7142Metric_Castellated.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

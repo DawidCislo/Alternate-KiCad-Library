@@ -1,5 +1,6 @@
-(footprint "TO-264-3_Vertical_GCE" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FA627D)
+(footprint "TO-264-3_Vertical_GCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7431F)
   (descr "TO-264-3, Vertical, RM 5.45mm, see https://www.fairchildsemi.com/package-drawings/TO/TO264A03.pdf, Alternate KiCad Library")
   (tags "TO-264-3 Vertical RM 5.45mm")
   (fp_text reference "REF**" (at 5.45 -3.02) (layer "F.SilkS")
@@ -53,7 +54,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp b565df07-85e7-4c0e-a5ae-b9835a55901b))
   (pad "2" thru_hole oval (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 20ab2a63-4e98-4654-b81c-887da8cb2501))
   (pad "3" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 530bfe3b-c555-4091-aa9e-13b9dc4cc7c6))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-264-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-264-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

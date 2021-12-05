@@ -1,5 +1,6 @@
-(footprint "C_Rect_L19.0mm_W11.0mm_P15.00mm_MKS4" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CBA992)
+(footprint "C_Rect_L19.0mm_W11.0mm_P15.00mm_MKS4" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E7A4C)
   (descr "C, Rect series, Radial, pin pitch=15.00mm, , length*width=19*11mm^2, Capacitor, http://www.wima.com/EN/WIMA_MKS_4.pdf, Alternate KiCad Library")
   (tags "C Rect series Radial pin pitch 15.00mm  length 19mm width 11mm Capacitor")
   (fp_text reference "REF**" (at 7.5 -6.75) (layer "F.SilkS")
@@ -40,7 +41,7 @@
   (fp_line (start -2 5.5) (end 17 5.5) (layer "F.Fab") (width 0.1) (tstamp f39c88ca-9c12-4db1-914f-ac859cd49cab))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 64b9c464-02d4-4165-b461-50caaf8890d7))
   (pad "2" thru_hole circle (at 15 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 5d787925-9973-4093-827b-a557a9e98d71))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L19.0mm_W11.0mm_P15.00mm_MKS4.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L19.0mm_W11.0mm_P15.00mm_MKS4.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

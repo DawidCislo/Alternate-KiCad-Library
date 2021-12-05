@@ -1,5 +1,6 @@
-(footprint "TO-126-3_Vertical_KAG" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60DAFDBF)
+(footprint "TO-126-3_Vertical_KAG" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A5D52D)
   (descr "TO-126-3, Vertical, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf, Alternate KiCad Library")
   (tags "TO-126-3 Vertical RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 -3.12) (layer "F.SilkS")
@@ -47,7 +48,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp f7f3a88f-64d7-436e-8d63-82c9e20c4cdb))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp a5387647-42a4-4328-925e-48d49369973c))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 2f3f5163-087f-4887-b2b9-4d78427937eb))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-126-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-126-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

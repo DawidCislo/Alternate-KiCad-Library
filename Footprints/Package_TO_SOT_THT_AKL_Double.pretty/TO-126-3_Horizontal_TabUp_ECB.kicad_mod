@@ -1,5 +1,6 @@
-(footprint "TO-126-3_Horizontal_TabUp_ECB" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162CCA2)
+(footprint "TO-126-3_Horizontal_TabUp_ECB" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7541E)
   (descr "TO-126-3, Horizontal, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf, Alternate KiCad Library")
   (tags "TO-126-3 Horizontal RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 16.12) (layer "F.SilkS")
@@ -69,9 +70,4 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp dad88196-a9bf-4738-9f85-8ec3845747ad))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp 0db4272c-7d60-4660-884c-2e7d7203d3cd))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.8 1.8) (drill 1) (layers *.Cu *.Mask) (tstamp c2ba7d33-f3e5-4901-9027-c17d52ceb069))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-126-3_Horizontal_TabUp.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

@@ -1,5 +1,6 @@
-(footprint "R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616148AA)
+(footprint "R_Axial_Power_L20.0mm_W6.4mm_P22.40mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C0E1)
   (descr "Resistor, Axial_Power series, Box, pin pitch=22.4mm, 4W, length*width*height=20*6.4*6.4mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
   (tags "Resistor Axial_Power series Box pin pitch 22.4mm 4W length 20mm width 6.4mm height 6.4mm")
   (fp_text reference "REF**" (at 11.2 -4.32) (layer "F.SilkS")
@@ -39,7 +40,7 @@
   (fp_line (start 21.2 -3.2) (end 1.2 -3.2) (layer "F.Fab") (width 0.1) (tstamp eec4b192-a963-459e-b640-22e6a0fc81a3))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 99616065-f1aa-4a5b-8a2e-ad5f02e005c4))
   (pad "2" thru_hole oval (at 22.4 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp ac752e62-de74-48ee-a207-ca4fc4d7b7fd))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L20.0mm_W6.4mm_P22.40mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Power_L20.0mm_W6.4mm_P22.40mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

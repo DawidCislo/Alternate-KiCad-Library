@@ -1,5 +1,6 @@
-(footprint "Fuseholder_Littelfuse_Nano2_157x" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F86209)
+(footprint "Fuseholder_Littelfuse_Nano2_157x" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12F4F)
   (descr "Littelfuse NANO2 holder, https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_157_datasheet.pdf.pdf, Alternate KiCAD Library")
   (tags "SMD Nano2 holder")
   (attr smd)
@@ -26,9 +27,4 @@
   (fp_line (start -3.25 -1.85) (end 3.25 -1.85) (layer "F.Fab") (width 0.1) (tstamp d22f7643-ebce-4859-945c-7baa1d9cd478))
   (pad "1" smd rect (at -2.43 0) (size 2.4 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d16cac22-aa3a-443d-9eee-e200c4252e03))
   (pad "2" smd rect (at 2.43 0) (size 2.4 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f736b714-e01c-400e-9a38-76aef0caf13c))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Littelfuse_Nano2_157x.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

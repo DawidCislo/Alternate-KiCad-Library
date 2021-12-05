@@ -1,5 +1,6 @@
-(footprint "DIP-4-8_W7.62mm" (version 20211014) (generator pcbnew) (layer "F.Cu")
-  (tedit 6188CC4B)
+(footprint "DIP-4-8_W7.62mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A33ACF)
   (descr "4-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
   (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
   (fp_text reference "REF**" (at 3.81 -2.33) (layer "F.SilkS")
@@ -36,9 +37,4 @@
   (pad "3" thru_hole oval (at 0 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 882a4a6f-e605-4b6c-b37c-d42bae53dd18))
   (pad "5" thru_hole oval (at 7.62 7.62) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 1458fb73-48cc-4bae-8e76-ee161807cda1))
   (pad "8" thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 2e21582d-4eab-4e9f-956c-a70e36f84730))
-  (model "${KISYS3DMOD}/Package_DIP.3dshapes/DIP-8_W7.62mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

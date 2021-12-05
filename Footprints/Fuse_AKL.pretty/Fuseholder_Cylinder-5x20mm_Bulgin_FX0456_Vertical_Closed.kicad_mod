@@ -1,5 +1,6 @@
-(footprint "Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F86172)
+(footprint "Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12EDF)
   (descr "Fuseholder, 5x20, closed, vertical, Bulgin, FX0456, https://www.bulgin.com/products/pub/media/bulgin/data/Fuseholders.pdf, Alternate KiCAD Library")
   (tags "Fuseholder 5x20 closed vertical Bulgin FX0456 Sicherungshalter ")
   (fp_text reference "REF**" (at 5.25 -7.25) (layer "F.SilkS")
@@ -31,8 +32,8 @@
   (fp_line (start 11.43 6.35) (end 11.43 1.52) (layer "F.SilkS") (width 0.12) (tstamp 92104004-75db-48bf-b722-2e7f993caa6b))
   (fp_line (start 11.43 -1.52) (end 11.43 -1.65) (layer "F.SilkS") (width 0.12) (tstamp add08815-3f5e-4d48-ab44-f9e07575e937))
   (fp_line (start -1.27 6.35) (end 11.43 6.35) (layer "F.SilkS") (width 0.12) (tstamp de88cfe9-9442-4704-9ce2-9f004d495bfb))
-  (fp_arc (start 6.1 0) (end 5.1 0) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 2183bcda-edfa-4c1b-87fc-4e5a43400fb0))
-  (fp_arc (start 4.1 0) (end 5.1 0) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 46341bea-f678-4f97-ae21-b59eebf2d5f7))
+  (fp_arc (start 7.1 0) (mid 6.1 1) (end 5.1 0) (layer "F.SilkS") (width 0.12) (tstamp 2183bcda-edfa-4c1b-87fc-4e5a43400fb0))
+  (fp_arc (start 3.1 0) (mid 4.1 -1) (end 5.1 0) (layer "F.SilkS") (width 0.12) (tstamp 46341bea-f678-4f97-ae21-b59eebf2d5f7))
   (fp_line (start -1.75 -6.55) (end -1.75 6.5) (layer "F.CrtYd") (width 0.05) (tstamp 73b32b2d-78cf-4d49-87c3-010771e60554))
   (fp_line (start -1.75 -6.55) (end 11.91 -6.55) (layer "F.CrtYd") (width 0.05) (tstamp 7f9cb437-2869-4f52-8713-5268999d5539))
   (fp_line (start 11.91 6.5) (end 11.91 -6.55) (layer "F.CrtYd") (width 0.05) (tstamp aa91f61c-da21-4196-9632-0f309690af7b))
@@ -54,7 +55,7 @@
   (pad "" np_thru_hole circle (at 10.08 5) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp ec3cb0c2-f872-4b85-bcaa-4dd820f96ef0))
   (pad "1" thru_hole circle (at 0 0) (size 3 3) (drill 1.35) (layers *.Cu *.Mask) (tstamp 6f105e2b-2b7d-4f9c-821e-3380a8647bae))
   (pad "2" thru_hole circle (at 10.16 0) (size 3 3) (drill 1.35) (layers *.Cu *.Mask) (tstamp 79f9fa68-64ff-4d28-a401-2dac49fed520))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Cylinder-5x20mm_Bulgin_FX0456_Vertical_Closed.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "Fuse_1206_3216Metric" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD0751)
+(footprint "Fuse_1206_3216Metric" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A131C9)
   (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCAD Library")
   (tags "fuse")
   (attr smd)
@@ -21,8 +22,8 @@
   (fp_line (start 2.286 1.143) (end -2.286 1.143) (layer "F.SilkS") (width 0.12) (tstamp 7f151593-00ec-4076-bda0-8108b559b084))
   (fp_line (start -2.286 1.143) (end -2.286 -1.143) (layer "F.SilkS") (width 0.12) (tstamp b3ed7b48-5335-45bc-b150-4d91a39242d0))
   (fp_line (start 2.286 -1.143) (end 2.286 1.143) (layer "F.SilkS") (width 0.12) (tstamp f020036e-3e1d-4856-a5f5-ab0b023d2261))
-  (fp_arc (start 0.2286 0) (end 0 0) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 9124b055-bb06-4b98-bbdb-8ffa86aa282f))
-  (fp_arc (start -0.2286 0) (end 0 0) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp b0fccca7-9ced-4231-bb8d-0df60bc233dc))
+  (fp_arc (start 0.4572 0) (mid 0.2286 0.2286) (end 0 0) (layer "F.SilkS") (width 0.12) (tstamp 9124b055-bb06-4b98-bbdb-8ffa86aa282f))
+  (fp_arc (start -0.4572 0) (mid -0.2286 -0.2286) (end 0 0) (layer "F.SilkS") (width 0.12) (tstamp b0fccca7-9ced-4231-bb8d-0df60bc233dc))
   (fp_line (start 2.3495 1.2065) (end -2.3495 1.2065) (layer "F.CrtYd") (width 0.05) (tstamp 05e24966-4b0d-4319-9843-f3b25228c9d7))
   (fp_line (start -2.3495 -1.2065) (end 2.3495 -1.2065) (layer "F.CrtYd") (width 0.05) (tstamp 288c68dd-7259-4bcd-b414-e2527994a2d5))
   (fp_line (start 2.3495 -1.2065) (end 2.3495 1.2065) (layer "F.CrtYd") (width 0.05) (tstamp 56b90498-8339-4f4b-be53-c18c33e1c85e))
@@ -33,7 +34,7 @@
   (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp cac1fd30-20f7-44bb-a4a8-b36002e59f95))
   (pad "1" smd roundrect (at -1.4 0) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 118a56c0-07e5-451e-a656-0528b93f3f31))
   (pad "2" smd roundrect (at 1.4 0) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 03c7197f-f39d-40ae-b510-8168826714d3))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

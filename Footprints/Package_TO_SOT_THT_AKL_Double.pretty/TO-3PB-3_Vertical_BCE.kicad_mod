@@ -1,5 +1,6 @@
-(footprint "TO-3PB-3_Vertical_BCE" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162AD87)
+(footprint "TO-3PB-3_Vertical_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A743F4)
   (descr "TO-3PB-3, Vertical, RM 5.45mm, , see http://www.onsemi.com/pub/Collateral/340AC.PDF, Alternate KiCad Library")
   (tags "TO-3PB-3 Vertical RM 5.45mm ")
   (fp_text reference "REF**" (at 5.45 -3.175) (layer "F.SilkS")
@@ -69,7 +70,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 8e0140b2-cbe2-4da0-bf8d-5dccb10d959b))
   (pad "2" thru_hole oval (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 099bf0b5-d6f4-4c9b-97eb-48b099362ea4))
   (pad "3" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp f8f1092b-e103-41dc-9805-0df1e6fbb01a))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-3PB-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-3PB-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

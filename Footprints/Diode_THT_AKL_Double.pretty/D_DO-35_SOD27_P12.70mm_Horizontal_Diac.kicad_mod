@@ -1,6 +1,6 @@
 (footprint "D_DO-35_SOD27_P12.70mm_Horizontal_Diac" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61975046)
+  (tedit 61A11DB0)
   (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf, Alternate KiCad Library")
   (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 12.7mm  length 4mm diameter 2mm")
   (fp_text reference "REF**" (at 6.35 -2.12) (layer "F.SilkS")
@@ -70,7 +70,7 @@
   (fp_line (start 4.85 -1) (end 4.85 1) (layer "F.Fab") (width 0.1) (tstamp ff658cc4-6bf0-404e-bb34-ed86493d2c79))
   (pad "1" thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 5ee96358-03d0-482a-97d1-c8416a8a5b03))
   (pad "2" thru_hole oval (at 12.7 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 33bb8220-f440-4d99-bd60-a3cd38ad7c3a))
-  (model "${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-35_SOD27_P12.70mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

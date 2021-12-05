@@ -1,5 +1,6 @@
-(footprint "TO-218-3_Horizontal_TabUp_AKA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162895F)
+(footprint "TO-218-3_Horizontal_TabUp_AKA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A5D5CD)
   (descr "TO-218-3, Horizontal, RM 5.475mm, SOT-93, see https://www.vishay.com/docs/95214/fto218.pdf, Alternate KiCad Library")
   (tags "TO-218-3 Horizontal RM 5.475mm SOT-93")
   (fp_text reference "REF**" (at 5.475 23.45) (layer "F.SilkS")
@@ -94,9 +95,4 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.5 3.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp c4c5088d-bf0f-4390-ba68-4b190f1c524b))
   (pad "2" thru_hole oval (at 5.475 0) (size 2.5 3.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 7159a76f-6bc2-4b22-82f2-be0420050116))
   (pad "3" thru_hole oval (at 10.95 0) (size 2.5 3.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 1029ef6f-41af-4117-8d68-dd941f3bcaa6))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-218-3_Horizontal_TabUp.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

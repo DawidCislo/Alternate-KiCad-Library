@@ -1,5 +1,6 @@
-(footprint "TO-5-2_Window_AK" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162ADFA)
+(footprint "TO-5-2_Window_AK" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A74441)
   (descr "TO-5-2_Window, Window, Alternate KiCad Library")
   (tags "TO-5-2_Window Window")
   (fp_text reference "REF**" (at 2.54 -5.82) (layer "F.SilkS")
@@ -38,7 +39,7 @@
   (fp_line (start -2.125856 -3.888039) (end -1.234902 -2.997084) (layer "F.SilkS") (width 0.12) (tstamp ea7e134a-86ca-4168-a7fc-37f03984895a))
   (fp_line (start 1.27 0) (end 2.032 0) (layer "F.SilkS") (width 0.12) (tstamp f9e57c5c-4970-4575-80e4-d24890ede8c5))
   (fp_line (start 3.302 -0.889) (end 3.302 0.889) (layer "F.SilkS") (width 0.12) (tstamp ffe58d25-03d6-492e-9d2a-a558b1380fe8))
-  (fp_arc (start 2.54 0) (end -0.457084 -3.774902) (angle 346.9) (layer "F.SilkS") (width 0.12) (tstamp 1f1e0fda-a6fe-4746-87f8-fe0db2fe4efd))
+  (fp_arc (start -0.457084 -3.774902) (mid 5.948125 3.408384) (end -1.234674 -2.997371) (layer "F.SilkS") (width 0.12) (tstamp 1f1e0fda-a6fe-4746-87f8-fe0db2fe4efd))
   (fp_poly (pts
       (xy 3.302 0)
       (xy 2.032 0.889)
@@ -66,12 +67,12 @@
   (fp_line (start -0.215 -1.058) (end 3.598 2.755) (layer "F.Fab") (width 0.1) (tstamp ce43e4d9-a714-4a9b-a4b0-e2ee737b2a1f))
   (fp_line (start -0.408 -0.12) (end 2.66 2.948) (layer "F.Fab") (width 0.1) (tstamp e1d284db-2288-4d4c-9eaf-64aa4b9117e7))
   (fp_line (start 1.482 -2.755) (end 5.295 1.058) (layer "F.Fab") (width 0.1) (tstamp f29b5866-0d38-435e-ba3f-2412a0a62c7f))
-  (fp_arc (start 2.54 0) (end -0.465408 -3.61352) (angle 349.5) (layer "F.Fab") (width 0.1) (tstamp 0f87fc79-27eb-4cf4-a696-c6c7e0b29258))
+  (fp_arc (start -0.465408 -3.61352) (mid 5.863443 3.323361) (end -1.073594 -3.005319) (layer "F.Fab") (width 0.1) (tstamp 0f87fc79-27eb-4cf4-a696-c6c7e0b29258))
   (fp_circle (center 2.54 0) (end 5.49 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 0ba2a2eb-5fd2-4c3a-9435-22fc0920ddb4))
   (fp_circle (center 2.54 0) (end 6.79 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp ad9df689-2d5e-4040-86a6-6fe587238879))
   (pad "1" thru_hole oval (at 0 0) (size 1.6 1.2) (drill 0.7) (layers *.Cu *.Mask) (tstamp 08ceea3a-9b32-4127-aa2c-7668c39036d2))
   (pad "2" thru_hole oval (at 5.08 0) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask) (tstamp d23dce27-baa1-4ef7-bb71-838cb3fb3b43))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-5-2_Window.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-5-2_Window.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

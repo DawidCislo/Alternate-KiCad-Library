@@ -1,5 +1,6 @@
-(footprint "R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6161495D)
+(footprint "R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C1E1)
   (descr "Resistor, Bare_Metal_Element series, Bare Metal Strip/Wire, Horizontal, pin pitch=11.4mm, 1W, length*width=12.4*4.8mm^2, https://www.bourns.com/pdfs/PWR4412-2S.pdf")
   (tags "Resistor Bare_Metal_Element series Bare Metal Strip Wire Horizontal pin pitch 11.4mm 1W length 12.4mm width 4.8mm ")
   (fp_text reference "REF**" (at 5.7 -3.52) (layer "F.SilkS")
@@ -37,7 +38,7 @@
   (fp_line (start 11.9 2.4) (end 11.9 -2.4) (layer "F.Fab") (width 0.1) (tstamp e7aa2c24-19e2-4956-aca4-79177757aa9b))
   (pad "1" thru_hole circle (at 0 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask) (tstamp ee083871-32eb-4c76-998a-471bb5a60c0b))
   (pad "2" thru_hole oval (at 11.4 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask) (tstamp 91d37d0e-ccaa-42e0-b6ae-d8f6b6bd79af))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Bare_Metal_Element_L12.4mm_W4.8mm_P11.40mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "Diode_Bridge_19.0x3.5x10.0mm_P5.0mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C874E1)
+(footprint "Diode_Bridge_19.0x3.5x10.0mm_P5.0mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A115D1)
   (descr "Vishay GBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88606/g3sba20.pdf")
   (tags "Vishay GBU rectifier diode bridge")
   (fp_text reference "REF**" (at -7.3 -2.6 180) (layer "F.SilkS")
@@ -73,7 +74,7 @@
   (pad "2" thru_hole circle (at -5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp a803955c-22cc-4eb9-a024-4c0d89597628))
   (pad "3" thru_hole circle (at -10 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 8be04db2-b4df-4f07-abce-99f78b6ea59d))
   (pad "4" thru_hole circle (at -15 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp aff3e680-6803-4fee-ad87-51f4eda4bd3f))
-  (model "${KISYS3DMOD}/Diode_THT.3dshapes/Diode_Bridge_19.0x3.5x10.0mm_P5.0mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_19.0x3.5x10.0mm_P5.0mm.wrl"
     (offset (xyz -15 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

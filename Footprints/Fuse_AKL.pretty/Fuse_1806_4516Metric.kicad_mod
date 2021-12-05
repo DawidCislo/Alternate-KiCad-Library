@@ -1,5 +1,6 @@
-(footprint "Fuse_1806_4516Metric" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD0390)
+(footprint "Fuse_1806_4516Metric" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12CAC)
   (descr "Fuse SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), Alternate KiCAD Library")
   (tags "fuse")
   (attr smd)
@@ -29,9 +30,4 @@
   (fp_line (start -2.25 0.8) (end -2.25 -0.8) (layer "F.Fab") (width 0.1) (tstamp fbe7c979-7ee1-4fbc-8a4d-d29eac86bf8e))
   (pad "1" smd roundrect (at -2 0) (size 1.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.178571) (tstamp 04e73e48-f114-4c3c-8d0f-c9b92ed55c4d))
   (pad "2" smd roundrect (at 2 0) (size 1.4 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.178571) (tstamp 10b17b1f-d49d-4160-ab44-c341e2086dde))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1806_4516Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

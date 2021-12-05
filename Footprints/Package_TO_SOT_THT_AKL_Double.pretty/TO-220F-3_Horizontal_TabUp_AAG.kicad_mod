@@ -1,5 +1,6 @@
-(footprint "TO-220F-3_Horizontal_TabUp_AAG" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162C39B)
+(footprint "TO-220F-3_Horizontal_TabUp_AAG" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A757B0)
   (descr "TO-220F-3, Horizontal, RM 2.54mm, see http://www.st.com/resource/en/datasheet/stp20nm60.pdf, Alternate KiCad Library")
   (tags "TO-220F-3 Horizontal RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 20.22) (layer "F.SilkS")
@@ -96,9 +97,4 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.905 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp b7889a4b-0980-4016-86df-547d637c4334))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.905 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 05bf074d-3f30-4214-91fc-4fd761f21aa2))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.905 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 288c728e-57aa-4e09-9048-c5824b313c64))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220F-3_Horizontal_TabUp.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

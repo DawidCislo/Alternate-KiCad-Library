@@ -1,5 +1,6 @@
-(footprint "R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616147D4)
+(footprint "R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7BFC4)
   (descr "Resistor, Axial_DIN0414 series, Axial, Vertical, pin pitch=5.08mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
   (tags "Resistor Axial_DIN0414 series Axial Vertical pin pitch 5.08mm 2W length 11.9mm diameter 4.5mm")
   (fp_text reference "REF**" (at 2.54 -3.37) (layer "F.SilkS")
@@ -31,7 +32,7 @@
   (fp_circle (center 0 0) (end 2.25 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 647c8717-a71b-4bbf-a345-9397414217c2))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp eaedefa7-dcb9-4090-a673-0e4f9b640885))
   (pad "2" thru_hole oval (at 5.08 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 545a2b09-5312-4730-84fc-db833b8ccd16))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "SO-8_6.8x5.9mm_P1.27mm_Wide" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 61250B23)
+(footprint "SO-8_6.8x5.9mm_P1.27mm_Wide" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A480C1)
   (descr "SO, 8 Pin, Wide lead form variant (12.65mm) (https://www.tme.eu/Document/6a786b7eaf7ffa2b2ea7a23b4081d680/ACPL-H312-000E.pdf), Alternate KiCad Library")
   (tags "SO SO")
   (attr smd)
@@ -33,9 +34,4 @@
   (pad "6" smd roundrect (at 5.5 0.635) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp dfec35f7-41ec-4d24-9ffb-5aced913beec))
   (pad "7" smd roundrect (at 5.5 -0.635) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5f687e45-5143-487f-a325-1c08b72713be))
   (pad "8" smd roundrect (at 5.5 -1.905) (size 1.75 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a2eb8704-52a8-4080-92f3-1f1f224283c2))
-  (model "${KISYS3DMOD}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

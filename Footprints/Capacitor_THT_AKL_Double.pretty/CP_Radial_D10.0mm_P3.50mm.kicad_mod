@@ -1,5 +1,6 @@
-(footprint "CP_Radial_D10.0mm_P3.50mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C9D88B)
+(footprint "CP_Radial_D10.0mm_P3.50mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E69EB)
   (descr "CP, Radial series, Radial, pin pitch=3.50mm, , diameter=10mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 3.50mm  diameter 10mm Electrolytic Capacitor")
   (fp_text reference "REF**" (at 1.75 -6.25) (layer "F.SilkS")
@@ -223,7 +224,7 @@
   (fp_circle (center 1.75 0) (end 6.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 3bfb2574-15e1-4dc5-ad3c-b278a87225f4))
   (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 601c2c1b-289c-4194-8e79-aa8838e9f276))
   (pad "2" thru_hole circle (at 3.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp ea27e01a-5cac-47f1-a175-9ba0b3e561b5))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P3.50mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P3.50mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

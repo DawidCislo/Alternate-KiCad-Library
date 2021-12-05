@@ -1,5 +1,6 @@
-(footprint "TO-247-2_Vertical_KA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162C897)
+(footprint "TO-247-2_Vertical_KA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A75866)
   (descr "TO-247-2, Vertical, RM 10.9mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html, Alternate KiCad Library")
   (tags "TO-247-2 Vertical RM 10.9mm")
   (fp_text reference "REF**" (at 5.45 -3.45) (layer "F.SilkS")
@@ -58,7 +59,7 @@
   (fp_line (start 13.4 2.7) (end 13.4 -2.33) (layer "F.Fab") (width 0.1) (tstamp d5bda234-9a3b-4cee-a241-62bad799f07c))
   (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp e395b5a7-2778-42b6-99e8-95ba9752421e))
   (pad "2" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 0301348a-f22a-4b42-b848-365076664755))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-247-2_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-2_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

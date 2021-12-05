@@ -1,5 +1,6 @@
-(footprint "CP_Radial_D10.0mm_P5.00mm_P7.50mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C9DB4F)
+(footprint "CP_Radial_D10.0mm_P5.00mm_P7.50mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E6A07)
   (descr "CP, Radial series, Radial, pin pitch=5.00mm 7.50mm, , diameter=10mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 5.00mm 7.50mm  diameter 10mm Electrolytic Capacitor")
   (fp_text reference "REF**" (at 2.5 -6.25) (layer "F.SilkS")
@@ -221,7 +222,7 @@
   (fp_line (start 6.181 -3.52) (end 6.181 -1.241) (layer "F.SilkS") (width 0.12) (tstamp fcd41240-7415-406e-9ac7-de64fc364182))
   (fp_line (start 3.261 -5.024) (end 3.261 5.024) (layer "F.SilkS") (width 0.12) (tstamp fdbf5ecb-0ac3-4e7b-acfd-3154ace10dc3))
   (fp_line (start 4.741 -4.564) (end 4.741 -1.241) (layer "F.SilkS") (width 0.12) (tstamp ffba85cb-b64b-40c2-b4cd-44a3d4f734a8))
-  (fp_arc (start 2.5 0) (end -1.448012 -3.26) (angle 340) (layer "F.SilkS") (width 0.12) (tstamp aea52466-6c8b-4870-a625-25c8f2234f9f))
+  (fp_arc (start -1.448012 -3.26) (mid 6.954126 2.524908) (end -2.324903 -1.713098) (layer "F.SilkS") (width 0.12) (tstamp aea52466-6c8b-4870-a625-25c8f2234f9f))
   (fp_circle (center 2.5 0) (end 7.98 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 9063da53-8e28-41cd-92e0-53f1cff5e9d7))
   (fp_line (start -1.288861 -2.6875) (end -1.288861 -1.6875) (layer "F.Fab") (width 0.1) (tstamp 30e0912b-5d68-4cce-9e8b-a200fac5fc64))
   (fp_line (start -1.788861 -2.1875) (end -0.788861 -2.1875) (layer "F.Fab") (width 0.1) (tstamp a9b6004a-6c75-4adc-be17-a089e0563687))
@@ -230,7 +231,7 @@
   (pad "1" thru_hole rect (at -0.672144 -2) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp db83217c-ac0c-4cb3-b599-0d77de33b270))
   (pad "2" thru_hole circle (at 5.672144 2) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 067182fa-c455-48a6-8648-bd782d5b808e))
   (pad "2" thru_hole circle (at 5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 0b3832e6-5bd1-4588-9c29-f3151cbaf6bd))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm_P7.50mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm_P7.50mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

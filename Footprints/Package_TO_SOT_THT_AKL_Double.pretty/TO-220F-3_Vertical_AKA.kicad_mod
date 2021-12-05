@@ -1,5 +1,6 @@
-(footprint "TO-220F-3_Vertical_AKA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162C475)
+(footprint "TO-220F-3_Vertical_AKA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A75818)
   (descr "TO-220F-3, Vertical, RM 2.54mm, see http://www.st.com/resource/en/datasheet/stp20nm60.pdf, Alternate KiCad Library")
   (tags "TO-220F-3 Vertical RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 -4.1675) (layer "F.SilkS")
@@ -102,7 +103,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.905 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp 25b71351-29f0-441b-aec1-7ad431aff7f8))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.905 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp ca2f8e90-aa9a-4bfb-a6d2-f5bcbed284b5))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.905 2) (drill 1.2) (layers *.Cu *.Mask) (tstamp a764db94-012e-45d2-9cfb-00bc1b64be1f))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220F-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220F-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

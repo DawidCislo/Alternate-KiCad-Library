@@ -1,5 +1,6 @@
-(footprint "TO-3PB-3_Horizontal_TabUp_BCE" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162CCDD)
+(footprint "TO-3PB-3_Horizontal_TabUp_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A743E1)
   (descr "TO-3PB-3, Horizontal, RM 5.45mm, , see http://www.onsemi.com/pub/Collateral/340AC.PDF, Alternate KiCad Library")
   (tags "TO-3PB-3 Horizontal RM 5.45mm ")
   (fp_text reference "REF**" (at 5.45 22.72) (layer "F.SilkS")
@@ -100,9 +101,4 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 0b96a9dc-ea9e-492f-94f3-c5849c5bdca2))
   (pad "2" thru_hole oval (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 0531bc4c-c4ef-4e30-90c4-f424e48ab5ae))
   (pad "3" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp db349442-7f22-40c7-ac13-25b847e3ba88))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-3PB-3_Horizontal_TabUp.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

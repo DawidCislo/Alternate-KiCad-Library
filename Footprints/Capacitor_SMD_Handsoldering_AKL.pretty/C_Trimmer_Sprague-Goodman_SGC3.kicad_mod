@@ -1,5 +1,6 @@
-(footprint "C_Trimmer_Sprague-Goodman_SGC3" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 612DCD54)
+(footprint "C_Trimmer_Sprague-Goodman_SGC3" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6199F177)
   (descr "trimmer capacitor SMD horizontal, http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf, Alternate KiCad Library")
   (tags " Sprague Goodman SGC3")
   (attr smd)
@@ -47,7 +48,7 @@
   (fp_circle (center 0 0) (end 1.6 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 5e629d75-48c9-42ea-be2e-7b93eeb1de52))
   (pad "1" smd rect (at -1.8375 0) (size 1.075 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c0cbacf7-feab-4809-a9c9-f70b7329dcda))
   (pad "2" smd rect (at 1.8375 0) (size 1.075 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c51c0247-4c05-4b51-a0d1-6cdf9e66ae60))
-  (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_Trimmer_Sprague-Goodman_SGC3.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Trimmer_Sprague-Goodman_SGC3.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

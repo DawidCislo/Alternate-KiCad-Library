@@ -1,5 +1,6 @@
-(footprint "C_Disc_D16.0mm_W5.0mm_P7.50mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CA5051)
+(footprint "C_Disc_D16.0mm_W5.0mm_P7.50mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619A92B2)
   (descr "C, Disc series, Radial, pin pitch=7.50mm, , diameter*width=16.0*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf, Alternate KiCad Library")
   (tags "C Disc series Radial pin pitch 7.50mm  diameter 16.0mm width 5.0mm Capacitor")
   (fp_text reference "REF**" (at 3.75 -3.75) (layer "F.SilkS")
@@ -25,8 +26,8 @@
   (fp_line (start 1.3 0) (end 3.1 0) (layer "F.SilkS") (width 0.12) (tstamp bda51629-194e-4c07-93bb-a11108d28682))
   (fp_line (start 11.8745 -0.8255) (end 11.8745 0.762) (layer "F.SilkS") (width 0.12) (tstamp e8a96859-af6a-4a01-bc53-8eca07e57972))
   (fp_line (start -4.3815 -0.762) (end -4.330969 -0.789052) (layer "F.SilkS") (width 0.12) (tstamp f1e41fac-b42e-4f2e-9291-7ea927d7f619))
-  (fp_arc (start 3.683 -16.1925) (end -4.3815 0.8255) (angle -50.96845943) (layer "F.SilkS") (width 0.12) (tstamp 5fcaf147-41fa-46df-a493-671281b4bbba))
-  (fp_arc (start 3.81 16.1925) (end 11.8745 -0.8255) (angle -50.96845943) (layer "F.SilkS") (width 0.12) (tstamp c7075f8c-e3aa-4557-9acb-6f9a3c645a84))
+  (fp_arc (start 11.823969 0.789052) (mid 3.725356 2.639565) (end -4.3815 0.8255) (layer "F.SilkS") (width 0.12) (tstamp 5fcaf147-41fa-46df-a493-671281b4bbba))
+  (fp_arc (start -4.330969 -0.789052) (mid 3.767644 -2.639565) (end 11.8745 -0.8255) (layer "F.SilkS") (width 0.12) (tstamp c7075f8c-e3aa-4557-9acb-6f9a3c645a84))
   (fp_line (start 12 2.75) (end 12 -2.75) (layer "F.CrtYd") (width 0.05) (tstamp 3b94c042-3a5f-4a2f-bf71-c825fa73e4cf))
   (fp_line (start 12 -2.75) (end -4.5 -2.75) (layer "F.CrtYd") (width 0.05) (tstamp 7d878d8f-a517-4323-9e22-8e613cda9533))
   (fp_line (start -4.5 2.75) (end 12 2.75) (layer "F.CrtYd") (width 0.05) (tstamp 9f75ec5f-ca60-488e-ad1d-0c0f60f6a077))
@@ -37,7 +38,7 @@
   (fp_line (start -4.25 -2.5) (end -4.25 2.5) (layer "F.Fab") (width 0.1) (tstamp d3f6f746-9e09-4d33-bdb4-473dabb28fd2))
   (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 73a5f59a-0ce6-442e-bd89-464fc10ad6db))
   (pad "2" thru_hole circle (at 7.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 6faa9c5c-437f-44e8-bee3-bcb549881a87))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Disc_D16.0mm_W5.0mm_P7.50mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D16.0mm_W5.0mm_P7.50mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "TO-220-3_Horizontal_TabUp_BCE" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60DAFE2C)
+(footprint "TO-220-3_Horizontal_TabUp_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A5D76E)
   (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, Alternate KiCad Library")
   (tags "TO-220-3 Horizontal RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 20.58) (layer "F.SilkS")
@@ -89,7 +90,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp a4bf1c00-e805-463b-8f1d-622b7d8f6ec8))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 51772e30-bf0b-4700-918d-5f70dbf1b7c3))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 3f74813f-4d6c-437e-8672-2380d8b8cd93))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabUp.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabUp.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

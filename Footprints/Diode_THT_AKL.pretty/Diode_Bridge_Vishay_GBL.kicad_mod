@@ -1,5 +1,6 @@
-(footprint "Diode_Bridge_Vishay_GBL" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C9A9A8)
+(footprint "Diode_Bridge_Vishay_GBL" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A09314)
   (descr "Vishay GBL rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88609/gbl005.pdf")
   (tags "Vishay GBL rectifier diode bridge")
   (fp_text reference "REF**" (at 7.65 -3.45) (layer "F.SilkS")
@@ -54,7 +55,7 @@
   (pad "2" thru_hole circle (at 5.08 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask) (tstamp 3fcc07a2-93ba-410b-a10e-5582df3e7897))
   (pad "3" thru_hole circle (at 10.16 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask) (tstamp a14a502e-3268-42f4-99f6-5f78bac2ec51))
   (pad "4" thru_hole circle (at 15.24 0 180) (size 3.2 3.2) (drill 1.6) (layers *.Cu *.Mask) (tstamp 61f5a2a5-992d-41a6-9a57-2da13b1ad8e5))
-  (model "${KISYS3DMOD}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBL.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_GBL.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -2,7 +2,7 @@
 
 Alternate KiCad Library
 
-# Instalation instructions for Plugin and Content Manager:
+Instalation instructions for Plugin and Content Manager:
 KiCAD uses library tables to keep track of installed libraries. As of 6.0.0-rc1 Content Manager DOES NOT automatically update these library tables.
 To do it manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
  
@@ -19,33 +19,6 @@ Press the Folder icon below the table and locate:
 Multiple files ending in .kicad_sym should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press ‘Open’.
 
 All the installed libraries should be now accessible.
-
-# Manual installation:
-Extract the downloaded AKL files into any folder you want.
-
-KiCAD uses library tables to keep track of installed libraries.
-To install libraries manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
- 
-Press the Folder icon below the table and locate the folder with the extracted footprint library files
-
-Multiple folders ending in .Pretty should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press ‘Select Folder’
-
-Next, go to ‘Manage Symbol Libraries’ in the preferences tab. 
- 
-Press the Folder icon below the table and locate the folder with the extracted symbol library files
-
-Multiple files ending in .kicad_sym should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press ‘Open’.
-
-All the installed libraries should be now accessible.
-
-# File description
-
-"Footprints" folder contains AKL footprint libraries
-"Symbols" folder contains AKL symbol libraries
-"Alternate KiCAD Library User Manual.pdf" is a comprehensive guide with detailed description of each added library.
-"KiCAD Files" folder contains original licence and readme files from the first-pary KiCAD library
-"Sources" Contains catalogs and datasheets that are no longer widely accesible that were used for reference
-"PCM_Releases" folder contains slimmed down and compressed package used by KiCAD's content manager
 
 
 License:
@@ -90,6 +63,14 @@ Footprint library should be backwards compatible with KiCAD 5
 
 
 Changelog:
+
+Version 2.1
+Footprint libraries:
+- Footprints now load default KiCad's 3D models when available.
+- No-Connect Pads will now have empty net name instead of '~'.
+- Most SMD trimmers have new directional marks with rotor being connected to pad 2 (Usually connected to a low impedance net).
+- All THT trimmers now have proper directional marks with rotor being connected to pin 2.
+- SIP Resistor networks now have more pronounced pin 1 marks.
 
 Version 2.0 (Symbol Library Update)
 NEW SYMBOL LIBRARIES: 

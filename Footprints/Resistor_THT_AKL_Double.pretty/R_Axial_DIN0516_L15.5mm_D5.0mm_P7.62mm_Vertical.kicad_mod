@@ -1,5 +1,6 @@
-(footprint "R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616147F7)
+(footprint "R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C018)
   (descr "Resistor, Axial_DIN0516 series, Axial, Vertical, pin pitch=7.62mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
   (tags "Resistor Axial_DIN0516 series Axial Vertical pin pitch 7.62mm 2W length 15.5mm diameter 5mm")
   (fp_text reference "REF**" (at 3.81 -3.62) (layer "F.SilkS")
@@ -31,7 +32,7 @@
   (fp_circle (center 0 0) (end 2.5 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp e8c5afa0-6813-4dcf-a01a-a38419ab0f18))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp ee72fcfe-aad2-41bb-b9af-9afcf8fc96c8))
   (pad "2" thru_hole oval (at 7.62 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp e30383ed-0d47-4606-989d-b7d6268514a2))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0516_L15.5mm_D5.0mm_P7.62mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

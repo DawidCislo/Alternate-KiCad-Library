@@ -1,5 +1,6 @@
-(footprint "Fuse_Schurter_UMT250" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F864A8)
+(footprint "Fuse_Schurter_UMT250" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12EBA)
   (descr "Surface Mount Fuse, 3 x 10.1 mm, Time-Lag T, 250 VAC, 125 VDC (https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_UMT_250.pdf), Alternate KiCAD Library")
   (tags "Schurter fuse smd")
   (attr smd)
@@ -43,9 +44,4 @@
   (fp_line (start 5.05 1.5) (end -5.05 1.5) (layer "F.Fab") (width 0.1) (tstamp b38be0e2-46b6-414f-a18f-2636918e6577))
   (pad "1" smd roundrect (at -4.25 0) (size 2 3.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125) (tstamp a2a72a29-f830-4c17-9053-52b7c25705b1))
   (pad "2" smd roundrect (at 4.25 0) (size 2 3.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.125) (tstamp a5d0c76a-cfad-4b96-802c-d5368b85536c))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_Schurter_UMT250.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

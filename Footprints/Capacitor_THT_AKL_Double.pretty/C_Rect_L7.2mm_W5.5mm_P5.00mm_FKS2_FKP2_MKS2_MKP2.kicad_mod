@@ -1,5 +1,6 @@
-(footprint "C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CB9CD9)
+(footprint "C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E73B3)
   (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*5.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf, Alternate KiCad Library")
   (tags "C Rect series Radial pin pitch 5.00mm  length 7.2mm width 5.5mm Capacitor")
   (fp_text reference "REF**" (at 2.5 -4) (layer "F.SilkS")
@@ -40,7 +41,7 @@
   (fp_line (start 6.1 2.75) (end 6.1 -2.75) (layer "F.Fab") (width 0.1) (tstamp f816fa52-d8dd-43c1-a351-c83d60983b0b))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 35243a94-28ab-4d57-9d4f-c5d5cc3a6100))
   (pad "2" thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp adf1d3ed-7fd6-4879-ac36-70dd6907e814))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 61614898)
+(footprint "R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C0C9)
   (descr "Resistor, Axial_DIN0922 series, Axial, Horizontal, pin pitch=30.48mm, 5W, length*diameter=20*9mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0922 series Axial Horizontal pin pitch 30.48mm 5W length 20mm diameter 9mm")
   (fp_text reference "REF**" (at 15.24 -5.62) (layer "F.SilkS")
@@ -53,7 +54,7 @@
   (fp_line (start 0 0) (end 5.24 0) (layer "F.Fab") (width 0.1) (tstamp afd83830-0fa0-4349-aab6-1236cd762ed1))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 2c4aa1e0-3d4b-423c-bd09-a0356efabf8f))
   (pad "2" thru_hole oval (at 30.48 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp cf4747da-f221-4b42-9f31-abd8b795b0bd))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0922_L20.0mm_D9.0mm_P30.48mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

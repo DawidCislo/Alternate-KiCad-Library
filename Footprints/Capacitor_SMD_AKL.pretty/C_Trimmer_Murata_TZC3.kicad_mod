@@ -1,5 +1,6 @@
-(footprint "C_Trimmer_Murata_TZC3" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 612DCB87)
+(footprint "C_Trimmer_Murata_TZC3" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6199E129)
   (descr "trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library")
   (tags " Murata TZC3")
   (attr smd)
@@ -40,7 +41,7 @@
   (fp_circle (center 0 0) (end 1.6 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 80e00192-72cb-42f3-a2ff-4ccbaa833cc9))
   (pad "1" smd rect (at -2.075 0) (size 0.85 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7dfbbd70-ff40-4319-8be1-285d57b8741d))
   (pad "2" smd rect (at 2.075 0) (size 0.85 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d00dbed1-c4d7-4bdc-a63d-1f8f61ed7739))
-  (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_Trimmer_Murata_TZC3.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Trimmer_Murata_TZC3.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

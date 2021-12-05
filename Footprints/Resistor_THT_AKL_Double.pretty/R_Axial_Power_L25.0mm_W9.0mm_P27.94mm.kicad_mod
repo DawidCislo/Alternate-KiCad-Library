@@ -1,5 +1,6 @@
-(footprint "R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616148D2)
+(footprint "R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C120)
   (descr "Resistor, Axial_Power series, Box, pin pitch=27.94mm, 7W, length*width*height=25*9*9mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
   (tags "Resistor Axial_Power series Box pin pitch 27.94mm 7W length 25mm width 9mm height 9mm")
   (fp_text reference "REF**" (at 13.97 -5.62) (layer "F.SilkS")
@@ -39,7 +40,7 @@
   (fp_line (start 26.47 4.5) (end 26.47 -4.5) (layer "F.Fab") (width 0.1) (tstamp 87a36e42-a63e-4f13-ac48-00fb6daa262d))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp dd6219e8-9b85-450d-b710-f7b1752e09c6))
   (pad "2" thru_hole oval (at 27.94 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 8cd99953-2404-4c70-a2aa-9b75ddf8ecb8))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L25.0mm_W9.0mm_P27.94mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Power_L25.0mm_W9.0mm_P27.94mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

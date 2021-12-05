@@ -1,5 +1,6 @@
-(footprint "TO-262-3_Vertical_BCE" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60DB0049)
+(footprint "TO-262-3_Vertical_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A74278)
   (descr "TO-262-3, Vertical, RM 2.54mm, IIPAK, I2PAK, see http://www.onsemi.com/pub/Collateral/EN8586-D.PDF, Alternate KiCad Library")
   (tags "TO-262-3 Vertical RM 2.54mm IIPAK I2PAK")
   (fp_text reference "REF**" (at 2.54 -3.77) (layer "F.SilkS")
@@ -43,7 +44,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 17e87b19-5526-46ea-a6e0-a36f77106ff5))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp eeea73d8-75ae-4b96-bd47-118c2789e9e6))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp ed726c40-ffe5-4373-972d-75ed4228fe7b))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-262-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-262-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

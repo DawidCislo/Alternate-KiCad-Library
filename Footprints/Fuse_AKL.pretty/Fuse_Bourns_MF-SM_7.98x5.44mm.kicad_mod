@@ -1,5 +1,6 @@
-(footprint "Fuse_Bourns_MF-SM_7.98x5.44mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F8646B)
+(footprint "Fuse_Bourns_MF-SM_7.98x5.44mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12E6D)
   (descr "https://www.bourns.com/docs/Product-Datasheets/mfsm.pdf, Alternate KiCAD Library")
   (tags "bourns ptc resettable fuse polyfuse MF-SM MF-SMHT")
   (attr smd)
@@ -26,9 +27,4 @@
   (fp_line (start -3.99 2.72) (end -3.99 -2.72) (layer "F.Fab") (width 0.1) (tstamp e88b4459-11f4-4c06-a680-6c5c64c64f30))
   (pad "1" smd rect (at -3.7 0) (size 2.3 3.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6c7b3054-27b9-4272-beb0-312c4f56fe0d))
   (pad "2" smd rect (at 3.7 0) (size 2.3 3.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 036eac8e-411f-4d92-955c-9fc37e305541))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_Bourns_MF-SM_7.98x5.44mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

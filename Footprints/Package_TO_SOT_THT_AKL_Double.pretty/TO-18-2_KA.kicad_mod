@@ -1,5 +1,6 @@
-(footprint "TO-18-2_KA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162AE2A)
+(footprint "TO-18-2_KA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7449F)
   (descr "TO-18-2, Alternate KiCad Library")
   (tags "TO-18-2")
   (fp_text reference "REF**" (at 1.27 -4.02) (layer "F.SilkS")
@@ -34,7 +35,7 @@
   (fp_line (start 1.7145 -0.508) (end 1.7145 0.508) (layer "F.SilkS") (width 0.12) (tstamp e20145a3-e53a-43f5-ab4d-e56577e3d777))
   (fp_line (start -1.224499 -3.484448) (end -2.214448 -2.494499) (layer "F.SilkS") (width 0.12) (tstamp e89e5bb5-6a3b-4b15-8b58-684c13993540))
   (fp_line (start -0.312331 -2.572281) (end -1.224499 -3.484448) (layer "F.SilkS") (width 0.12) (tstamp ef9b9b92-2596-41c8-acf1-2e53ccbee75e))
-  (fp_arc (start 1.27 0) (end -0.312331 -2.572281) (angle 333.2) (layer "F.SilkS") (width 0.12) (tstamp 6a0bd473-77b7-4433-b70e-a7c45a43627c))
+  (fp_arc (start -0.312331 -2.572281) (mid 3.405374 2.135551) (end -1.30215 -1.582544) (layer "F.SilkS") (width 0.12) (tstamp 6a0bd473-77b7-4433-b70e-a7c45a43627c))
   (fp_poly (pts
       (xy 1.016 0)
       (xy 1.7145 -0.508)
@@ -47,11 +48,11 @@
   (fp_line (start -0.329057 -2.419301) (end -1.156372 -3.246616) (layer "F.Fab") (width 0.1) (tstamp 29587b49-0b2e-4324-858c-3f3e677ce66c))
   (fp_line (start -1.976616 -2.426372) (end -1.149301 -1.599057) (layer "F.Fab") (width 0.1) (tstamp 3acf01af-8914-4395-967d-59ff9344e525))
   (fp_line (start -1.156372 -3.246616) (end -1.976616 -2.426372) (layer "F.Fab") (width 0.1) (tstamp e56c9a51-b2ea-4611-baf6-0fa4c7e176df))
-  (fp_arc (start 1.27 0) (end -0.329057 -2.419301) (angle 336.9) (layer "F.Fab") (width 0.1) (tstamp 3ea57f4d-2317-47dc-be49-86641108debe))
+  (fp_arc (start -0.329057 -2.419301) (mid 3.321076 2.050143) (end -1.150029 -1.597956) (layer "F.Fab") (width 0.1) (tstamp 3ea57f4d-2317-47dc-be49-86641108debe))
   (fp_circle (center 1.27 0) (end 3.67 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp e15a1cb7-03bd-4d7a-89b7-dfbd485bd51e))
   (pad "1" thru_hole oval (at 0 0) (size 1.6 1.2) (drill 0.7) (layers *.Cu *.Mask) (tstamp 377f21f1-1d57-48f8-b8ff-b356a14ec826))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.2 1.2) (drill 0.7) (layers *.Cu *.Mask) (tstamp 877f144e-3bc3-4951-a4bc-11d773a408cc))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-18-2.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-18-2.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

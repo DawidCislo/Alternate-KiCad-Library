@@ -1,5 +1,6 @@
-(footprint "R_Box_L14.0mm_W5.0mm_P9.00mm" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6161497C)
+(footprint "R_Box_L14.0mm_W5.0mm_P9.00mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C206)
   (descr "Resistor, Box series, Radial, pin pitch=9.00mm, 5W, length*width=14.0*5.0mm^2, http://www.produktinfo.conrad.com/datenblaetter/425000-449999/443860-da-01-de-METALLBAND_WIDERSTAND_0_1_OHM_5W_5Pr.pdf")
   (tags "Resistor Box series Radial pin pitch 9.00mm 5W length 14.0mm width 5.0mm")
   (fp_text reference "REF**" (at 4.5 -3.75) (layer "F.SilkS")
@@ -35,7 +36,7 @@
   (fp_line (start -2.5 -2.5) (end -2.5 2.5) (layer "F.Fab") (width 0.1) (tstamp e6cd6b20-1207-4b14-854e-e970a2ef042c))
   (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp fca01b61-dcc1-4b0c-bbc8-3cf6f498fc9b))
   (pad "2" thru_hole circle (at 9 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 739379fa-d353-4778-b5a3-4c2e71d1c9aa))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Box_L14.0mm_W5.0mm_P9.00mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Box_L14.0mm_W5.0mm_P9.00mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "Fuse_1210_3225Metric_Castellated" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F86290)
+(footprint "Fuse_1210_3225Metric_Castellated" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12C93)
   (descr "Fuse SMD 1210 (3225 Metric), castellated end terminal, IPC_7351. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCAD Library")
   (tags "fuse castellated")
   (attr smd)
@@ -29,7 +30,7 @@
   (fp_line (start 1.6 1.25) (end -1.6 1.25) (layer "F.Fab") (width 0.1) (tstamp fb803b78-f58f-495d-a20d-7d463232beff))
   (pad "1" smd roundrect (at -1.425 0) (size 1.6 2.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15625) (tstamp d1f800cd-ff53-478c-b909-43b7d0059e5c))
   (pad "2" smd roundrect (at 1.425 0) (size 1.6 2.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15625) (tstamp 58f60439-81b8-4c38-891e-b469313c1f22))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1210_3225Metric_Castellated.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1210_3225Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

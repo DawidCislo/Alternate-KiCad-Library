@@ -1,5 +1,6 @@
-(footprint "CP_Radial_D8.0mm_P2.50mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C9DC7C)
+(footprint "CP_Radial_D8.0mm_P2.50mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E697F)
   (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=8mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 2.50mm  diameter 8mm Electrolytic Capacitor")
   (fp_text reference "REF**" (at 1.25 -5.25) (layer "F.SilkS")
@@ -184,7 +185,7 @@
   (fp_circle (center 1.25 0) (end 5.25 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 010ffb2a-8348-49d1-b7e8-9c8f3c20b729))
   (pad "1" thru_hole rect (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp bfa10849-5217-42e8-9071-eb0261e47411))
   (pad "2" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp c0a8fa3f-ac3b-4f22-8d38-785fb4576799))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D8.0mm_P2.50mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

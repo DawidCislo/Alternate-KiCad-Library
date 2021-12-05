@@ -1,5 +1,6 @@
-(footprint "C_Radial_D12.5mm_H25.0mm_P5.00mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CB9708)
+(footprint "C_Radial_D12.5mm_H25.0mm_P5.00mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619A93CD)
   (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=25mm, Non-Polar Electrolytic Capacitor, Alternate KiCad Library")
   (tags "C Radial series Radial pin pitch 5.00mm diameter 12.5mm height 25mm Non-Polar Electrolytic Capacitor")
   (fp_text reference "REF**" (at 2.5 -7.5) (layer "F.SilkS")
@@ -25,7 +26,7 @@
   (fp_circle (center 2.5 0) (end 8.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 73f1aade-7102-4a26-a546-5e8fe886a4c3))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 189b6ea1-ae70-4234-b84d-91e7806a4824))
   (pad "2" thru_hole circle (at 5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp d4671e82-55f2-4e81-8b40-650774e610c5))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Radial_D12.5mm_H25.0mm_P5.00mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Radial_D12.5mm_H25.0mm_P5.00mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

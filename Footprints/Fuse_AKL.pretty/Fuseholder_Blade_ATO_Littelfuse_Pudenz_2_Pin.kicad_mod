@@ -1,5 +1,6 @@
-(footprint "Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F8606D)
+(footprint "Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12ECD)
   (descr "Fuseholder ATO Blade littelfuse Pudenz 2 Pin, Alternate KiCAD Library")
   (tags "Fuseholder ATO Blade littelfuse Pudenz 2 Pin")
   (fp_text reference "REF**" (at 4.57 -2.78) (layer "F.SilkS")
@@ -31,9 +32,4 @@
   (pad "" np_thru_hole circle (at 4.6 1.2) (size 2.4 2.4) (drill 2.4) (layers *.Cu *.Mask) (tstamp 2f46c008-1426-4712-9cc5-0ca6bedd9a87))
   (pad "1" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask) (tstamp cd02a5cc-70f9-41f6-94a8-7fe913986eae))
   (pad "2" thru_hole circle (at 9.2 0) (size 3.5 3.5) (drill 2) (layers *.Cu *.Mask) (tstamp 8e99c049-dda3-4422-9b4b-77d5fc781dd5))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

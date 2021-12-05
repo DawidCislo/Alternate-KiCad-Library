@@ -1,5 +1,6 @@
-(footprint "C_Trimmer_Murata_TZR1" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 612DCCFC)
+(footprint "C_Trimmer_Murata_TZR1" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6199EC6D)
   (descr "trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb, Alternate KiCad Library")
   (tags " Murata TZR1")
   (attr smd)
@@ -18,7 +19,10 @@
   (fp_line (start -1.3335 -1.016) (end -1.3335 1.016) (layer "F.SilkS") (width 0.12) (tstamp 280a66e7-f757-47be-8fb1-8047f63f16ab))
   (fp_line (start 1.3335 1.016) (end 1.3335 -1.016) (layer "F.SilkS") (width 0.12) (tstamp 87b3dfb2-a981-4ed7-ad69-3cd93225ec0f))
   (fp_line (start 1.3335 -1.016) (end -1.3335 -1.016) (layer "F.SilkS") (width 0.12) (tstamp 974f37bd-63eb-49c7-99be-e090aa5b4883))
+  (fp_line (start 1.3335 -0.3175) (end 1.397 -0.3175) (layer "F.SilkS") (width 0.12) (tstamp a454b72e-d5e9-48f4-91d0-a2f3ed6f350e))
   (fp_line (start -1.3335 1.016) (end 1.3335 1.016) (layer "F.SilkS") (width 0.12) (tstamp acb9608e-2ac4-4d9d-a068-2844bd654de8))
+  (fp_line (start 1.397 0.3175) (end 1.3335 0.3175) (layer "F.SilkS") (width 0.12) (tstamp e1652ed6-75b4-4c71-a750-80a59b9cb767))
+  (fp_line (start 1.397 -0.3175) (end 1.397 0.3175) (layer "F.SilkS") (width 0.12) (tstamp e34fd66d-d734-461f-95b4-7123e95703ff))
   (fp_line (start -1.35 -1.05) (end -1.35 1.05) (layer "F.CrtYd") (width 0.05) (tstamp 00092148-ece3-49ea-962a-2a4fc606aba5))
   (fp_line (start -1.35 1.05) (end 1.35 1.05) (layer "F.CrtYd") (width 0.05) (tstamp b1566445-0763-4a07-a7f7-f3866523b0ff))
   (fp_line (start 1.35 -1.05) (end -1.35 -1.05) (layer "F.CrtYd") (width 0.05) (tstamp c6d08f03-f7f4-40d1-b963-cba79c21ba8c))
@@ -47,7 +51,7 @@
   (fp_circle (center 0 0) (end 0.7 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 01619ea3-115e-4563-bf87-72f89ee1f796))
   (pad "1" smd rect (at -0.85 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 520c26f1-dc28-4c35-8e29-145964642d33))
   (pad "2" smd rect (at 0.85 0) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c6019f22-866f-48cb-bbbf-bcb361b3b427))
-  (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_Trimmer_Murata_TZR1.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Trimmer_Murata_TZR1.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

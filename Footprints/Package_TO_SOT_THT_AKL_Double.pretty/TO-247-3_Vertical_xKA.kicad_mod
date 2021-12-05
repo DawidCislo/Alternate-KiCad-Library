@@ -1,5 +1,6 @@
-(footprint "TO-247-3_Vertical_xKA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162C9BF)
+(footprint "TO-247-3_Vertical_xKA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7597A)
   (descr "TO-247-3, Vertical, RM 5.45mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html, Alternate KiCad Library")
   (tags "TO-247-3 Vertical RM 5.45mm")
   (attr through_hole)
@@ -57,10 +58,10 @@
   (fp_line (start 13.4 -2.33) (end -2.5 -2.33) (layer "F.Fab") (width 0.1) (tstamp 77821c85-e8b3-4a13-8e04-d6dba7a97a38))
   (fp_line (start -2.5 -2.33) (end -2.5 2.7) (layer "F.Fab") (width 0.1) (tstamp 9f0b3e7f-ecd9-40b7-8a70-57d8cd949e89))
   (fp_line (start 3.645 -2.33) (end 3.645 2.7) (layer "F.Fab") (width 0.1) (tstamp a62189f3-e86f-4ae1-b130-6fca8c984e96))
-  (pad "1" thru_hole rect locked (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp bee08cdd-6818-42cb-b6b0-0e9a3e527088))
-  (pad "2" thru_hole oval locked (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp ed10a8c7-d0f6-4102-b672-fa36db206deb))
-  (pad "3" thru_hole oval locked (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 41fff2e3-8827-4574-8bf4-fbf4baaddb4f))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-247-3_Vertical.wrl"
+  (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp bee08cdd-6818-42cb-b6b0-0e9a3e527088))
+  (pad "2" thru_hole oval (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp ed10a8c7-d0f6-4102-b672-fa36db206deb))
+  (pad "3" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 41fff2e3-8827-4574-8bf4-fbf4baaddb4f))
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

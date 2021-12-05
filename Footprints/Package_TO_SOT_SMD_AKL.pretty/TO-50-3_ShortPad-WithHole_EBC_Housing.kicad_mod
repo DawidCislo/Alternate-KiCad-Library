@@ -1,5 +1,6 @@
-(footprint "TO-50-3_ShortPad-WithHole_EBC_Housing" (version 20210424) (generator pcbnew) (layer "F.Cu")
-  (tedit 60B723B6)
+(footprint "TO-50-3_ShortPad-WithHole_EBC_Housing" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A4BC7F)
   (descr "TO-50-3 Macro T Package Style M236, Alternate KiCad Library")
   (tags "TO-50-3 Macro T Package Style M236")
   (attr smd)
@@ -52,9 +53,4 @@
   (pad "1" smd rect (at -5.6 -2.6 270) (size 1.5 4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp fa934a03-c5fd-4470-a075-cd923478ebf3))
   (pad "2" smd rect (at -0.4 2.6 270) (size 4 1.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3d6ba406-c246-447f-a58d-66a2a49e5a3c))
   (pad "3" smd rect (at 5.6 -2.6 270) (size 1.5 5.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 9d89be83-96ce-4ca2-9b9e-5431622ffb7d))
-  (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TO-50-3_ShortPad-WithHole_Housing.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

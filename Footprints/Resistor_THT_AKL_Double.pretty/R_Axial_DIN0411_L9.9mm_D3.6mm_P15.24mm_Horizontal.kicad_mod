@@ -1,5 +1,6 @@
-(footprint "R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616147C1)
+(footprint "R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7BF9B)
   (descr "Resistor, Axial_DIN0411 series, Axial, Horizontal, pin pitch=15.24mm, 1W, length*diameter=9.9*3.6mm^2, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0411 series Axial Horizontal pin pitch 15.24mm 1W length 9.9mm diameter 3.6mm")
   (fp_text reference "REF**" (at 7.62 -2.92) (layer "F.SilkS")
@@ -57,7 +58,7 @@
   (fp_line (start 15.24 0) (end 12.57 0) (layer "F.Fab") (width 0.1) (tstamp f5dc2bd6-f701-4115-9a0e-3d513f9928b5))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 22ed9c62-dc72-4bc9-a446-f6919659b432))
   (pad "2" thru_hole oval (at 15.24 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 6e260d28-0e53-4585-b283-19de87fa0e91))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

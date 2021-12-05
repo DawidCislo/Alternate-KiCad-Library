@@ -1,6 +1,6 @@
 (footprint "C_0504_1310Metric_Pad0.83x1.28mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61979ADF)
+  (tedit 6199E6FB)
   (descr "Capacitor SMD 0504 (1310 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library")
   (tags "capacitor handsolder")
   (attr smd)
@@ -30,9 +30,4 @@
   (fp_line (start -0.585 0.51) (end -0.585 -0.51) (layer "F.Fab") (width 0.1) (tstamp f3bf1984-8b0e-4d86-9e55-943603de7f30))
   (pad "1" smd roundrect (at -0.6275 0) (size 0.835 1.28) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 39bd8302-532f-4884-9749-392dbe43a8ea))
   (pad "2" smd roundrect (at 0.6275 0) (size 0.835 1.28) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 745dc2a0-ec1a-440d-a6f6-f4a3b5594d95))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0504_1310Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

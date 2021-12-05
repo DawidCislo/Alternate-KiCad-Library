@@ -1,6 +1,6 @@
 (footprint "D_MiniMELF_Diac" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619750FF)
+  (tedit 61A08EF7)
   (descr "Diode Mini-MELF, Diac Symbol, Alternate KiCad Library")
   (tags "Diode Mini-MELF")
   (attr smd)
@@ -51,7 +51,7 @@
   (fp_line (start -0.75 0) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp f4be0d19-cd6c-40f6-a729-34d2c6dbe9d1))
   (pad "1" smd rect (at -1.75 0) (size 1.3 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 1a08df12-7793-4f74-a3eb-f9ac44d6c428))
   (pad "2" smd rect (at 1.75 0) (size 1.3 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c40da80-287b-42d4-a695-d13f17d6b279))
-  (model "${KISYS3DMOD}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

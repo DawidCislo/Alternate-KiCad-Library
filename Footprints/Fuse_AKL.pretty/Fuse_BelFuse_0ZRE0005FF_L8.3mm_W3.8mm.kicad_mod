@@ -1,5 +1,6 @@
-(footprint "Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F86331)
+(footprint "Fuse_BelFuse_0ZRE0005FF_L8.3mm_W3.8mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12D3D)
   (descr "Fuse 0ZRE0005FF, BelFuse, Radial Leaded PTC, https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zre-series.pdf, Alternate KiCAD Library")
   (tags "0ZRE BelFuse radial PTC")
   (fp_text reference "REF**" (at 2.54 -2.54) (layer "F.SilkS")
@@ -20,8 +21,8 @@
   (fp_line (start -1.75 2.85) (end 6.85 2.85) (layer "F.SilkS") (width 0.12) (tstamp b7857555-f436-449b-a3ba-27bb7bd0ef7a))
   (fp_line (start -1.75 -1.25) (end -1.75 2.85) (layer "F.SilkS") (width 0.12) (tstamp b962eeac-4669-423b-b3a0-60844465e806))
   (fp_line (start -1.75 -1.25) (end 6.85 -1.25) (layer "F.SilkS") (width 0.12) (tstamp daea2eb4-c2f3-4b22-8086-fbb24db608c1))
-  (fp_arc (start 1.950002 0.550001) (end 2.550001 0.75) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 16b34767-250f-44cb-8aa4-3b9c5ccdb6ef))
-  (fp_arc (start 3.15 0.949999) (end 2.550001 0.75) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 7187db2a-7f3e-4b03-a213-2c1f8a252fae))
+  (fp_arc (start 1.350003 0.350002) (mid 2.150001 -0.049998) (end 2.550001 0.75) (layer "F.SilkS") (width 0.12) (tstamp 16b34767-250f-44cb-8aa4-3b9c5ccdb6ef))
+  (fp_arc (start 3.749999 1.149998) (mid 2.950001 1.549998) (end 2.550001 0.75) (layer "F.SilkS") (width 0.12) (tstamp 7187db2a-7f3e-4b03-a213-2c1f8a252fae))
   (fp_line (start -1.85 -1.35) (end 6.95 -1.35) (layer "F.CrtYd") (width 0.05) (tstamp 2ce19ebe-2f58-421d-88d9-d706f1570f44))
   (fp_line (start -1.85 -1.35) (end -1.85 2.95) (layer "F.CrtYd") (width 0.05) (tstamp 6fd11dfc-ae47-4044-bdd9-ab548685bc12))
   (fp_line (start 6.95 -1.35) (end 6.95 2.95) (layer "F.CrtYd") (width 0.05) (tstamp bad4ea5b-66ba-4b8c-b41e-25e6187a98a0))
@@ -32,7 +33,7 @@
   (fp_line (start 6.7 -1.1) (end 6.7 2.7) (layer "F.Fab") (width 0.1) (tstamp f575099f-d6e3-41b3-bdf3-0998e7ef3cc2))
   (pad "1" thru_hole circle (at 0 0) (size 1.27 1.27) (drill 0.71) (layers *.Cu *.Mask) (tstamp bed744fa-8d78-4a12-b9ff-2e71f72879a4))
   (pad "2" thru_hole circle (at 5.1 1.6) (size 1.27 1.27) (drill 0.71) (layers *.Cu *.Mask) (tstamp 5434fe81-c113-4552-838f-c6f6c4dbebc9))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_BelFuse_0ZRE_0ZRE0005FF_L8.3mm_W3.8mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_BelFuse_0ZRE_0ZRE0005FF_L8.3mm_W3.8mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

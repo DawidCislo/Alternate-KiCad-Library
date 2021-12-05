@@ -1,5 +1,6 @@
-(footprint "TO-3P-3_Vertical_BCE" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162AD48)
+(footprint "TO-3P-3_Vertical_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7439B)
   (descr "TO-3P-3, Vertical, RM 5.45mm, , see https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.TO-3P(N).html, Alternate KiCad Library")
   (tags "TO-3P-3 Vertical RM 5.45mm ")
   (fp_text reference "REF**" (at 5.45 -4.12) (layer "F.SilkS")
@@ -69,7 +70,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 47a388bb-1034-4d03-a061-2ca6b36cc817))
   (pad "2" thru_hole oval (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp e34cd38c-92f3-4b94-8a58-9987a38f4a19))
   (pad "3" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp 38608529-01a8-4af0-be4f-7864d2956fb9))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-3P-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-3P-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

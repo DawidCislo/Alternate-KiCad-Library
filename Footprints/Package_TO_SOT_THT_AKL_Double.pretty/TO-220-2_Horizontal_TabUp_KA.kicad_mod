@@ -1,5 +1,6 @@
-(footprint "TO-220-2_Horizontal_TabUp_KA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162B8FC)
+(footprint "TO-220-2_Horizontal_TabUp_KA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A75580)
   (descr "TO-220-2, Horizontal, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF, Alternate KiCad Library")
   (tags "TO-220-2 Horizontal RM 5.08mm")
   (fp_text reference "REF**" (at 2.54 20.58) (layer "F.SilkS")
@@ -99,7 +100,7 @@
   (pad "" np_thru_hole oval (at 2.54 16.66) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask) (tstamp 8ae0b530-e1d8-4b4b-8f95-7d5017b64c63))
   (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp a8ccd78c-dd22-4db3-9a8c-e39405bfc74d))
   (pad "2" thru_hole oval (at 5.08 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 0e446f04-3ec4-446c-8abf-178d17fbfbd5))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-2_Horizontal_TabUp.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Horizontal_TabUp.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

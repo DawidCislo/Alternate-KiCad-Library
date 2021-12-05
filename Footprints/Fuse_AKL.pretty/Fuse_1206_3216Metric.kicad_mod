@@ -1,5 +1,6 @@
-(footprint "Fuse_1206_3216Metric" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD02F8)
+(footprint "Fuse_1206_3216Metric" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12C66)
   (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCAD Library")
   (tags "fuse")
   (attr smd)
@@ -29,7 +30,7 @@
   (fp_line (start 1.6 -0.8) (end 1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp e90e5334-67af-44a3-8c12-1ab7a6682ba1))
   (pad "1" smd roundrect (at -1.4 0) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp 54f505df-5999-4633-9123-f8b385bfb468))
   (pad "2" smd roundrect (at 1.4 0) (size 1.25 1.75) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2) (tstamp cacc8d48-f423-45cf-9246-7bb28f237535))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

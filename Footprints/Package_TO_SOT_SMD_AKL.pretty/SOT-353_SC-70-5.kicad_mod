@@ -1,5 +1,6 @@
-(footprint "SOT-353_SC-70-5" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 607FFABD)
+(footprint "SOT-353_SC-70-5" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A49104)
   (descr "SOT-353, SC-70-5, Alternate KiCad Library")
   (tags "SOT-353 SC-70-5")
   (attr smd)
@@ -34,7 +35,7 @@
   (pad "3" smd rect (at -0.95 0.65) (size 0.65 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8a4b0fb1-b380-441c-a467-a774e2740324))
   (pad "4" smd rect (at 0.95 0.65) (size 0.65 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cbee7f06-7ee3-43fe-936b-c81820770cab))
   (pad "5" smd rect (at 0.95 -0.65) (size 0.65 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp b71b3f1f-d137-4dab-8426-6e388095abaf))
-  (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-353_SC-70-5.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

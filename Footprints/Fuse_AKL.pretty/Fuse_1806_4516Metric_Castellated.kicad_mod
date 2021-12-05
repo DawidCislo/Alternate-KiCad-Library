@@ -1,5 +1,6 @@
-(footprint "Fuse_1806_4516Metric_Castellated" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F862A6)
+(footprint "Fuse_1806_4516Metric_Castellated" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12CB1)
   (descr "Fuse SMD 1806 (4516 Metric), castellated end terminal, IPC_7351. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), Alternate KiCAD Library")
   (tags "fuse castellated")
   (attr smd)
@@ -29,9 +30,4 @@
   (fp_line (start 2.25 0.8) (end -2.25 0.8) (layer "F.Fab") (width 0.1) (tstamp b4624827-2221-421f-949e-c0e12b42b10f))
   (pad "1" smd roundrect (at -2.025 0) (size 1.75 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.147059) (tstamp 43bdeacc-69a6-4a04-aede-5bb42000a818))
   (pad "2" smd roundrect (at 2.025 0) (size 1.75 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.147059) (tstamp 810e2b78-7b9a-412c-bf19-1c45eebb79e7))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1806_4516Metric_Castellated.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

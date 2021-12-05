@@ -1,5 +1,6 @@
-(footprint "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C8780D)
+(footprint "Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A11605)
   (descr "Diotec 32x5.6x17mm rectifier package, 7.5mm/10mm pitch, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40c3700.pdf")
   (tags "Diotec rectifier diode bridge")
   (fp_text reference "REF**" (at -12.4 -3.8 180) (layer "F.SilkS")
@@ -74,7 +75,7 @@
   (pad "2" thru_hole circle (at -10 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 72f18027-fafb-4520-b39c-f6267fd1b755))
   (pad "3" thru_hole circle (at -17.5 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 735e903f-b0a7-46ad-9762-8e309a26a40e))
   (pad "4" thru_hole circle (at -25 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 4e06d811-a231-4272-a1b3-044413f7879f))
-  (model "${KISYS3DMOD}/Diode_THT.3dshapes/Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm.wrl"
     (offset (xyz -25 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

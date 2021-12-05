@@ -1,5 +1,6 @@
-(footprint "TO-3P-3_Horizontal_TabUp_GDS" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162CB0B)
+(footprint "TO-3P-3_Horizontal_TabUp_GDS" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A4BEE3)
   (descr "TO-3P-3, Horizontal, RM 5.45mm, , see https://toshiba.semicon-storage.com/ap-en/design-support/package/detail.TO-3P(N).html, Alternate KiCad Library")
   (tags "TO-3P-3 Horizontal RM 5.45mm ")
   (fp_text reference "REF**" (at 5.45 24.12) (layer "F.SilkS")
@@ -87,9 +88,4 @@
   (pad "1" thru_hole rect (at 0 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp fa95f7bc-bc19-42ca-b6eb-9587f9c51047))
   (pad "2" thru_hole oval (at 5.45 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp d6ca1440-66e1-4f9d-808f-2c54e379c3d9))
   (pad "3" thru_hole oval (at 10.9 0) (size 2.5 4.5) (drill 1.5) (layers *.Cu *.Mask) (tstamp f01d8381-e071-459b-8b22-549b0aa394cc))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-3P-3_Horizontal_TabUp.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

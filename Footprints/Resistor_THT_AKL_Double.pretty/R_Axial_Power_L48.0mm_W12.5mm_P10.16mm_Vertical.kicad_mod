@@ -1,5 +1,6 @@
-(footprint "R_Axial_Power_L48.0mm_W12.5mm_P10.16mm_Vertical" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616148FC)
+(footprint "R_Axial_Power_L48.0mm_W12.5mm_P10.16mm_Vertical" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C15C)
   (descr "Resistor, Axial_Power series, Axial, Vertical, pin pitch=10.16mm, 15W, length*width*height=48*12.5*12.5mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
   (tags "Resistor Axial_Power series Axial Vertical pin pitch 10.16mm 15W length 48mm width 12.5mm height 12.5mm")
   (fp_text reference "REF**" (at 5.08 -7.37) (layer "F.SilkS")
@@ -37,7 +38,7 @@
   (fp_line (start -6.25 6.25) (end 6.25 6.25) (layer "F.Fab") (width 0.1) (tstamp faa7f873-fff0-4dad-a2d3-3ec334cbf2fe))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 832a593f-45cf-4f20-9d2d-2948afad7861))
   (pad "2" thru_hole oval (at 10.16 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 8a3898b4-f431-401c-87e7-6f25109dc235))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_Power_L48.0mm_W12.5mm_P10.16mm_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_Power_L48.0mm_W12.5mm_P10.16mm_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

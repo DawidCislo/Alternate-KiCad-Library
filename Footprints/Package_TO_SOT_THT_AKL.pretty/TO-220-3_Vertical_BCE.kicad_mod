@@ -1,5 +1,6 @@
-(footprint "TO-220-3_Vertical_BCE" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60DAFE9E)
+(footprint "TO-220-3_Vertical_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A5EB84)
   (descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, Alternate KiCad Library")
   (tags "TO-220-3 Vertical RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 -4.27) (layer "F.SilkS")
@@ -47,7 +48,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 0bf56f88-802e-4b59-ade2-e75503054f32))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 76fd4ee3-7362-4edf-98d6-ab7952c8f07d))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp b5b04f7e-9242-439e-a5b0-925dd021f736))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

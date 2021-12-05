@@ -1,5 +1,6 @@
-(footprint "C_Axial_L17.0mm_D6.5mm_P25.00mm_Horizontal" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CA47D5)
+(footprint "C_Axial_L17.0mm_D6.5mm_P25.00mm_Horizontal" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E6E3A)
   (descr "C, Axial series, Axial, Horizontal, pin pitch=25mm, , length*diameter=17*6.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B300/STYROFLEX.pdf, Alternate KiCad Library")
   (tags "C Axial series Axial Horizontal pin pitch 25mm  length 17mm diameter 6.5mm")
   (fp_text reference "REF**" (at 12.5 -4.37) (layer "F.SilkS")
@@ -46,7 +47,7 @@
   (fp_line (start 4 3.25) (end 21 3.25) (layer "F.Fab") (width 0.1) (tstamp d0c27e8b-991b-4c07-a485-4a5e2b7f180e))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 21e42717-3296-4f8b-9f37-c7752289fe38))
   (pad "2" thru_hole oval (at 25 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 4e4a1c5f-89d3-4452-b72d-742365c67053))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Axial_L17.0mm_D6.5mm_P25.00mm_Horizontal.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Axial_L17.0mm_D6.5mm_P25.00mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

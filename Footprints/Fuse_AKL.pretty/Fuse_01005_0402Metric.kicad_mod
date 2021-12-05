@@ -1,5 +1,6 @@
-(footprint "Fuse_01005_0402Metric" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD02D9)
+(footprint "Fuse_01005_0402Metric" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12C5B)
   (descr "Fuse SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), Alternate KiCAD Library")
   (tags "fuse")
   (attr smd)
@@ -31,9 +32,4 @@
   (pad "" smd roundrect (at -0.275 0) (size 0.27 0.27) (layers "F.Paste") (roundrect_rratio 0.25) (tstamp 8460eab3-32ab-4474-ad78-0fc2be679f98))
   (pad "1" smd roundrect (at -0.25 0) (size 0.4 0.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp c3c81e05-889b-4c2c-a9ae-5bf6310ebbfb))
   (pad "2" smd roundrect (at 0.25 0) (size 0.4 0.3) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 358e04a4-3a3e-4a78-8bc7-4c1f0b0e5db4))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_01005_0402Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

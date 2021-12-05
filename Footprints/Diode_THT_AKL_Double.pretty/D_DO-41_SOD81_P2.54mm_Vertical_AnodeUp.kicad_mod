@@ -1,5 +1,6 @@
-(footprint "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C7B173)
+(footprint "D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A11DC7)
   (descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf, Alternate KiCad Library")
   (tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
   (fp_text reference "REF**" (at 1.27 -2.750635) (layer "F.SilkS")
@@ -30,7 +31,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8d19c379-0a12-49e9-aa26-707d0e8610ce)
   )
-  (fp_arc (start 0 0) (end 1.311153 -1.1) (angle -276.998058) (layer "F.SilkS") (width 0.12) (tstamp 69e84995-6af6-411d-885a-79a88a09a07a))
+  (fp_arc (start 1.251551 1.167366) (mid -1.710877 -0.044974) (end 1.311153 -1.1) (layer "F.SilkS") (width 0.12) (tstamp 69e84995-6af6-411d-885a-79a88a09a07a))
   (fp_line (start 3.89 1.6) (end 3.89 -1.6) (layer "F.CrtYd") (width 0.05) (tstamp 10edde50-dce4-4e4a-b4f9-28c29b6d1aa0))
   (fp_line (start -1.6 -1.6) (end -1.6 1.6) (layer "F.CrtYd") (width 0.05) (tstamp 4a2911ed-7247-493a-afed-00b92480004b))
   (fp_line (start 3.89 -1.6) (end -1.6 -1.6) (layer "F.CrtYd") (width 0.05) (tstamp 6a29eae3-a28a-4f82-885c-b2f09a4334fa))
@@ -39,7 +40,7 @@
   (fp_circle (center 0 0) (end 1.35 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp c1f0a932-a4bd-4c14-9b8f-41607c888424))
   (pad "1" thru_hole rect (at 0 0) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask) (tstamp ea5f18ff-088a-42de-9212-d5772c8d0763))
   (pad "2" thru_hole oval (at 2.54 0) (size 2.2 2.2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 8e9adb52-4587-4c7b-bfd0-775d744b31f6))
-  (model "${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

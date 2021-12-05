@@ -1,5 +1,6 @@
-(footprint "TO-220-3_Horizontal_TabDown_GDS" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162B924)
+(footprint "TO-220-3_Horizontal_TabDown_GDS" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A755DB)
   (descr "TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf, Alternate KiCad Library")
   (tags "TO-220-3 Horizontal RM 2.54mm")
   (fp_text reference "REF**" (at 2.54 -20.58) (layer "F.SilkS")
@@ -67,8 +68,8 @@
   (fp_line (start 0.5 -3.65) (end 0.5 -1.4) (layer "F.SilkS") (width 0.12) (tstamp e3ef8871-d96d-491a-8717-5ee2f21971ee))
   (fp_line (start -2.58 -19.58) (end 7.66 -19.58) (layer "F.SilkS") (width 0.12) (tstamp ee94b9a9-c51a-4bd6-89a4-864edef2a382))
   (fp_line (start 7.66 -19.58) (end 7.66 -18.05) (layer "F.SilkS") (width 0.12) (tstamp fd0b62d3-3234-4a8c-8965-059fe890bba1))
-  (fp_arc (start -2.55 -7) (end -2.55 -5.65) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 27b55e4e-2219-4002-ae77-48c61d436566))
-  (fp_arc (start 7.6 -7) (end 7.6 -8.35) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp f43910f6-3367-48ad-a15e-fbbee1ca9eab))
+  (fp_arc (start -2.55 -8.35) (mid -1.2 -7) (end -2.55 -5.65) (layer "F.SilkS") (width 0.12) (tstamp 27b55e4e-2219-4002-ae77-48c61d436566))
+  (fp_arc (start 7.6 -5.65) (mid 6.25 -7) (end 7.6 -8.35) (layer "F.SilkS") (width 0.12) (tstamp f43910f6-3367-48ad-a15e-fbbee1ca9eab))
   (fp_line (start -2.71 -19.71) (end -2.71 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 03066637-1b43-4694-bddf-ed2f36c7ec23))
   (fp_line (start 7.79 -19.71) (end -2.71 -19.71) (layer "F.CrtYd") (width 0.05) (tstamp 21adf911-8733-40fa-a1d3-b6fd9b905639))
   (fp_line (start -2.71 1.25) (end 7.79 1.25) (layer "F.CrtYd") (width 0.05) (tstamp 3710cb0d-04c1-416f-8c6c-6b6740c79f11))
@@ -89,7 +90,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp c7b807a9-f6c6-4527-8245-e057b97a470a))
   (pad "2" thru_hole oval (at 2.54 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 46d6438d-c657-4545-9ad3-99bb9ebff6b5))
   (pad "3" thru_hole oval (at 5.08 0) (size 1.905 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 528ce306-a4f9-4b11-ab82-66f06eaefcef))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

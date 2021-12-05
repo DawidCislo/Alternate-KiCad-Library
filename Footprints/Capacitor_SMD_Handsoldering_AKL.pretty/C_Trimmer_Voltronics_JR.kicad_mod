@@ -1,5 +1,6 @@
-(footprint "C_Trimmer_Voltronics_JR" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 612DCDAA)
+(footprint "C_Trimmer_Voltronics_JR" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6199F18F)
   (descr "trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf, Alternate KiCad Library")
   (tags " Voltronics JR")
   (attr smd)
@@ -51,7 +52,7 @@
   (fp_circle (center 0 0) (end 1.55 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 7014cd2d-6d89-48c6-b4f9-c9ef2abfa388))
   (pad "1" smd rect (at -1.7 0) (size 1 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f488d915-3297-4c87-8dcf-d4c0c3fcdd19))
   (pad "2" smd rect (at 1.7 0) (size 1 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 41df7935-0666-427e-b050-b7616ade02c9))
-  (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_Trimmer_Voltronics_JR.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Trimmer_Voltronics_JR.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

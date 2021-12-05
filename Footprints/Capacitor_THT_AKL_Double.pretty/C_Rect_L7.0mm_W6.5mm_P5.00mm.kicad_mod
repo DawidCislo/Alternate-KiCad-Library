@@ -1,5 +1,6 @@
-(footprint "C_Rect_L7.0mm_W6.5mm_P5.00mm" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CB9C37)
+(footprint "C_Rect_L7.0mm_W6.5mm_P5.00mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E730B)
   (descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*6.5mm^2, Capacitor, Alternate KiCad Library")
   (tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 6.5mm Capacitor")
   (fp_text reference "REF**" (at 2.5 -4.5) (layer "F.SilkS")
@@ -42,7 +43,7 @@
   (fp_line (start -1 -3.25) (end -1 3.25) (layer "F.Fab") (width 0.1) (tstamp a4c8336b-15dd-4361-bc1d-f6b7d118fc08))
   (pad "1" thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp 63f0fb97-2b3c-4890-b5ad-6f63c8c465ac))
   (pad "2" thru_hole circle (at 5 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp 48fd1065-c9ef-4b54-a573-177953e0b7a3))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W6.5mm_P5.00mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L7.0mm_W6.5mm_P5.00mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

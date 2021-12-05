@@ -1,5 +1,6 @@
-(footprint "C_1806_4516Metric_Pad1.57x1.80mm" (version 20210722) (generator pcbnew) (layer "F.Cu")
-  (tedit 612DC0E6)
+(footprint "C_1806_4516Metric_Pad1.57x1.80mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 6199E912)
   (descr "Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), Alternate KiCad Library")
   (tags "capacitor handsolder")
   (attr smd)
@@ -21,8 +22,8 @@
   (fp_line (start -1.016 0) (end -0.254 0) (layer "F.SilkS") (width 0.12) (tstamp b4c9033f-8897-42c2-91ec-3295e0bcf2af))
   (fp_line (start -2.921 1.143) (end 2.921 1.143) (layer "F.SilkS") (width 0.12) (tstamp dda1b980-e941-44a8-bb37-ed941fc7d402))
   (fp_line (start 0.254 0) (end 1.016 0) (layer "F.SilkS") (width 0.12) (tstamp fc9b3050-e79a-426a-8c48-81a7bb48907c))
-  (fp_arc (start 1.524 0) (end 2.921 1.143) (angle -78.57881373) (layer "F.SilkS") (width 0.12) (tstamp 84b10e7c-a197-4706-b40d-e8c38fa3cf06))
-  (fp_arc (start -1.524 0) (end -2.921 -1.143) (angle -78.57881373) (layer "F.SilkS") (width 0.12) (tstamp f31f1d1d-c868-49a3-a70c-ec315a090017))
+  (fp_arc (start 2.921 -1.143) (mid 3.329009 0) (end 2.921 1.143) (layer "F.SilkS") (width 0.12) (tstamp 84b10e7c-a197-4706-b40d-e8c38fa3cf06))
+  (fp_arc (start -2.921 1.143) (mid -3.329009 0) (end -2.921 -1.143) (layer "F.SilkS") (width 0.12) (tstamp f31f1d1d-c868-49a3-a70c-ec315a090017))
   (fp_line (start -3.12 1.15) (end -3.12 -1.15) (layer "F.CrtYd") (width 0.05) (tstamp 0c1e6037-0649-4472-86c7-b4e968000339))
   (fp_line (start -3.12 -1.15) (end 3.12 -1.15) (layer "F.CrtYd") (width 0.05) (tstamp 58f5dc16-2fb0-4f7d-9c96-b1d3fce85a1e))
   (fp_line (start 3.12 -1.15) (end 3.12 1.15) (layer "F.CrtYd") (width 0.05) (tstamp a8f66fa8-6b44-4f21-8ef4-a6aa66009cff))
@@ -33,7 +34,7 @@
   (fp_line (start 2.25 -0.8) (end 2.25 0.8) (layer "F.Fab") (width 0.1) (tstamp 65972281-aa1f-4248-b70c-40212afb4123))
   (pad "1" smd roundrect (at -2.0875 0) (size 1.575 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15873) (tstamp 202e2029-23a4-4e97-9122-53a54663930e))
   (pad "2" smd roundrect (at 2.0875 0) (size 1.575 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15873) (tstamp f0b68715-96da-497a-a2c9-d1285e31aacf))
-  (model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_1806_4516Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1806_4516Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

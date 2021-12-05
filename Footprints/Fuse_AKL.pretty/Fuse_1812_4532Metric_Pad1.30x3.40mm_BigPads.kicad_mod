@@ -1,5 +1,6 @@
-(footprint "Fuse_1812_4532Metric_Pad1.30x3.40mm_BigPads" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD03DD)
+(footprint "Fuse_1812_4532Metric_Pad1.30x3.40mm_BigPads" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12CC9)
   (descr "Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), Alternate KiCAD Library")
   (tags "fuse big pads")
   (attr smd)
@@ -29,9 +30,4 @@
   (fp_line (start 2.25 -1.6) (end 2.25 1.6) (layer "F.Fab") (width 0.1) (tstamp d7b24815-a9f1-4129-9c51-b6c72780b45e))
   (pad "1" smd roundrect (at -2.225 0) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308) (tstamp 17941bcc-36e9-409d-9ac2-b4bc6b899932))
   (pad "2" smd roundrect (at 2.225 0) (size 1.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.192308) (tstamp fd1b434c-28e2-4441-a02b-02b3a9ed69ae))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1812_4532Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

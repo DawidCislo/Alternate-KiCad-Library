@@ -1,5 +1,6 @@
-(footprint "CP_Radial_D30.0mm_P10.00mm_3pin_SnapIn" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60CA01AC)
+(footprint "CP_Radial_D30.0mm_P10.00mm_3pin_SnapIn" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 619E6B52)
   (descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=30mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
   (tags "CP Radial series Radial pin pitch 10.00mm  diameter 30mm Electrolytic Capacitor")
   (fp_text reference "REF**" (at 5 -16.25) (layer "F.SilkS")
@@ -594,7 +595,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 4 4) (drill 2) (layers *.Cu *.Mask) (tstamp 0203bbf0-a808-432e-b16b-ce8679ff4ab9))
   (pad "2" thru_hole circle (at 6.7 -4.75) (size 5 5) (drill 2.5) (layers *.Cu *.Mask) (tstamp 597a97b9-f7ad-4da8-844c-8ebce505f311))
   (pad "2" thru_hole circle (at 10 0) (size 4 4) (drill 2) (layers *.Cu *.Mask) (tstamp ac1cb978-0a11-4e8e-b564-28299232d6ca))
-  (model "${KISYS3DMOD}/Capacitor_THT.3dshapes/CP_Radial_D30.0mm_P10.00mm_3pin_SnapIn.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D30.0mm_P10.00mm_3pin_SnapIn.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,5 +1,6 @@
-(footprint "TO-251-3_Vertical_BCE" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60DB0035)
+(footprint "TO-251-3_Vertical_BCE" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7423B)
   (descr "TO-251-3, Vertical, RM 2.29mm, IPAK, see https://www.diodes.com/assets/Package-Files/TO251.pdf, Alternate KiCad Library")
   (tags "TO-251-3 Vertical RM 2.29mm IPAK")
   (fp_text reference "REF**" (at 2.29 -2.39) (layer "F.SilkS")
@@ -46,7 +47,7 @@
   (pad "1" thru_hole rect (at 0 0) (size 1.7175 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 78f28de3-333c-4368-bc8e-c37a86a3dcc4))
   (pad "2" thru_hole oval (at 2.29 0) (size 1.7175 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 88ed5e9f-c12e-4aea-8782-a6aa23664e68))
   (pad "3" thru_hole oval (at 4.58 0) (size 1.7175 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 778e9aeb-663b-4dd6-92da-a76708930447))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-251-3_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-251-3_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

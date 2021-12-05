@@ -1,5 +1,6 @@
-(footprint "Fuse_Blade_ATO_directSolder" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F863B7)
+(footprint "Fuse_Blade_ATO_directSolder" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12DA4)
   (descr "car blade fuse direct solder, Alternate KiCAD Library")
   (tags "car blade fuse")
   (fp_text reference "REF**" (at 4.65 -3.9) (layer "F.SilkS")
@@ -33,9 +34,4 @@
   (fp_line (start 4.95 0) (end 4.35 0) (layer "F.Fab") (width 0.1) (tstamp a17af02e-81b6-4145-aca3-44ba3a4f9ff3))
   (pad "1" thru_hole oval (at 0 0) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask) (tstamp 638190f5-4875-4126-b0b2-0ba33cf69370))
   (pad "2" thru_hole oval (at 9.3 0) (size 8 3.8) (drill oval 6 2) (layers *.Cu *.Mask) (tstamp 7f2f0a55-78b1-4c21-81ff-b185f9f10682))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_Blade_ATO_directSolder.wrl"
-    (offset (xyz 4.571999931 0 0))
-    (scale (xyz 0.39 0.39 0.39))
-    (rotate (xyz 0 0 0))
-  )
 )

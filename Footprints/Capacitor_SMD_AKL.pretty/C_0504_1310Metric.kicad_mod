@@ -1,6 +1,6 @@
 (footprint "C_0504_1310Metric" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61979ACE)
+  (tedit 6199E6F4)
   (descr "Capacitor SMD 0504 (1310 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), Alternate KiCad Library")
   (tags "capacitor")
   (attr smd)
@@ -30,9 +30,4 @@
   (fp_line (start 0.585 0.51) (end -0.585 0.51) (layer "F.Fab") (width 0.1) (tstamp bc94a4bb-d3a0-4514-9c26-3272807ea1ac))
   (pad "1" smd roundrect (at -0.54 0) (size 0.66 1.28) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 0c9acabd-7c18-4a85-89fb-a0068973ebe5))
   (pad "2" smd roundrect (at 0.54 0) (size 0.66 1.28) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 640ebd43-2d08-4c47-bacc-87d8e092575f))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0504_1310Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

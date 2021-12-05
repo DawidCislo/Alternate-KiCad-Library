@@ -1,5 +1,6 @@
-(footprint "TO-220-2_Vertical_KA" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 6162B903)
+(footprint "TO-220-2_Vertical_KA" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A75589)
   (descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF, Alternate KiCad Library")
   (tags "TO-220-2 Vertical RM 5.08mm")
   (fp_text reference "REF**" (at 2.54 -4.27) (layer "F.SilkS")
@@ -62,7 +63,7 @@
   (fp_line (start 0.69 -3.15) (end 0.69 -1.88) (layer "F.Fab") (width 0.1) (tstamp 821319a9-25a2-49d5-b185-afd7a2ac975f))
   (pad "1" thru_hole rect (at 0 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp f4df34cd-561c-4d9a-8d2d-8ea2e7debc1b))
   (pad "2" thru_hole oval (at 5.08 0) (size 2 2) (drill 1.1) (layers *.Cu *.Mask) (tstamp 248740e8-5bde-45d1-be07-66ba0eb57095))
-  (model "${KISYS3DMOD}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

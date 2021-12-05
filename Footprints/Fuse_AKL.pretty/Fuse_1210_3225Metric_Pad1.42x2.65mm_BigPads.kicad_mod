@@ -1,5 +1,6 @@
-(footprint "Fuse_1210_3225Metric_Pad1.42x2.65mm_BigPads" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD0382)
+(footprint "Fuse_1210_3225Metric_Pad1.42x2.65mm_BigPads" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12C9B)
   (descr "Fuse SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), Alternate KiCAD Library")
   (tags "fuse big pads")
   (attr smd)
@@ -29,7 +30,7 @@
   (fp_line (start -1.6 1.25) (end -1.6 -1.25) (layer "F.Fab") (width 0.1) (tstamp fe6e5f6e-2208-417d-a900-72a3a79ea8cd))
   (pad "1" smd roundrect (at -1.4875 0) (size 1.425 2.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.175439) (tstamp a10a34ef-f5c1-4bd8-8154-8ef1e7369d49))
   (pad "2" smd roundrect (at 1.4875 0) (size 1.425 2.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.175439) (tstamp bcd564c6-c97e-4049-bda2-0178bbfaeb83))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_1210_3225Metric.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1210_3225Metric.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

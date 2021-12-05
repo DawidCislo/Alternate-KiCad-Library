@@ -1,5 +1,6 @@
-(footprint "Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F86329)
+(footprint "Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12D34)
   (descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), Alternate KiCAD Library")
   (tags "resistor handsolder")
   (attr smd)
@@ -29,9 +30,4 @@
   (fp_line (start -3.6775 -2.56) (end 3.6775 -2.56) (layer "F.Fab") (width 0.1) (tstamp dd36ee69-3d76-423b-aa03-0b3910698199))
   (pad "1" smd roundrect (at -3.475 0) (size 2.1 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048) (tstamp 97648d84-1fb9-4c3a-88e2-ddb7c097f608))
   (pad "2" smd roundrect (at 3.475 0) (size 2.1 5.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.119048) (tstamp 270d37c4-d09f-4a40-9458-70f9ee92dfca))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_2920_7451Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

@@ -1,5 +1,6 @@
-(footprint "Diode_Bridge_Vishay_KBU" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60C9A9FA)
+(footprint "Diode_Bridge_Vishay_KBU" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A0934D)
   (descr "Vishay KBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88656/kbu4.pdf")
   (tags "Vishay KBU rectifier diode bridge")
   (fp_text reference "REF**" (at 7.8 6.223) (layer "F.SilkS")
@@ -51,7 +52,7 @@
   (pad "2" thru_hole circle (at 5.08 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask) (tstamp 26df892b-7531-4f12-b6c9-1a28ba621390))
   (pad "3" thru_hole circle (at 10.16 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask) (tstamp f01f83fb-08d9-4eb3-861c-0b1e84673955))
   (pad "4" thru_hole circle (at 15.24 0) (size 2.8 2.8) (drill 1.4) (layers *.Cu *.Mask) (tstamp 19385e87-b0f2-43e5-ba60-f102d3c69687))
-  (model "${KISYS3DMOD}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBU.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBU.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

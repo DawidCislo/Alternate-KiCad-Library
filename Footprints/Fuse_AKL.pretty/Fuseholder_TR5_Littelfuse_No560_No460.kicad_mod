@@ -1,5 +1,6 @@
-(footprint "Fuseholder_TR5_Littelfuse_No560_No460" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60F86217)
+(footprint "Fuseholder_TR5_Littelfuse_No560_No460" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12F5D)
   (descr "Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf, Alternate KiCAD Library")
   (tags "Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 ")
   (fp_text reference "REF**" (at 2.39 -6.89) (layer "F.SilkS")
@@ -26,8 +27,8 @@
   (fp_line (start 5.67 4.07) (end 5.49 3.99) (layer "F.SilkS") (width 0.12) (tstamp d3224cd9-7f15-4297-bfb7-badfc64762fe))
   (fp_line (start 3.81 0) (end 3.556 0) (layer "F.SilkS") (width 0.12) (tstamp dbac5a8b-f322-4c92-9b45-ab5f92ff5f6f))
   (fp_line (start 6.65 3.34) (end 6.62 3.6) (layer "F.SilkS") (width 0.12) (tstamp e383de4b-6c49-42fa-9370-eb18494078bf))
-  (fp_arc (start 3.048 0) (end 2.54 0) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp 812a773a-3d96-4b5a-968e-6eaf94706503))
-  (fp_arc (start 2.032 0) (end 2.54 0) (angle -180) (layer "F.SilkS") (width 0.12) (tstamp e0158cc5-49ef-447d-8e09-4495266059d8))
+  (fp_arc (start 3.556 0) (mid 3.048 0.508) (end 2.54 0) (layer "F.SilkS") (width 0.12) (tstamp 812a773a-3d96-4b5a-968e-6eaf94706503))
+  (fp_arc (start 1.524 0) (mid 2.032 -0.508) (end 2.54 0) (layer "F.SilkS") (width 0.12) (tstamp e0158cc5-49ef-447d-8e09-4495266059d8))
   (fp_circle (center 2.54 0.01) (end 7.29 0.01) (layer "F.SilkS") (width 0.12) (fill none) (tstamp f4bb2520-7328-4715-b7f2-14382b2881aa))
   (fp_line (start 7.54 5.01) (end 7.54 -4.99) (layer "F.CrtYd") (width 0.05) (tstamp 714af7c6-d7df-4822-9019-6d9744c464e4))
   (fp_line (start -2.46 -4.99) (end 7.54 -4.99) (layer "F.CrtYd") (width 0.05) (tstamp 7684c2f7-3352-4144-b135-e52b9e1d5fcb))
@@ -46,7 +47,7 @@
   (fp_circle (center 2.55 0) (end 7.25 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp b8faf7cb-f2f0-434c-a6e4-d21eb31498ec))
   (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 4e536cad-42e9-4f5e-9688-72a8bf0e31f9))
   (pad "2" thru_hole circle (at 5.08 0.01) (size 2 2) (drill 1) (layers *.Cu *.Mask) (tstamp 8eb0855e-69c6-4d6f-b534-ece54c564f49))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuseholder_TR5_Littelfuse_No560_No460.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_TR5_Littelfuse_No560_No460.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

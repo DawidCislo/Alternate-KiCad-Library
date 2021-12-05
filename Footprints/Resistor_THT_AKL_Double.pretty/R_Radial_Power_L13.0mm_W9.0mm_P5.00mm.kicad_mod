@@ -1,5 +1,6 @@
-(footprint "R_Radial_Power_L13.0mm_W9.0mm_P5.00mm" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 61614991)
+(footprint "R_Radial_Power_L13.0mm_W9.0mm_P5.00mm" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7C242)
   (descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 7W, length*width=13.0*9.0mm^2, http://www.vishay.com/docs/30218/cpcx.pdf")
   (tags "Resistor Radial_Power series Radial pin pitch 5.00mm 7W length 13.0mm width 9.0mm")
   (fp_text reference "REF**" (at 2.5 -5.75) (layer "F.SilkS")
@@ -39,7 +40,7 @@
   (fp_line (start -4 4.5) (end 9 4.5) (layer "F.Fab") (width 0.1) (tstamp ed26c357-a800-4644-b628-4cc6e0bc90c3))
   (pad "1" thru_hole circle (at 0 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 400be37c-2072-4d21-bb3d-c34b71440c42))
   (pad "2" thru_hole circle (at 5 0) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask) (tstamp 340ef84c-27ff-4251-933f-e371868ea2eb))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Radial_Power_L13.0mm_W9.0mm_P5.00mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Radial_Power_L13.0mm_W9.0mm_P5.00mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

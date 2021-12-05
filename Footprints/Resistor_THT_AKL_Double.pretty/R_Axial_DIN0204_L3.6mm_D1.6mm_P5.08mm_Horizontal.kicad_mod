@@ -1,5 +1,6 @@
-(footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (version 20210824) (generator pcbnew) (layer "F.Cu")
-  (tedit 616146BC)
+(footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A7BE4C)
   (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
   (fp_text reference "REF**" (at 2.54 -1.92) (layer "F.SilkS")
@@ -49,7 +50,7 @@
   (fp_line (start 0 0) (end 0.74 0) (layer "F.Fab") (width 0.1) (tstamp fd328f64-3617-4169-8539-8c081d17d669))
   (pad "1" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask) (tstamp 664a4a98-b4eb-47b0-96b6-c5d8c14c9abf))
   (pad "2" thru_hole oval (at 5.08 0) (size 1.4 1.4) (drill 0.7) (layers *.Cu *.Mask) (tstamp 43fbf455-0772-4ea0-a663-7065aa5f2c6c))
-  (model "${KISYS3DMOD}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

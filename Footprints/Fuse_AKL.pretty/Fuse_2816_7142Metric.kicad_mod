@@ -1,5 +1,6 @@
-(footprint "Fuse_2816_7142Metric" (version 20210606) (generator pcbnew) (layer "F.Cu")
-  (tedit 60FD045F)
+(footprint "Fuse_2816_7142Metric" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61A12D16)
   (descr "Fuse SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), Alternate KiCAD Library")
   (tags "fuse")
   (attr smd)
@@ -29,9 +30,4 @@
   (fp_line (start 3.55 -2.1) (end 3.55 2.1) (layer "F.Fab") (width 0.1) (tstamp a86b5f4e-95be-4a7f-bbad-653982bb8123))
   (pad "1" smd roundrect (at -2.5125 0) (size 3.025 4.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.082645) (tstamp 48774897-b8c7-4633-b823-720ac28f177a))
   (pad "2" smd roundrect (at 2.5125 0) (size 3.025 4.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.082645) (tstamp 79feae00-1731-41df-a9df-6fbbdc642fca))
-  (model "${KISYS3DMOD}/Fuse.3dshapes/Fuse_2816_7142Metric.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
