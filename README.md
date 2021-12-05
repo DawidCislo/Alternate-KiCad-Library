@@ -20,8 +20,44 @@ Multiple files ending in .kicad_sym should be visible. Each of these is a separa
 
 All the installed libraries should be now accessible.
 
+<<<<<<< HEAD
+=======
+# Manual installation:
+Extract the downloaded AKL files into any folder you want.
+
+KiCAD uses library tables to keep track of installed libraries.
+To install libraries manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
+ 
+Press the Folder icon below the table and locate the folder with the extracted footprint library files
+
+Multiple folders ending in .Pretty should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press ‘Select Folder’
+
+Next, go to ‘Manage Symbol Libraries’ in the preferences tab. 
+ 
+Press the Folder icon below the table and locate the folder with the extracted symbol library files
+
+Multiple files ending in .kicad_sym should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press ‘Open’.
+
+All the installed libraries should be now accessible.
+
+# File description
+
+"Footprints" folder contains AKL footprint libraries.
+
+"Symbols" folder contains AKL symbol libraries.
+
+"Alternate KiCAD Library User Manual.pdf" is a comprehensive guide with detailed description of each added library.
+
+"KiCAD Files" folder contains original licence and readme files from the first-pary KiCAD library.
+
+"Sources" Contains catalogs and datasheets that are no longer widely accesible that were used for reference.
+
+"PCM_Releases" folder contains slimmed down and compressed package used by KiCAD's content manager.
+
+>>>>>>> 9c79f0ff1474806faf1385cff85854b30e1de12f
 
 License:
+
 Alternate KiCad Library by Dawid Cisło is a derivative of KiCad Library made by KiCad community
 (see: KiCad library GitLab: https://gitlab.com/kicad/libraries), used under Creative Commons CC-BY-SA 4.0 License (https://creativecommons.org/licenses/by-sa/4.0/legalcode), with the following
 exception:
@@ -40,6 +76,7 @@ collection you need to share it under the same license agreement. Libraries must
 information and license documents which are distributed with the library files.
 
 About:
+
 Alternate KiCAD Library is a massive symbol and footprint library containing refreshed, new symbols and footprints for KiCAD focused on improving Schematic and PCB readability and aesthetics, mainly intended for hobbyist use.
 
 AKL started as a modification of the KiCAD library, where select footprints received new silkscreen markings helpful during hand-assembly.
