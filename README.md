@@ -20,8 +20,6 @@ Multiple files ending in .kicad_sym should be visible. Each of these is a separa
 
 All the installed libraries should be now accessible.
 
-<<<<<<< HEAD
-=======
 # Manual installation:
 Extract the downloaded AKL files into any folder you want.
 
@@ -52,9 +50,7 @@ All the installed libraries should be now accessible.
 
 "Sources" Contains catalogs and datasheets that are no longer widely accesible that were used for reference.
 
-"PCM_Releases" folder contains slimmed down and compressed package used by KiCAD's content manager.
-
->>>>>>> 9c79f0ff1474806faf1385cff85854b30e1de12f
+"PCM_Releases" folder contains legacy 2.0 package used by KiCAD's content manager.
 
 License:
 
