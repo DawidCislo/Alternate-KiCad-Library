@@ -2,7 +2,7 @@
 
 Alternate KiCad Library
 
-Instalation instructions for Plugin and Content Manager:
+Installation instructions for Plugin and Content Manager:
 KiCAD uses library tables to keep track of installed libraries. As of 6.0.0-rc1 Content Manager DOES NOT automatically update these library tables.
 To do it manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
  
@@ -46,9 +46,9 @@ All the installed libraries should be now accessible.
 
 "Alternate KiCAD Library User Manual.pdf" is a comprehensive guide with detailed description of each added library.
 
-"KiCAD Files" folder contains original licence and readme files from the first-pary KiCAD library.
+"KiCAD Files" folder contains original license and readme files from the first-party KiCAD library.
 
-"Sources" Contains catalogs and datasheets that are no longer widely accesible that were used for reference.
+"Sources" Contains catalogs and data sheets that are no longer widely accessible that were used for reference.
 
 "PCM_Releases" folder contains legacy 2.0 package used by KiCAD's content manager.
 
@@ -80,13 +80,13 @@ The list of footprints that have been modified and added has been greatly expand
 Double-layer silkscreen variants have been added where symbols have additional information on the bottom silkscreen layer for easier troubleshooting. 
 
 Alternate KiCAD Library now contains massive symbol library 
-(over 20 000 symbols as of version 2.0) with Diodes, Transistors, SCRs and Optocouplers. Each symbol is a separate orderable part number (example 1N4001, 1N4002, 1N4003 etc.), each has pre-assigned footprint and a datasheet link.
+(over 20 000 symbols as of version 2.0) with Diodes, Transistors, SCRs and Optocouplers. Each symbol is a separate orderable part number (example 1N4001, 1N4002, 1N4003 etc.), each has pre-assigned footprint and a data sheet link.
 
 This third-party library was not created up to the same quality standard as the first-party KiCAD library, wide range of errors might be present. (improper footprint assigned to a symbol, wrong pinout, incorrect footprint dimensions just to name a few)
 While using AKL please pay attention and double-check that a symbol:
 Has the correct pin arrangement. (Most symbols have pin numbers visible, so it’s easy to check)
 Has the correct footprint assigned in the symbol properties. (Symbol description always states the footprint, but might not always agree with the pre-assigned footprint)
-Also check that the footprint has correct pad/hole spacing referencing the part’s datasheet.
+Also check that the footprint has correct pad/hole spacing referencing the part’s data sheet.
 
 Refer to the user manual for installation instructions and more.
 
@@ -107,27 +107,27 @@ Footprint libraries:
 
 Version 2.0 (Symbol Library Update)
 NEW SYMBOL LIBRARIES: 
-- Diode_AKL – SMD and THT diodes with assigned footprints and datasheet links.
-- Diode_Schottky_AKL – SMD and THT Si and SiC Schottky diodes with assigned footprints and datasheet links.
-- Diode_Capacitance_AKL – SMD and THT variable capacitance diodes with assigned footprints and datasheet links.
-- Diode_Zener_AKL – SMD and THT Zener diodes with assigned footprints and datasheet links.
-- Diode_TVS_AKL –TVS and ESD protection diodes and arrays with assigned footprints and datasheet links.
-- Diode_Bridge_AKL – single and three-phase bridge rectifiers with assigned footprints and datasheet links.
-- Diode_Current_Limiting – Current limiting diodes (CLD/CRD) with assigned footprints and datasheet links.
-- Diac_AKL – Diacs (AC Trigger diodes) with assigned footprints and datasheet links.
-- Transistor_BJT_AKL – bipolar transistors and arrays with assigned footprints and datasheet links.
-- Transistor_BJT_Darlington – Darlington transistors with assigned footprints and datasheet links.
-- Transistor_BJT_Pre-Biased – Pre-biased (BRT) bipolar transistors and arrays with assigned footprints and datasheet links.
-- Transistor_MOSFET_AKL – MOSFETs and arrays with assigned footprints and datasheet links.
-- Transistor_JFET_AKL – JFETs and matched pairs with assigned footprints and datasheet links.
-- Transistor_IGBT_AKL – IGBTs (Insulated Gate Bipolar Transistors) with assigned footprints and datasheet links.
-- Thyristor_AKL – SMD and THT thyristors with assigned footprints and datasheet links.
-- Triac_AKL – SMD and THT Triacs with assigned footprints and datasheet links.
-- Optocoupler_AKL – transistor-output optocouplers with assigned footprints and datasheet links.
-- Optocoupler_Gate_Driver_AKL – optically isolated MOSFET/IGBT gate drivers with assigned footprints and datasheet links.
-- Optocoupler_Logic_AKL – logic-output optocouplers with assigned footprints and datasheet links.
-- Optocoupler_Triac_AKL – phototriacs with assigned footprints and datasheet links.
-- Optocoupler_Misc_AKL – miscellaneous devices (isolated error amplifiers, linear optocouplers, photovoltaic-output optocouplers) with assigned footprints and datasheet links.
+- Diode_AKL – SMD and THT diodes with assigned footprints and data sheet links.
+- Diode_Schottky_AKL – SMD and THT Si and SiC Schottky diodes with assigned footprints and data sheet links.
+- Diode_Capacitance_AKL – SMD and THT variable capacitance diodes with assigned footprints and data sheet links.
+- Diode_Zener_AKL – SMD and THT Zener diodes with assigned footprints and data sheet links.
+- Diode_TVS_AKL –TVS and ESD protection diodes and arrays with assigned footprints and data sheet links.
+- Diode_Bridge_AKL – single and three-phase bridge rectifiers with assigned footprints and data sheet links.
+- Diode_Current_Limiting – Current limiting diodes (CLD/CRD) with assigned footprints and data sheet links.
+- Diac_AKL – Diacs (AC Trigger diodes) with assigned footprints and data sheet links.
+- Transistor_BJT_AKL – bipolar transistors and arrays with assigned footprints and data sheet links.
+- Transistor_BJT_Darlington – Darlington transistors with assigned footprints and data sheet links.
+- Transistor_BJT_Pre-Biased – Pre-biased (BRT) bipolar transistors and arrays with assigned footprints and data sheet links.
+- Transistor_MOSFET_AKL – MOSFETs and arrays with assigned footprints and data sheet links.
+- Transistor_JFET_AKL – JFETs and matched pairs with assigned footprints and data sheet links.
+- Transistor_IGBT_AKL – IGBTs (Insulated Gate Bipolar Transistors) with assigned footprints and data sheet links.
+- Thyristor_AKL – SMD and THT thyristors with assigned footprints and data sheet links.
+- Triac_AKL – SMD and THT Triacs with assigned footprints and data sheet links.
+- Optocoupler_AKL – transistor-output optocouplers with assigned footprints and data sheet links.
+- Optocoupler_Gate_Driver_AKL – optically isolated MOSFET/IGBT gate drivers with assigned footprints and data sheet links.
+- Optocoupler_Logic_AKL – logic-output optocouplers with assigned footprints and data sheet links.
+- Optocoupler_Triac_AKL – phototriacs with assigned footprints and data sheet links.
+- Optocoupler_Misc_AKL – miscellaneous devices (isolated error amplifiers, linear optocouplers, photovoltaic-output optocouplers) with assigned footprints and data sheet links.
 - Device_AKL – New generic ferrite bead and fuse symbols.
 
 NEW FOOTPRINTS:
@@ -140,7 +140,7 @@ Added SMBFL (SMB – Flat Lead) Package
 Added MBF Diode Bridge Package
 
 - Diode_THT_AKL:
-5W Series – Added Zener variants, compatibility with CASE-017AA is now highligted in the name.
+5W Series – Added Zener variants, compatibility with CASE-017AA is now highlighted in the name.
 DO-35 Series – Added Diac variants.
 Diode_Bridge_32.0x5.6x17.0mm_P10.0mm_P7.5mm – Corrected silkscreen labels and reversed pin order to be compatible with the new symbols.
 Diode_Bridge_19.0x3.5x10.0mm_P5.0mm – Corrected silkscreen labels and reversed pin order to be compatible with the new symbols. Added a new pinout variant.
