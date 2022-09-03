@@ -3,7 +3,7 @@
 Alternate KiCad Library
 
 Installation instructions for Plugin and Content Manager:
-KiCAD uses library tables to keep track of installed libraries. As of 6.0.0-rc1 Content Manager DOES NOT automatically update these library tables.
+KiCAD uses library tables to keep track of installed libraries. Content Manager DOES NOT automatically update these library tables.
 To do it manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
  
 Press the Folder icon below the table and locate:
@@ -96,6 +96,60 @@ Footprint library should be backwards compatible with KiCAD 5
 
 
 Changelog:
+
+Version 3.0
+NEW SYMBOLS:
+- Amplifier_Operational_AKL - Over 4250 operational amplifiers and OTAs with assigned footprints and datasheet links.
+- Amplifier_Instrumentation_AKL - 245 Instrumentation amplifiers (IN-AMP) with assigned footprints and datasheet links.
+- Amplifier_Difference_AKL - 98 Difference amplifiers (differential input, single-ended output) with assigned footprints and datasheet links.
+- Amplifier_Differential_AKL - 50 Fully Differential Drivers and Amplifiers (differential input, differential output) with assigned footprints and datasheet links.
+- Amplifier_Programmable_AKL - 66 Programmable Gain Amplifiers (PGA) or Selectable Gain Amplifiers (SGA) with assigned footprints and datasheet links.
+- Amplifier_Isolation_AKL - 37 Isolated Amplifiers with assigned footprints and datasheet links.
+- Analog_Comparator_AKL - 800 Analog Comparators with assigned footprints and datasheet links.
+
+NEW FOOTPRINTS:
+Nearly all SMD footprints have been revamped:
+- All pads are rounded rectangles with either 25% or 0.25mm corner radius (wichever is smaller).
+- Updated FAB Layer for better assembly drawings.
+- Silkscreen outline snaps to 0.1mm (or 0.05mm for small footprints) outside the courtyard.
+
+- Package SIP_AKL - New footprint library containing both new and modified KiCad Single-in-Line Packages.
+
+- Package_DFN_QFN_AKL:
+Added DFN-8-1EP_3x3mm_P0.5mm_EP1.2x2mm
+Added Texas_RSV_UQFN16_1.8x2.6mm_P0.4mm
+Added DFN-6_1.3x1.6_P0.4mm
+Added QFN-16_3x3mm_P0.5mm
+Added Diodes_UDFN-6_1.4x1.0mm_P0.5mm
+Added Texas_X2QFN-8_1.5x1.5mm
+
+- Package_SO_AKL:
+Added TSSOP-14-1EP_4.4x5mm_P0.65mm_EP2.31x2.46mm
+Added TSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP2.4x3.4mm
+Added SSOP-8_4.4x3.5mm_P0.65mm
+Added SO-8_5x5mm_P1.27mm
+
+- Package_SON_AKL:
+Added Texas_X2SON-6_1x1mm_P0.35mm
+
+- Capacitor_THT_AKL (Capacitor_THT_AKL_Double):
+Added C_Rect_L15mm_W15mm_P10x10mm
+Added C_Rect_L17mm_W8.5mm_P12.50mm
+Added C_Rect_L36.5mm_W15mm_P32.50mm
+
+- Resistor_THT_AKL:
+Added R_Array_SIP4_BigPads
+Added R_Array_SIP5_BigPads
+Added R_Array_SIP6_BigPads
+Added R_Array_SIP7_BigPads
+Added R_Array_SIP8_BigPads
+Added R_Array_SIP9_BigPads
+Added R_Array_SIP10_BigPads
+Added R_Array_SIP11_BigPads
+Added R_Array_SIP12_BigPads
+Added R_Array_SIP13_BigPads
+Added R_Array_SIP14_BigPads
+
 
 Version 2.1
 Footprint libraries:
