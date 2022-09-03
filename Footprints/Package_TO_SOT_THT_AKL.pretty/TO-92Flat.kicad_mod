@@ -1,6 +1,6 @@
 (footprint "TO-92Flat" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A5CF5E)
+  (tedit 623071A0)
   (descr "TO-92Flat package, often used for hall sensors, drill 0.75mm (see e.g. http://www.ti.com/lit/ds/symlink/drv5023.pdf), Alternate KiCad Library")
   (tags "to-92Flat hall sensor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp bb2dffec-a075-4e9a-8a0e-8d0142e71a22)
   )
-  (fp_text value "TO-92Flat" (at 1.25 1.7) (layer "F.Fab")
+  (fp_text value "TO-92Flat" (at 1.25 1.7) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.17)))
     (tstamp 53746d3d-478a-48cf-87c8-6cc47848bb3e)
   )

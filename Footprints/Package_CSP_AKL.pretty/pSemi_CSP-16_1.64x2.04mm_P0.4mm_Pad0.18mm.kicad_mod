@@ -1,6 +1,6 @@
 (footprint "pSemi_CSP-16_1.64x2.04mm_P0.4mm_Pad0.18mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A2195E)
+  (tedit 622B2E84)
   (descr "pSemi CSP-16 1.64x2.04x0.285mm (http://www.psemi.com/pdf/datasheets/pe29101ds.pdf, http://www.psemi.com/pdf/app_notes/an77.pdf), Alternate KiCAD Library")
   (tags "psemi csp 16")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 11e4894b-5bdc-45f4-8d31-f1e5b70c53b1)
   )
-  (fp_text value "pSemi_CSP-16_1.64x2.04mm_P0.4mm_Pad0.18mm" (at 0 2) (layer "F.Fab")
+  (fp_text value "pSemi_CSP-16_1.64x2.04mm_P0.4mm_Pad0.18mm" (at 0 2) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e5cfc877-a80d-4d83-8709-42a6d72a0d00)
   )

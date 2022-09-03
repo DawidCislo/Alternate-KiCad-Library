@@ -1,6 +1,6 @@
 (footprint "L_Radial_D21.0mm_P19.00mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DE49)
+  (tedit 6228700B)
   (descr "Inductor, Radial series, Radial, pin pitch=19.00mm, , diameter=21mm, http://www.abracon.com/Magnetics/radial/AIRD02.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 19.00mm  diameter 21mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp be011944-58ac-43c3-97f9-db935ed7fe16)
   )
-  (fp_text value "L_Radial_D21.0mm_P19.00mm" (at 9.5 11.75) (layer "F.Fab")
+  (fp_text value "L_Radial_D21.0mm_P19.00mm" (at 9.5 11.75) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8ebb286d-a68f-4a6b-9645-13288537b2f8)
   )

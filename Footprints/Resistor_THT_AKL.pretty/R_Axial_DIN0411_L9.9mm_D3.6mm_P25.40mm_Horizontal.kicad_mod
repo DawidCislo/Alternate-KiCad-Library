@@ -1,6 +1,6 @@
 (footprint "R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7B8D3)
+  (tedit 623183C6)
   (descr "Resistor, Axial_DIN0411 series, Axial, Horizontal, pin pitch=25.4mm, 1W, length*diameter=9.9*3.6mm^2, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0411 series Axial Horizontal pin pitch 25.4mm 1W length 9.9mm diameter 3.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1632e8ca-c44e-4454-9897-35016eeb8c61)
   )
-  (fp_text value "R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal" (at 12.7 2.92) (layer "F.Fab")
+  (fp_text value "R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal" (at 12.7 2.92) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 87e94ceb-8b5b-4872-9906-c7d5324e5ff9)
   )

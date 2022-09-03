@@ -1,6 +1,6 @@
 (footprint "Crystal_AT310_D3.0mm_L10.0mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619E7C86)
+  (tedit 6222FC94)
   (descr "Crystal THT AT310 10.0mm-10.5mm length 3.0mm diameter http://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf, Alternate KiCad Library")
   (tags "['AT310']")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cafe5d47-a183-45a9-a237-2f19263ce45f)
   )
-  (fp_text value "Crystal_AT310_D3.0mm_L10.0mm_Horizontal" (at 4.29 3 90) (layer "F.Fab")
+  (fp_text value "Crystal_AT310_D3.0mm_L10.0mm_Horizontal" (at 4.29 3 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5e023fd1-7ecb-4383-a66c-0941f45e918e)
   )

@@ -1,6 +1,6 @@
 (footprint "R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7B8EE)
+  (tedit 623184B0)
   (descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6f4d2b00-4718-49b1-bdb0-0ed1a881aa09)
   )
-  (fp_text value "R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" (at 7.62 3.37) (layer "F.Fab")
+  (fp_text value "R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal" (at 7.62 3.37) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d7001053-29c9-44ba-8c92-8760080002bc)
   )

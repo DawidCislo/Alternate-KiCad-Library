@@ -1,6 +1,6 @@
 (footprint "WLCSP-81_4.41x3.76mm_P0.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21942)
+  (tedit 622B2E7A)
   (descr "WLCSP-81, 9x9, 0.4mm Pitch, http://www.st.com/content/ccc/resource/technical/document/technical_note/92/30/3c/a1/4c/bb/43/6f/DM00103228.pdf/files/DM00103228.pdf/jcr:content/translations/en.DM00103228.pdf, Alternate KiCAD Library")
   (tags "WLCSP ST")
   (solder_mask_margin 0.065)
@@ -9,7 +9,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2d960b3a-1c13-4e0d-93e5-e86452d56a84)
   )
-  (fp_text value "WLCSP-81_4.41x3.76mm_P0.4mm" (at 0 -5) (layer "F.Fab")
+  (fp_text value "WLCSP-81_4.41x3.76mm_P0.4mm" (at 0 -5) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 192ae643-a46e-42f2-9059-a157475b76ec)
   )

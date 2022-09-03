@@ -1,6 +1,6 @@
 (footprint "L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D63E)
+  (tedit 622783A8)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=7*3.3mm^2, Fastron, MICC, http://www.fastrongroup.com/image-show/70/MICC.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 7mm diameter 3.3mm Fastron MICC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 44308e6f-1e26-4b8c-ad8d-8f1fd5893677)
   )
-  (fp_text value "L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC" (at 5.08 2.77) (layer "F.Fab")
+  (fp_text value "L_Axial_L7.0mm_D3.3mm_P10.16mm_Horizontal_Fastron_MICC" (at 5.08 2.77) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 419ae921-ffb6-4328-a6b4-45cd5256160d)
   )

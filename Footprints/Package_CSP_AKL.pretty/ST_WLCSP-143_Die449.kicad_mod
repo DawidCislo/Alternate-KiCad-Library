@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-143_Die449" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218C9)
+  (tedit 622B2DB4)
   (descr "WLCSP-143, 11x13 raster, 4.539x5.849mm package, pitch 0.4mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f746zg.pdf, Alternate KiCAD Library")
   (tags "BGA 143 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5dd2c53a-d61d-47df-bb92-5282f4631167)
   )
-  (fp_text value "ST_WLCSP-143_Die449" (at 0 3.9245) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-143_Die449" (at 0 3.9245) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e9084d2c-faaa-4cfc-bc87-b3cfbf70d8d9)
   )

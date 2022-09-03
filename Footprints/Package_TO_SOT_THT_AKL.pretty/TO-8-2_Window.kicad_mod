@@ -1,6 +1,6 @@
 (footprint "TO-8-2_Window" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A4C04E)
+  (tedit 623058D4)
   (descr "TO-8-2_Window, Window, Alternate KiCad Library")
   (tags "TO-8-2_Window Window")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2f0a3a30-8d19-4851-a6f2-216e800226db)
   )
-  (fp_text value "TO-8-2_Window" (at 3.55 8.32) (layer "F.Fab")
+  (fp_text value "TO-8-2_Window" (at 3.55 8.32) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 93383377-6367-4a39-9299-ea963de3e2c3)
   )

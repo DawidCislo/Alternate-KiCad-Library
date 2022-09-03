@@ -1,6 +1,6 @@
 (footprint "L_Radial_D7.8mm_P5.00mm_Fastron_07HCP" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D9D5)
+  (tedit 62286E7C)
   (descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=7.8mm, Fastron, 07HCP, http://www.abracon.com/Magnetics/radial/AISR875.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 5.00mm  diameter 7.8mm Fastron 07HCP")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 004e60f1-b6e4-4e03-ac4d-169e033a7cb8)
   )
-  (fp_text value "L_Radial_D7.8mm_P5.00mm_Fastron_07HCP" (at 2.5 5.15) (layer "F.Fab")
+  (fp_text value "L_Radial_D7.8mm_P5.00mm_Fastron_07HCP" (at 2.5 5.15) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c54c2125-c11d-45cf-923c-c1b656ccb616)
   )

@@ -1,6 +1,6 @@
 (footprint "L_Axial_L20.3mm_D12.7mm_P25.40mm_Horizontal_Vishay_IHA-201" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D7F9)
+  (tedit 62286B52)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=25.4mm, , length*diameter=20.32*12.7mm^2, Vishay, IHA-201, http://www.vishay.com/docs/34014/iha.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 25.4mm  length 20.32mm diameter 12.7mm Vishay IHA-201")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e4876bed-8f69-4a6f-800f-c193b8358dca)
   )
-  (fp_text value "L_Axial_L20.3mm_D12.7mm_P25.40mm_Horizontal_Vishay_IHA-201" (at 12.7 7.47) (layer "F.Fab")
+  (fp_text value "L_Axial_L20.3mm_D12.7mm_P25.40mm_Horizontal_Vishay_IHA-201" (at 12.7 7.47) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3610ef52-1391-4309-b577-bec6e9ad2b4a)
   )

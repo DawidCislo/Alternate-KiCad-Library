@@ -1,6 +1,6 @@
 (footprint "Crystal_HC49-U_Horizontal_1EP_style1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB002)
+  (tedit 6222FEEE)
   (descr "Crystal THT HC-49/U http://5hertz.com/pdfs/04404_D.pdf, Alternate KiCad Library")
   (tags "THT crystal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 385677b7-e4db-4967-90db-d34f755edc88)
   )
-  (fp_text value "Crystal_HC49-U_Horizontal_1EP_style1" (at 9.325 3.425 90) (layer "F.Fab")
+  (fp_text value "Crystal_HC49-U_Horizontal_1EP_style1" (at 9.325 3.425 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 64bf7755-8d88-4058-ad54-938571fdc8d7)
   )
@@ -46,7 +46,7 @@
   (fp_line (start -3.35 1.9) (end 8.25 1.9) (layer "F.Fab") (width 0.1) (tstamp f5e8a6c5-fb23-423a-9b39-62f1b68f921d))
   (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp f1b41b98-19b4-4491-bfd3-795a69526c88))
   (pad "2" thru_hole circle (at 4.9 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp 816f3ba7-275c-4dd1-b9c7-c939d7bbc996))
-  (pad "3" smd rect (at 2.45 9.25) (size 11 13.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c2495d28-9779-442a-bd64-77c109586e6e))
+  (pad "3" smd roundrect (at 2.45 9.25) (size 11 13.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.02272727273) (tstamp c2495d28-9779-442a-bd64-77c109586e6e))
   (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Horizontal_1EP_style1.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

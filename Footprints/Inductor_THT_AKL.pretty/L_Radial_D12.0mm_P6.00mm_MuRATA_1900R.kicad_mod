@@ -1,6 +1,6 @@
 (footprint "L_Radial_D12.0mm_P6.00mm_MuRATA_1900R" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DDAD)
+  (tedit 62286F13)
   (descr "Inductor, Radial series, Radial, pin pitch=6.00mm, , diameter=12.0mm, MuRATA, 1900R, http://www.murata-ps.com/data/magnetics/kmp_1900r.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 6.00mm  diameter 12.0mm MuRATA 1900R")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 21fbfa23-8b5b-4e0e-8f4b-e1713cc7690a)
   )
-  (fp_text value "L_Radial_D12.0mm_P6.00mm_MuRATA_1900R" (at 3 7.25) (layer "F.Fab")
+  (fp_text value "L_Radial_D12.0mm_P6.00mm_MuRATA_1900R" (at 3 7.25) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c276440c-92a7-49d5-a0f0-8f0c62952e1b)
   )

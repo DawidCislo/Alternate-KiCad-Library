@@ -1,6 +1,6 @@
 (footprint "CP_Axial_L29.0mm_D16.0mm_P35.00mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619A7B8D)
+  (tedit 6221E4BE)
   (descr "CP, Axial series, Axial, Horizontal, pin pitch=35mm, , length*diameter=29*16mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf, Alternate KiCad Library")
   (tags "CP Axial series Axial Horizontal pin pitch 35mm  length 29mm diameter 16mm Electrolytic Capacitor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 659737b1-5e0c-45be-8135-ede5965d8d24)
   )
-  (fp_text value "CP_Axial_L29.0mm_D16.0mm_P35.00mm_Horizontal" (at 17.5 9.12) (layer "F.Fab")
+  (fp_text value "CP_Axial_L29.0mm_D16.0mm_P35.00mm_Horizontal" (at 17.5 9.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2731b87e-b7a7-46a2-adbf-17af67ba8926)
   )

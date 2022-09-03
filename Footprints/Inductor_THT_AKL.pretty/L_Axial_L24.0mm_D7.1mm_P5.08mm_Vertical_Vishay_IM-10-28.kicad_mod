@@ -1,6 +1,6 @@
 (footprint "L_Axial_L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D812)
+  (tedit 62286B71)
   (descr "Inductor, Axial series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=24*7.1mm^2, Vishay, IM-10-28, http://www.vishay.com/docs/34035/im10.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Vertical pin pitch 5.08mm  length 24mm diameter 7.1mm Vishay IM-10-28")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7fc907b9-a3a2-4dec-94da-db6cd30178ab)
   )
-  (fp_text value "L_Axial_L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28" (at 2.54 4.67) (layer "F.Fab")
+  (fp_text value "L_Axial_L24.0mm_D7.1mm_P5.08mm_Vertical_Vishay_IM-10-28" (at 2.54 4.67) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0d7d6257-4726-4e57-ba63-f0fe494dc922)
   )

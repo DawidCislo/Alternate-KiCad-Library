@@ -1,6 +1,6 @@
 (footprint "D_T-1_P2.54mm_Vertical_KathodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A114DF)
+  (tedit 62232A70)
   (descr "Diode, T-1 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.2*2.6mm^2, , http://www.diodes.com/_files/packages/T-1.pdf, Alternate KiCad Library")
   (tags "Diode T-1 series Axial Vertical pin pitch 2.54mm  length 3.2mm diameter 2.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3d0e5334-50d5-4c61-ac2c-673a4e28f781)
   )
-  (fp_text value "D_T-1_P2.54mm_Vertical_KathodeUp" (at 1.27 3.498214) (layer "F.Fab")
+  (fp_text value "D_T-1_P2.54mm_Vertical_KathodeUp" (at 1.27 3.498214) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 108c13f2-9343-4c31-a03e-b144e3630a53)
   )

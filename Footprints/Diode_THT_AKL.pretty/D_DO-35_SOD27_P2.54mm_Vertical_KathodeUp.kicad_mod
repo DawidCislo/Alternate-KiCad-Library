@@ -1,6 +1,6 @@
 (footprint "D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09889)
+  (tedit 6223131F)
   (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf, Alternate KiCad Library")
   (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 2.54mm  length 4mm diameter 2mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 01fc00d8-0b0b-4e2e-adc7-0605a6dd3d08)
   )
-  (fp_text value "D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" (at 1.27 3.215371) (layer "F.Fab")
+  (fp_text value "D_DO-35_SOD27_P2.54mm_Vertical_KathodeUp" (at 1.27 3.215371) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 88e875bd-495a-4a63-831e-93371e2e5562)
   )

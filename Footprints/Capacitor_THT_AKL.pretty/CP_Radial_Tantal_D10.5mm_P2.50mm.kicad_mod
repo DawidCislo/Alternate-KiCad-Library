@@ -1,6 +1,6 @@
 (footprint "CP_Radial_Tantal_D10.5mm_P2.50mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619A8EB6)
+  (tedit 622245D3)
   (descr "CP, Radial_Tantal series, Radial, pin pitch=2.50mm, , diameter=10.5mm, Tantal Electrolytic Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/TANTAL-TB-Serie%23.pdf")
   (tags "CP Radial_Tantal series Radial pin pitch 2.50mm  diameter 10.5mm Tantal Electrolytic Capacitor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e4ea56c6-ffe3-4a82-87a6-f6f4530280d4)
   )
-  (fp_text value "CP_Radial_Tantal_D10.5mm_P2.50mm" (at 1.25 6.5) (layer "F.Fab")
+  (fp_text value "CP_Radial_Tantal_D10.5mm_P2.50mm" (at 1.25 6.5) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5e73e510-5fdc-4c9d-9e20-83f038327a5d)
   )

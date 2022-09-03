@@ -1,6 +1,6 @@
 (footprint "TO-92L_HandSolder" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A5CF8A)
+  (tedit 623071E3)
   (descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm, hand-soldering variant with enlarged pads (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf), Alternate KiCad Library")
   (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6eb4df6f-955f-4612-9f13-468f0d538c39)
   )
-  (fp_text value "TO-92L_HandSolder" (at 1.27 2.79) (layer "F.Fab")
+  (fp_text value "TO-92L_HandSolder" (at 1.27 2.79) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4b27d5f2-aee7-4589-8da9-f161e305fd59)
   )

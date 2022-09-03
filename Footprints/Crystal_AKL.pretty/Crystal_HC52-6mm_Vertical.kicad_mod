@@ -1,6 +1,6 @@
 (footprint "Crystal_HC52-6mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB1D5)
+  (tedit 6222FF39)
   (descr "Crystal THT HC-52/6mm, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf, Alternate KiCad Library")
   (tags "THT crystalHC-49/U")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e3aa3834-1830-4c6a-ab70-e0f9859c7756)
   )
-  (fp_text value "Crystal_HC52-6mm_Vertical" (at 1.9 2.85) (layer "F.Fab")
+  (fp_text value "Crystal_HC52-6mm_Vertical" (at 1.9 2.85) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a7fda364-9ffc-4530-b7da-a2cc1ea7433e)
   )

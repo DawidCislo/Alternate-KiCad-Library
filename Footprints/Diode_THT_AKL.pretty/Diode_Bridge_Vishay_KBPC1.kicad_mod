@@ -1,6 +1,6 @@
 (footprint "Diode_Bridge_Vishay_KBPC1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A0933A)
+  (tedit 62232D7B)
   (descr "Single phase bridge rectifier case KBPC1, see http://www.vishay.com/docs/93585/vs-kbpc1series.pdf")
   (tags "Diode Bridge")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9cca6918-be8b-45b3-aaa3-5cb94afccdd5)
   )
-  (fp_text value "Diode_Bridge_Vishay_KBPC1" (at 5.35 -4.35 180) (layer "F.Fab")
+  (fp_text value "Diode_Bridge_Vishay_KBPC1" (at 5.35 -4.35 180) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cbcce484-7eac-4dc9-aa82-bc787633e87f)
   )

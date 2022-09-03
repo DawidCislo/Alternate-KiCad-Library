@@ -1,6 +1,6 @@
 (footprint "L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DDA2)
+  (tedit 62286F0D)
   (descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=12.0mm, Neosid, SD12k, style2, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd12k.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 5.00mm  diameter 12.0mm Neosid SD12k style2")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 25a7fa5c-1359-4e24-b0a8-4c1d5f4a1e9f)
   )
-  (fp_text value "L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2" (at 2.5 7.25) (layer "F.Fab")
+  (fp_text value "L_Radial_D12.0mm_P5.00mm_Neosid_SD12k_style2" (at 2.5 7.25) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9e0b34ae-0c40-4407-b0f2-53314395f9b1)
   )

@@ -1,6 +1,6 @@
 (footprint "D_DO-15_P3.81mm_Vertical_AnodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09548)
+  (tedit 622311A8)
   (descr "Diode, DO-15 series, Axial, Vertical, pin pitch=3.81mm, , length*diameter=7.6*3.6mm^2, , http://www.diodes.com/_files/packages/DO-15.pdf, Alternate KiCad Library")
   (tags "Diode DO-15 series Axial Vertical pin pitch 3.81mm  length 7.6mm diameter 3.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a89f97d0-7c2b-443e-a728-8db269cb8ad6)
   )
-  (fp_text value "D_DO-15_P3.81mm_Vertical_AnodeUp" (at 1.905 4.2535) (layer "F.Fab")
+  (fp_text value "D_DO-15_P3.81mm_Vertical_AnodeUp" (at 1.905 4.2535) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp bb820f61-55aa-4680-909e-be85222b9cb3)
   )

@@ -1,6 +1,6 @@
 (footprint "Crystal_C38-LF_D3.0mm_L8.0mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAE05)
+  (tedit 6222FD43)
   (descr "Crystal THT C38-LF 8.0mm length 3.0mm diameter, Alternate KiCad Library")
   (tags "['C38-LF']")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp baa66d47-f02c-424c-90ba-057967b0c7ac)
   )
-  (fp_text value "Crystal_C38-LF_D3.0mm_L8.0mm_Vertical" (at 0.95 2.7) (layer "F.Fab")
+  (fp_text value "Crystal_C38-LF_D3.0mm_L8.0mm_Vertical" (at 0.95 2.7) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 05645c80-5950-439d-847d-550857999e47)
   )

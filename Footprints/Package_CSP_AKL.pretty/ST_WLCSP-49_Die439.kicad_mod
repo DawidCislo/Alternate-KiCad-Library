@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-49_Die439" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21824)
+  (tedit 622B2D2D)
   (descr "WLCSP-49, 7x7 raster, 3.417x3.151mm package, pitch 0.4mm; see section 7.1 of http://www.st.com/resource/en/datasheet/stm32f301r8.pdf, Alternate KiCAD Library")
   (tags "BGA 49 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dfc25493-81ba-44ea-b696-2da7bbf4027f)
   )
-  (fp_text value "ST_WLCSP-49_Die439" (at 0 2.5755) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-49_Die439" (at 0 2.5755) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ef6ac877-1411-4790-97fd-c9056a537e3a)
   )

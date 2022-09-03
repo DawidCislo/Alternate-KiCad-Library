@@ -1,6 +1,6 @@
 (footprint "D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09965)
+  (tedit 622313CC)
   (descr "Diode, DO-41_SOD81 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf, Alternate KiCad Library")
   (tags "Diode DO-41_SOD81 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 52560f97-fa8e-4ae2-97ae-3ff5935d5541)
   )
-  (fp_text value "D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" (at 1.27 3.639635) (layer "F.Fab")
+  (fp_text value "D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" (at 1.27 3.639635) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d45b07d4-20d3-4e20-86eb-6a5d74cb8c3a)
   )

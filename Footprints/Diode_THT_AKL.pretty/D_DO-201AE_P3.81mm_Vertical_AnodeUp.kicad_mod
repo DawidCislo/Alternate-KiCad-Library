@@ -1,6 +1,6 @@
 (footprint "D_DO-201AE_P3.81mm_Vertical_AnodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1136B)
+  (tedit 62231EFB)
   (descr "Diode, DO-201AE series, Axial, Vertical, pin pitch=3.81mm, , length*diameter=9*5.3mm^2, , http://www.farnell.com/datasheets/529758.pdf, Alternate KiCad Library")
   (tags "Diode DO-201AE series Axial Vertical pin pitch 3.81mm  length 9mm diameter 5.3mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c563500-4092-49a1-b944-8ddd9e894273)
   )
-  (fp_text value "D_DO-201AE_P3.81mm_Vertical_AnodeUp" (at 1.905 5.1035) (layer "F.Fab")
+  (fp_text value "D_DO-201AE_P3.81mm_Vertical_AnodeUp" (at 1.905 5.1035) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e1ca8722-a774-4449-9bc6-3fe463e85492)
   )

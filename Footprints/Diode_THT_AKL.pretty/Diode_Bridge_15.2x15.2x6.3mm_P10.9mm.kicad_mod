@@ -1,6 +1,6 @@
 (footprint "Diode_Bridge_15.2x15.2x6.3mm_P10.9mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A091F2)
+  (tedit 62232BB8)
   (descr "Single phase bridge rectifier case 15.2x15.2mm, pitch 10.9mm, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/kbpc600.pdf")
   (tags "Diode Bridge KBPC6xx")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 38c66e31-2578-4dfd-9dab-cbd16e448456)
   )
-  (fp_text value "Diode_Bridge_15.2x15.2x6.3mm_P10.9mm" (at 5.2 -3.2 180) (layer "F.Fab")
+  (fp_text value "Diode_Bridge_15.2x15.2x6.3mm_P10.9mm" (at 5.2 -3.2 180) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e138a906-50af-4e73-8efb-2a7a4223a922)
   )

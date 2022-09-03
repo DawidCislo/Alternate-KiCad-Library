@@ -1,6 +1,6 @@
 (footprint "R_Box_L14.0mm_W5.0mm_P9.00mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7BDB9)
+  (tedit 6231870A)
   (descr "Resistor, Box series, Radial, pin pitch=9.00mm, 5W, length*width=14.0*5.0mm^2, http://www.produktinfo.conrad.com/datenblaetter/425000-449999/443860-da-01-de-METALLBAND_WIDERSTAND_0_1_OHM_5W_5Pr.pdf")
   (tags "Resistor Box series Radial pin pitch 9.00mm 5W length 14.0mm width 5.0mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4a873154-14af-457b-99c1-64b5bc769ff3)
   )
-  (fp_text value "R_Box_L14.0mm_W5.0mm_P9.00mm" (at 4.5 3.75) (layer "F.Fab")
+  (fp_text value "R_Box_L14.0mm_W5.0mm_P9.00mm" (at 4.5 3.75) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 28c618f5-67a0-478d-a807-1a7911a29b14)
   )

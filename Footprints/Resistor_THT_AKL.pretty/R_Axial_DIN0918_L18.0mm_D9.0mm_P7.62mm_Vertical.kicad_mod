@@ -1,6 +1,6 @@
 (footprint "R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7B9C6)
+  (tedit 62318601)
   (descr "Resistor, Axial_DIN0918 series, Axial, Vertical, pin pitch=7.62mm, 4W, length*diameter=18*9mm^2")
   (tags "Resistor Axial_DIN0918 series Axial Vertical pin pitch 7.62mm 4W length 18mm diameter 9mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4c4b5e3d-c2a6-42b4-83b6-2825bc0e8126)
   )
-  (fp_text value "R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical" (at 3.81 5.62) (layer "F.Fab")
+  (fp_text value "R_Axial_DIN0918_L18.0mm_D9.0mm_P7.62mm_Vertical" (at 3.81 5.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 23857c1a-d88c-4677-b8aa-61867777f767)
   )

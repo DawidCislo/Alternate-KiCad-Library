@@ -1,6 +1,6 @@
 (footprint "L_Radial_D50.8mm_P36.32mm_Vishay_IHB-6" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DF1B)
+  (tedit 622870EC)
   (descr "Inductor, Radial series, Radial, pin pitch=36.32mm, , diameter=50.8mm, Vishay, IHB-6, http://www.vishay.com/docs/34015/ihb.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 36.32mm  diameter 50.8mm Vishay IHB-6")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3c40d687-0827-4d56-84b8-5317e1fd0be7)
   )
-  (fp_text value "L_Radial_D50.8mm_P36.32mm_Vishay_IHB-6" (at 18.16 26.65) (layer "F.Fab")
+  (fp_text value "L_Radial_D50.8mm_P36.32mm_Vishay_IHB-6" (at 18.16 26.65) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7daaa54d-d8aa-4844-b810-f61e366c2bf4)
   )

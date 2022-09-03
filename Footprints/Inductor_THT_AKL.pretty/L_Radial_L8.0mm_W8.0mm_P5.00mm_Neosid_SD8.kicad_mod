@@ -1,6 +1,6 @@
 (footprint "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_SD8" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DF42)
+  (tedit 6228710D)
   (descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , length*width=8*8mm^2, Neosid, SD8, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_Sd8.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 5.00mm  length 8mm width 8mm Neosid SD8")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 136d0f98-0216-47d4-b39b-423dc363b914)
   )
-  (fp_text value "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_SD8" (at 2.5 5.25) (layer "F.Fab")
+  (fp_text value "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_SD8" (at 2.5 5.25) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c74061b9-e8c6-4596-be7a-2d2899b1fd4a)
   )

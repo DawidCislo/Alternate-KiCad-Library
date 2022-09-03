@@ -1,6 +1,6 @@
 (footprint "R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7B97E)
+  (tedit 62318544)
   (descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=20.32mm, 1.5W, length*diameter=14.3*5.7mm^2, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 20.32mm 1.5W length 14.3mm diameter 5.7mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 670deeec-f62e-4bf6-ab78-42781a968306)
   )
-  (fp_text value "R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal" (at 10.16 3.97) (layer "F.Fab")
+  (fp_text value "R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal" (at 10.16 3.97) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 377c31b0-e11e-41e4-924c-011289f9d19d)
   )

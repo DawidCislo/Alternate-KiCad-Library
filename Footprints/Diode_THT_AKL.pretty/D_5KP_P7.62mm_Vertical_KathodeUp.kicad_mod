@@ -1,6 +1,6 @@
 (footprint "D_5KP_P7.62mm_Vertical_KathodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A093AB)
+  (tedit 62230FDD)
   (descr "Diode, 5KP series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=7.62*9.53mm^2, , http://www.diodes.com/_files/packages/8686949.gif, Alternate KiCad Library")
   (tags "Diode 5KP series Axial Vertical pin pitch 7.62mm  length 7.62mm diameter 9.53mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 93f1ef33-a401-40de-80be-12761a5a42ae)
   )
-  (fp_text value "D_5KP_P7.62mm_Vertical_KathodeUp" (at 3.81 5.885) (layer "F.Fab")
+  (fp_text value "D_5KP_P7.62mm_Vertical_KathodeUp" (at 3.81 5.885) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 985a066d-1be3-4455-a6c3-e99280767d2e)
   )

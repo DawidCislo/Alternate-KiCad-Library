@@ -1,6 +1,6 @@
 (footprint "WLCSP-20_1.994x1.609mm_Layout5x4_P0.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21928)
+  (tedit 622B2E5E)
   (descr "WLCSP-20, https://www.nxp.com/docs/en/package-information/98ASA00676D.pdf, Alternate KiCAD Library")
   (tags "WLCSP-20")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 912c4ba7-0058-4683-a441-b732a7709ca5)
   )
-  (fp_text value "WLCSP-20_1.994x1.609mm_Layout5x4_P0.4mm" (at 0 3.28) (layer "F.Fab")
+  (fp_text value "WLCSP-20_1.994x1.609mm_Layout5x4_P0.4mm" (at 0 3.28) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c6912108-3a22-4d3e-b470-1c19841f8845)
   )

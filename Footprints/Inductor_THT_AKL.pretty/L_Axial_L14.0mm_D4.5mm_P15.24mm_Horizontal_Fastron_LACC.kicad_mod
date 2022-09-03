@@ -1,6 +1,6 @@
 (footprint "L_Axial_L14.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_LACC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D72B)
+  (tedit 6227849B)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=14*4.5mm^2, Fastron, LACC, http://www.fastrongroup.com/image-show/20/LACC.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 15.24mm  length 14mm diameter 4.5mm Fastron LACC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e666ce8d-1154-4b3f-8e33-e6e96d04af71)
   )
-  (fp_text value "L_Axial_L14.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_LACC" (at 7.62 3.37) (layer "F.Fab")
+  (fp_text value "L_Axial_L14.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_LACC" (at 7.62 3.37) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5f3bc88c-c08d-4b2e-bd55-34de1ba2ad33)
   )

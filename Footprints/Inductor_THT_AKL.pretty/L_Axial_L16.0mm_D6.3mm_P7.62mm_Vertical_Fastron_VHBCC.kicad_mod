@@ -1,6 +1,6 @@
 (footprint "L_Axial_L16.0mm_D6.3mm_P7.62mm_Vertical_Fastron_VHBCC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D768)
+  (tedit 622784BF)
   (descr "Inductor, Axial series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=16*6.3mm^2, Fastron, VHBCC, http://www.fastrongroup.com/image-show/25/VHBCC.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Vertical pin pitch 7.62mm  length 16mm diameter 6.3mm Fastron VHBCC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 119c0ade-0203-4cc3-95cd-652c6a5bd387)
   )
-  (fp_text value "L_Axial_L16.0mm_D6.3mm_P7.62mm_Vertical_Fastron_VHBCC" (at 3.81 4.27) (layer "F.Fab")
+  (fp_text value "L_Axial_L16.0mm_D6.3mm_P7.62mm_Vertical_Fastron_VHBCC" (at 3.81 4.27) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 04a4247e-3070-4b91-886d-ff1c8df9f101)
   )

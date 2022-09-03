@@ -1,6 +1,6 @@
 (footprint "R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7B942)
+  (tedit 6231851A)
   (descr "Resistor, Axial_DIN0516 series, Axial, Horizontal, pin pitch=25.4mm, 2W, length*diameter=15.5*5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0516 series Axial Horizontal pin pitch 25.4mm 2W length 15.5mm diameter 5mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b38d660d-dc30-4320-aa43-0a341ed0d0b7)
   )
-  (fp_text value "R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" (at 12.7 3.62) (layer "F.Fab")
+  (fp_text value "R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal" (at 12.7 3.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ec008c78-860f-4837-96a7-7c1e7a72f7d6)
   )

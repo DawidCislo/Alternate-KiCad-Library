@@ -1,6 +1,6 @@
 (footprint "D_DO-201AE_P12.70mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A113B1)
+  (tedit 62231F80)
   (descr "Diode, DO-201AE series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=9*5.3mm^2, , http://www.farnell.com/datasheets/529758.pdf, Alternate KiCad Library")
   (tags "Diode DO-201AE series Axial Horizontal pin pitch 12.7mm  length 9mm diameter 5.3mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ddc09290-dd8f-4a28-b027-d35be1f107b7)
   )
-  (fp_text value "D_DO-201AE_P12.70mm_Horizontal" (at 6.35 3.77) (layer "F.Fab")
+  (fp_text value "D_DO-201AE_P12.70mm_Horizontal" (at 6.35 3.77) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3bd92375-62b6-4b53-927c-a59dfca978bd)
   )

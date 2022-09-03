@@ -1,6 +1,6 @@
 (footprint "L_Axial_L24.0mm_D7.5mm_P27.94mm_Horizontal_Fastron_MESC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D833)
+  (tedit 62286BBA)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=27.94mm, , length*diameter=24*7.5mm^2, Fastron, MESC, http://cdn-reichelt.de/documents/datenblatt/B400/DS_MESC.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 27.94mm  length 24mm diameter 7.5mm Fastron MESC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 478d1c45-3bed-4818-bddd-abe9b9045cc8)
   )
-  (fp_text value "L_Axial_L24.0mm_D7.5mm_P27.94mm_Horizontal_Fastron_MESC" (at 13.97 4.87) (layer "F.Fab")
+  (fp_text value "L_Axial_L24.0mm_D7.5mm_P27.94mm_Horizontal_Fastron_MESC" (at 13.97 4.87) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4d4e5cb2-a111-4add-b2bb-960a5bdd4dda)
   )

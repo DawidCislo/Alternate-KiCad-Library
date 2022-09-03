@@ -1,6 +1,6 @@
 (footprint "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_NE-CPB-07E" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DF39)
+  (tedit 62287105)
   (descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , length*width=8*8mm^2, Neosid, NE-CPB-07E, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_NE_CPB07E.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 5.00mm  length 8mm width 8mm Neosid NE-CPB-07E")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fbf977ba-fe48-4165-9a06-4d053a2c9b75)
   )
-  (fp_text value "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_NE-CPB-07E" (at 2.5 5.25) (layer "F.Fab")
+  (fp_text value "L_Radial_L8.0mm_W8.0mm_P5.00mm_Neosid_NE-CPB-07E" (at 2.5 5.25) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a4249b05-683e-41af-b5ca-b97a10d1d742)
   )

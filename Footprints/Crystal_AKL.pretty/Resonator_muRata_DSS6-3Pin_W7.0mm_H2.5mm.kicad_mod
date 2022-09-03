@@ -1,6 +1,6 @@
 (footprint "Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FBAD7)
+  (tedit 62230329)
   (descr "Ceramic Resomator/Filter Murata DSS6, http://cdn-reichelt.de/documents/datenblatt/B400/DSN6NC51H.pdf, length*width=7.0x2.5mm^2 package, package length=7.0mm, package width=2.5mm, 3 pins, Alternate KiCad Library")
   (tags "THT ceramic resonator filter DSS6")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 186c7650-7277-4c87-ab20-6069e4c5c79d)
   )
-  (fp_text value "Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm" (at 2.5 2.47) (layer "F.Fab")
+  (fp_text value "Resonator_muRata_DSS6-3Pin_W7.0mm_H2.5mm" (at 2.5 2.47) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5253eb14-3d5c-4671-af58-7c51a0cae3ce)
   )

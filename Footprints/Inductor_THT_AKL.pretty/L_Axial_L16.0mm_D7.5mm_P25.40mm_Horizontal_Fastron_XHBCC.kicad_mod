@@ -1,6 +1,6 @@
 (footprint "L_Axial_L16.0mm_D7.5mm_P25.40mm_Horizontal_Fastron_XHBCC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D798)
+  (tedit 622784E3)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=25.4mm, , length*diameter=16*7.5mm^2, Fastron, XHBCC, http://www.fastrongroup.com/image-show/26/XHBCC.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 25.4mm  length 16mm diameter 7.5mm Fastron XHBCC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a00092d8-c71a-4c98-9ef4-1d6ae803d0a4)
   )
-  (fp_text value "L_Axial_L16.0mm_D7.5mm_P25.40mm_Horizontal_Fastron_XHBCC" (at 12.7 4.87) (layer "F.Fab")
+  (fp_text value "L_Axial_L16.0mm_D7.5mm_P25.40mm_Horizontal_Fastron_XHBCC" (at 12.7 4.87) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8c4d069e-a86d-4579-b67a-010c6b4211a0)
   )

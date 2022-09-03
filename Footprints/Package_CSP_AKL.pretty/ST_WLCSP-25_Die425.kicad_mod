@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-25_Die425" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21797)
+  (tedit 622B2CDF)
   (descr "WLCSP-25, 5x5 raster, 2.097x2.493mm package, pitch 0.4mm; see section 7.6 of http://www.st.com/resource/en/datasheet/stm32l031f6.pdf, Alternate KiCAD Library")
   (tags "BGA 25 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e6b3d2ae-ca5a-4d91-af02-ff25f711e7e8)
   )
-  (fp_text value "ST_WLCSP-25_Die425" (at 0 2.2465) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-25_Die425" (at 0 2.2465) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 934eb748-1d48-4d7a-b15a-c418f3018f4f)
   )

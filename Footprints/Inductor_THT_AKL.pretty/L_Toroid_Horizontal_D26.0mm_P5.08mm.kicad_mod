@@ -1,6 +1,6 @@
 (footprint "L_Toroid_Horizontal_D26.0mm_P5.08mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1E01B)
+  (tedit 6228810E)
   (descr "inductor 26mm diameter toroid, Alternate KiCad Library")
   (tags "SELF INDUCTOR")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 003b9a76-0b10-4225-9cc8-3290a8b0d6a9)
   )
-  (fp_text value "L_Toroid_Horizontal_D26.0mm_P5.08mm" (at 2.54 2.52) (layer "F.Fab")
+  (fp_text value "L_Toroid_Horizontal_D26.0mm_P5.08mm" (at 2.54 2.52) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b15f6202-23da-4a9c-bd5b-121cd30e421c)
   )

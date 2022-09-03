@@ -1,6 +1,6 @@
 (footprint "L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D6E2)
+  (tedit 62278484)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=13*4.5mm^2, Fastron, HCCC, http://www.fastrongroup.com/image-show/19/HCCC.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 15.24mm  length 13mm diameter 4.5mm Fastron HCCC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5faa636c-719e-44ee-8b3b-d3a89b62f3bd)
   )
-  (fp_text value "L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (at 7.62 3.37) (layer "F.Fab")
+  (fp_text value "L_Axial_L13.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_HCCC" (at 7.62 3.37) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 75aac889-fe32-4c26-aae1-968e1e3f3871)
   )

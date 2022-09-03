@@ -1,6 +1,6 @@
 (footprint "L_Axial_L20.0mm_D8.0mm_P25.40mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D7D3)
+  (tedit 62286B20)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=25.4mm, , length*diameter=20*8mm^2, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 25.4mm  length 20mm diameter 8mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 39567f26-5e8a-41c7-9cb6-122cd4e7108b)
   )
-  (fp_text value "L_Axial_L20.0mm_D8.0mm_P25.40mm_Horizontal" (at 12.7 5.12) (layer "F.Fab")
+  (fp_text value "L_Axial_L20.0mm_D8.0mm_P25.40mm_Horizontal" (at 12.7 5.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4a3d0995-6853-41ac-bb1d-46ca533da29a)
   )

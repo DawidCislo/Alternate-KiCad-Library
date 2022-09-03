@@ -1,6 +1,6 @@
 (footprint "Crystal_HC35-U" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAFDC)
+  (tedit 6222FED9)
   (descr "Crystal, Quarz, HC35/U, http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/TO71xx.pdf, Alternate KiCad Library")
   (tags "Crystal Quarz HC35/U")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6839cbec-cc08-400f-8860-acd57d367ec4)
   )
-  (fp_text value "Crystal_HC35-U" (at 2.5 5.8) (layer "F.Fab")
+  (fp_text value "Crystal_HC35-U" (at 2.5 5.8) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8ef2a46e-a53e-451d-b803-2cce2b14d883)
   )

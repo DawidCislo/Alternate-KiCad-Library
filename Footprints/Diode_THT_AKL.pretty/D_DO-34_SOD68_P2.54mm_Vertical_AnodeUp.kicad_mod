@@ -1,6 +1,6 @@
 (footprint "D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09678)
+  (tedit 622312AB)
   (descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf, Alternate KiCad Library")
   (tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9ab177b4-feaf-4281-a240-ccba1f874b23)
   )
-  (fp_text value "D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" (at 1.27 3.14466) (layer "F.Fab")
+  (fp_text value "D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" (at 1.27 3.14466) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fa5595f0-2810-4933-bf83-6b67fd59fda4)
   )
@@ -25,7 +25,7 @@
     (tstamp d4bc6864-ac38-4910-9766-0c9261bfde8f)
   )
   (fp_line (start 1.016 -0.381) (end 1.016 0.381) (layer "F.SilkS") (width 0.12) (tstamp 7b24c7b4-6d08-4614-9570-2167a0020f70))
-  (fp_arc (start 1.142999 0.635) (mid -1.307544 0) (end 1.142999 -0.634999) (layer "F.SilkS") (width 0.12) (tstamp 76f4fce6-6b2e-492a-b65b-1982e6a1a344))
+  (fp_arc (start 1.142999 0.635) (mid -1.307544 0.000001) (end 1.142999 -0.634999) (layer "F.SilkS") (width 0.12) (tstamp 76f4fce6-6b2e-492a-b65b-1982e6a1a344))
   (fp_poly (pts
       (xy 1.524 0.381)
       (xy 1.016 0)

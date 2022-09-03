@@ -1,6 +1,6 @@
 (footprint "D_DO-34_SOD68_P7.62mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A096D0)
+  (tedit 622312E5)
   (descr "Diode, DO-34_SOD68 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf, Alternate KiCad Library")
   (tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 7.62mm  length 3.04mm diameter 1.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6d732063-53b6-4c79-b921-5a81d69ec103)
   )
-  (fp_text value "D_DO-34_SOD68_P7.62mm_Horizontal" (at 3.81 1.92) (layer "F.Fab")
+  (fp_text value "D_DO-34_SOD68_P7.62mm_Horizontal" (at 3.81 1.92) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3041c740-a382-44de-b62b-2177dae48e80)
   )

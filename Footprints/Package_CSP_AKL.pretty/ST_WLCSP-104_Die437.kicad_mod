@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-104_Die437" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218BD)
+  (tedit 622B2DA8)
   (descr "WLCSP-104, 9x12 raster, 4.095x5.094mm package, pitch 0.4mm; see section 7.5 of http://www.st.com/resource/en/datasheet/stm32l152ze.pdf, Alternate KiCAD Library")
   (tags "BGA 104 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d247f09b-c4b1-406a-a7f0-e6b74c7d2c96)
   )
-  (fp_text value "ST_WLCSP-104_Die437" (at 0 3.547) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-104_Die437" (at 0 3.547) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 55851e8b-b2d7-447b-a66b-2c9bd9ac74b6)
   )

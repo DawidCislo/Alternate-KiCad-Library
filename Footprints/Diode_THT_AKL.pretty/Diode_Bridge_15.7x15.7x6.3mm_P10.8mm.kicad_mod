@@ -1,6 +1,6 @@
 (footprint "Diode_Bridge_15.7x15.7x6.3mm_P10.8mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09282)
+  (tedit 62232BBD)
   (descr "Single phase bridge rectifier case 15.7x15.7")
   (tags "Diode Bridge")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ea20032b-4d8c-4c71-9fed-cf28839cc07d)
   )
-  (fp_text value "Diode_Bridge_15.7x15.7x6.3mm_P10.8mm" (at 5.2 -3.6 180) (layer "F.Fab")
+  (fp_text value "Diode_Bridge_15.7x15.7x6.3mm_P10.8mm" (at 5.2 -3.6 180) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp bb9910c5-d372-45c7-a4de-ee33b2452887)
   )

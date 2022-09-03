@@ -1,6 +1,6 @@
 (footprint "L_Radial_L16.1mm_W16.1mm_Px7.62mm_Py12.70mm_Pulse_LP-44" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DF86)
+  (tedit 62287690)
   (descr "Inductor, Radial series, Radial, pin pitch=7.62*12.70mm^2, , length*width=16.13*16.13mm^2, Pulse, LP-44, http://datasheet.octopart.com/PE-54044NL-Pulse-datasheet-5313493.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 7.62*12.70mm^2  length 16.13mm width 16.13mm Pulse LP-44")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0d902e12-e3bb-4385-afb3-3844ab84f619)
   )
-  (fp_text value "L_Radial_L16.1mm_W16.1mm_Px7.62mm_Py12.70mm_Pulse_LP-44" (at 3.81 2.965) (layer "F.Fab")
+  (fp_text value "L_Radial_L16.1mm_W16.1mm_Px7.62mm_Py12.70mm_Pulse_LP-44" (at 3.81 2.965) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5abc59f8-ac34-4c0e-94e2-8a7b0e1d44d2)
   )

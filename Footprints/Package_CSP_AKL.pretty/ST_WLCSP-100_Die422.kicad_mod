@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-100_Die422" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218A4)
+  (tedit 622B2D95)
   (descr "WLCSP-100, 10x10 raster, 4.201x4.663mm package, pitch 0.4mm; see section 7.4 of http://www.st.com/resource/en/datasheet/stm32f302vc.pdf, Alternate KiCAD Library")
   (tags "BGA 100 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d73fdeb2-0694-4b83-a3f4-c08411bca21f)
   )
-  (fp_text value "ST_WLCSP-100_Die422" (at 0 3.3315) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-100_Die422" (at 0 3.3315) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3c54cbfe-8c80-4205-b2e8-444eed514a23)
   )

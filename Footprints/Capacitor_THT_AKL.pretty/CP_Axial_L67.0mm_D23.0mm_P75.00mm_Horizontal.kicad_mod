@@ -1,6 +1,6 @@
 (footprint "CP_Axial_L67.0mm_D23.0mm_P75.00mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619A7D9B)
+  (tedit 6221EE07)
   (descr "CP, Axial series, Axial, Horizontal, pin pitch=75mm, , length*diameter=67*23.0mm^2, Electrolytic Capacitor, , http://www.vishay.com/docs/42037/53d.pdf, Alternate KiCad Library")
   (tags "CP Axial series Axial Horizontal pin pitch 75mm  length 67mm diameter 23.0mm Electrolytic Capacitor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 564784ea-1358-4f72-801d-e915feb45ae9)
   )
-  (fp_text value "CP_Axial_L67.0mm_D23.0mm_P75.00mm_Horizontal" (at 37.5 12.62) (layer "F.Fab")
+  (fp_text value "CP_Axial_L67.0mm_D23.0mm_P75.00mm_Horizontal" (at 37.5 12.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0edb340f-c223-4eef-affc-daaeac7681ee)
   )

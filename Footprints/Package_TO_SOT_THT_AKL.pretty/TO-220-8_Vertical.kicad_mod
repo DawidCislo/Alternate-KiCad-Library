@@ -1,6 +1,6 @@
 (footprint "TO-220-8_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A5ECFB)
+  (tedit 62309F2B)
   (descr "TO-220-8 (Multiwatt8), Vertical, 2.54mm Pitch (http://www.st.com/resource/en/datasheet/tda7264.pdf), Alternate KiCad Library")
   (tags "TO-220-9 Vertical 2.54mm Pitch Multiwatt 8")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d060dce6-5f4f-4391-9c43-d8b92dee3fbb)
   )
-  (fp_text value "TO-220-8_Vertical" (at 8.89 3.1) (layer "F.Fab")
+  (fp_text value "TO-220-8_Vertical" (at 8.89 3.1) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c9b1d692-61d4-4324-b853-e5c3eb3e746e)
   )

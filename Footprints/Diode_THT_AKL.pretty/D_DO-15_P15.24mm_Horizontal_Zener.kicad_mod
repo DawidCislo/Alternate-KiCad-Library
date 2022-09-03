@@ -1,6 +1,6 @@
 (footprint "D_DO-15_P15.24mm_Horizontal_Zener" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A095EC)
+  (tedit 62231203)
   (descr "Diode, DO-15 series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=7.6*3.6mm^2, , http://www.diodes.com/_files/packages/DO-15.pdf, Alternate KiCad Library")
   (tags "Diode DO-15 series Axial Horizontal pin pitch 15.24mm  length 7.6mm diameter 3.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3503a95c-7006-4b61-ab01-64a2719340d4)
   )
-  (fp_text value "D_DO-15_P15.24mm_Horizontal_Zener" (at 7.62 2.92) (layer "F.Fab")
+  (fp_text value "D_DO-15_P15.24mm_Horizontal_Zener" (at 7.62 2.92) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3d475521-8a44-4d32-8a3a-2da0a297bf86)
   )

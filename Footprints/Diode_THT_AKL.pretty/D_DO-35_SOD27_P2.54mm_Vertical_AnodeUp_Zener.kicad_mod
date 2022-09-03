@@ -1,6 +1,6 @@
 (footprint "D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp_Zener" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A0987E)
+  (tedit 6223131B)
   (descr "Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf, Alternate KiCad Library")
   (tags "Diode DO-35_SOD27 series Axial Vertical pin pitch 2.54mm  length 4mm diameter 2mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2c20bf7e-3387-45d9-9685-4283c9cd6be8)
   )
-  (fp_text value "D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp_Zener" (at 1.27 3.215371) (layer "F.Fab")
+  (fp_text value "D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp_Zener" (at 1.27 3.215371) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2cde9daa-b44d-4771-97ba-121c04da29de)
   )

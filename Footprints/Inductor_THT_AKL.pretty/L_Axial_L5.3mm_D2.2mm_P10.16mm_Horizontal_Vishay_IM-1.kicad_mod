@@ -1,6 +1,6 @@
 (footprint "L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D60C)
+  (tedit 6227835F)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.3*2.2mm^2, Vishay, IM-1, http://www.vishay.com/docs/34030/im.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 10.16mm  length 5.3mm diameter 2.2mm Vishay IM-1")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d1376b90-4ac9-48b1-9f01-6d34305059f2)
   )
-  (fp_text value "L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (at 5.08 2.22) (layer "F.Fab")
+  (fp_text value "L_Axial_L5.3mm_D2.2mm_P10.16mm_Horizontal_Vishay_IM-1" (at 5.08 2.22) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 96adc4e8-aaf5-43b3-a609-e3ce5bf181e3)
   )

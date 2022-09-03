@@ -1,6 +1,6 @@
 (footprint "Diode_Bridge_Round_D9.0mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A092F6)
+  (tedit 62232D65)
   (descr "4-lead round diode bridge package, diameter 9.0mm, pin pitch 5.0mm, see https://diotec.com/tl_files/diotec/files/pdf/datasheets/b40r.pdf")
   (tags "diode bridge 9.0mm 8.85mm WOB pitch 5.0mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5cb54899-abb3-4007-9261-f67fa1251ff7)
   )
-  (fp_text value "Diode_Bridge_Round_D9.0mm" (at 2.794 8.128) (layer "F.Fab")
+  (fp_text value "Diode_Bridge_Round_D9.0mm" (at 2.794 8.128) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 37c22cd8-6360-4066-8c91-ee9c8f60104b)
   )

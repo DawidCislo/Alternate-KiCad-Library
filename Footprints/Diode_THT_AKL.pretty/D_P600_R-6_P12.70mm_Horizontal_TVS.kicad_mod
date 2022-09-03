@@ -1,6 +1,6 @@
 (footprint "D_P600_R-6_P12.70mm_Horizontal_TVS" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A11496)
+  (tedit 62232218)
   (descr "Diode, P600_R-6 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=9.1*9.1mm^2, , http://www.vishay.com/docs/88692/p600a.pdf, http://www.diodes.com/_files/packages/R-6.pdf, Alternate KiCad Library")
   (tags "Diode P600_R-6 series Axial Horizontal pin pitch 12.7mm  length 9.1mm diameter 9.1mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 36c19e0a-4e4c-40bc-ac84-d7cbc283e3bf)
   )
-  (fp_text value "D_P600_R-6_P12.70mm_Horizontal_TVS" (at 6.35 5.67) (layer "F.Fab")
+  (fp_text value "D_P600_R-6_P12.70mm_Horizontal_TVS" (at 6.35 5.67) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4653255e-9266-45b5-b822-2a5c0b0d7ee7)
   )

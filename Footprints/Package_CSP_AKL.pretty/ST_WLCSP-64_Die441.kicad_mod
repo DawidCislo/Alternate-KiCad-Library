@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-64_Die441" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21860)
+  (tedit 622B2D58)
   (descr "WLCSP-64, 8x8 raster, 3.623x3.651mm package, pitch 0.4mm; see section 7.1 of http://www.st.com/resource/en/datasheet/DM00213872.pdf, Alternate KiCAD Library")
   (tags "BGA 64 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a44b7737-af91-4f40-b6f6-937f5c946bc7)
   )
-  (fp_text value "ST_WLCSP-64_Die441" (at 0 2.8255) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-64_Die441" (at 0 2.8255) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5c886b25-8755-4aad-8dc6-661b6c0b7652)
   )

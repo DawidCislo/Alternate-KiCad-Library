@@ -1,6 +1,6 @@
 (footprint "D_DO-35_SOD27_P12.70mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A0992E)
+  (tedit 62231396)
   (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf, Alternate KiCad Library")
   (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 12.7mm  length 4mm diameter 2mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1484c735-43cc-488f-a161-3c14018bdb6c)
   )
-  (fp_text value "D_DO-35_SOD27_P12.70mm_Horizontal" (at 6.35 2.12) (layer "F.Fab")
+  (fp_text value "D_DO-35_SOD27_P12.70mm_Horizontal" (at 6.35 2.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c8c20408-6d5f-4556-874d-f55eaac30c36)
   )

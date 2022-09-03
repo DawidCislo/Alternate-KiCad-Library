@@ -1,6 +1,6 @@
 (footprint "Crystal_HC33-U_Horizontal_1EP_style1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAF99)
+  (tedit 6222FECA)
   (descr "Crystal THT HC-33/U http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf, Alternate KiCad Library")
   (tags "THT crystal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c4789e1-2253-487c-b63c-66dca275369c)
   )
-  (fp_text value "Crystal_HC33-U_Horizontal_1EP_style1" (at 17.545 4.725 90) (layer "F.Fab")
+  (fp_text value "Crystal_HC33-U_Horizontal_1EP_style1" (at 17.545 4.725 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ef435249-5ab5-45d0-afb7-0f1ee456b2ef)
   )
@@ -46,7 +46,7 @@
   (fp_line (start 0 1.25) (end 0 0) (layer "F.Fab") (width 0.1) (tstamp fcb438d7-1f18-422e-92e6-5933a867e81b))
   (pad "1" thru_hole circle (at 0 0) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp 5548800f-9438-468c-b83b-0391529e4825))
   (pad "2" thru_hole circle (at 12.34 0) (size 2.7 2.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp 0eb78e06-fa71-4c30-b972-d4605296600b))
-  (pad "3" smd rect (at 6.17 12.75) (size 20 20.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6bec9fe1-14cc-4e31-95bd-e255b8c14c04))
+  (pad "3" smd roundrect (at 6.17 12.75) (size 20 20.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.0125) (tstamp 6bec9fe1-14cc-4e31-95bd-e255b8c14c04))
   (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC33-U_Horizontal_1EP_style1.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

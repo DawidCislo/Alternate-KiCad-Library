@@ -1,6 +1,6 @@
 (footprint "Resonator-3Pin_W6.0mm_H3.0mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB980)
+  (tedit 622302A0)
   (descr "Ceramic Resomator/Filter 6.0x3.0mm^2, length*width=6.0x3.0mm^2 package, package length=6.0mm, package width=3.0mm, 3 pins, Alternate KiCad Library")
   (tags "THT ceramic resonator filter")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 56886399-ebb7-4964-bfb3-2a10b454d696)
   )
-  (fp_text value "Resonator-3Pin_W6.0mm_H3.0mm" (at 2.5 2.7) (layer "F.Fab")
+  (fp_text value "Resonator-3Pin_W6.0mm_H3.0mm" (at 2.5 2.7) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8003adaf-59d6-49ff-bb57-00740989eeba)
   )

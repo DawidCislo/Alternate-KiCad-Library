@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-144_Die470" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218CF)
+  (tedit 622B2DC2)
   (descr "WLCSP-144, 12x12 raster, 5.24x5.24mm package, pitch 0.4mm; see section 7.4 of http://www.st.com/resource/en/datasheet/DM00366448.pdf, Alternate KiCAD Library")
   (tags "BGA 144 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fc21581f-733c-4672-b081-636a65e9f342)
   )
-  (fp_text value "ST_WLCSP-144_Die470" (at 0 3.62) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-144_Die470" (at 0 3.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 790541e4-474f-4632-8a6b-9cad804e25b3)
   )

@@ -1,6 +1,6 @@
 (footprint "L_Radial_D7.2mm_P3.00mm_MuRATA_1700" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D9BA)
+  (tedit 62286E63)
   (descr "Inductor, Radial series, Radial, pin pitch=3.00mm, , diameter=7.2mm, MuRATA, 1700, http://www.murata-ps.com/data/magnetics/kmp_1700.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 3.00mm  diameter 7.2mm MuRATA 1700")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7ec2f5bc-0a42-4d2f-a446-b023f0f2abe5)
   )
-  (fp_text value "L_Radial_D7.2mm_P3.00mm_MuRATA_1700" (at 1.5 4.85) (layer "F.Fab")
+  (fp_text value "L_Radial_D7.2mm_P3.00mm_MuRATA_1700" (at 1.5 4.85) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4562185c-0509-4dcc-be4b-00365b5fb490)
   )

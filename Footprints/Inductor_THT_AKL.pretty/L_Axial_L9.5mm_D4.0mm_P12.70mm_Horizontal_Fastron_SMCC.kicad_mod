@@ -1,6 +1,6 @@
 (footprint "L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D662)
+  (tedit 622783BC)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=9.5*4mm^2, Fastron, SMCC, http://cdn-reichelt.de/documents/datenblatt/B400/DS_SMCC_NEU.pdf, http://cdn-reichelt.de/documents/datenblatt/B400/LEADEDINDUCTORS.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 12.7mm  length 9.5mm diameter 4mm Fastron SMCC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 949611de-219f-417a-8ab6-898fd3e3e78d)
   )
-  (fp_text value "L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC" (at 6.35 3.12) (layer "F.Fab")
+  (fp_text value "L_Axial_L9.5mm_D4.0mm_P12.70mm_Horizontal_Fastron_SMCC" (at 6.35 3.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c3f21f60-a1b0-4872-a109-8d962ccf487a)
   )

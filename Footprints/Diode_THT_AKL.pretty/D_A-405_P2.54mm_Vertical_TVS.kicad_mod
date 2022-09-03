@@ -1,6 +1,6 @@
 (footprint "D_A-405_P2.54mm_Vertical_TVS" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A0948B)
+  (tedit 622310E5)
   (descr "Diode, A-405 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf, Alternate KiCad Library")
   (tags "Diode A-405 series Axial Vertical pin pitch 2.54mm  length 5.2mm diameter 2.7mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c203a87d-0d32-4256-b22d-1639c7b37fb8)
   )
-  (fp_text value "D_A-405_P2.54mm_Vertical_TVS" (at 1.27 3.359) (layer "F.Fab")
+  (fp_text value "D_A-405_P2.54mm_Vertical_TVS" (at 1.27 3.359) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1fa34cb9-887c-4176-ad26-d4896c7dbe00)
   )

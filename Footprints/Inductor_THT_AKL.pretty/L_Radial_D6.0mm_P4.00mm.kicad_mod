@@ -1,6 +1,6 @@
 (footprint "L_Radial_D6.0mm_P4.00mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D99F)
+  (tedit 62286E56)
   (descr "Inductor, Radial series, Radial, pin pitch=4.00mm, , diameter=6.0mm, http://www.abracon.com/Magnetics/radial/AIUR-07.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 4.00mm  diameter 6.0mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a91bb82e-b49f-43b9-8df4-4cbc3870d008)
   )
-  (fp_text value "L_Radial_D6.0mm_P4.00mm" (at 2 4.25) (layer "F.Fab")
+  (fp_text value "L_Radial_D6.0mm_P4.00mm" (at 2 4.25) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 99b7239a-e254-4e17-baa1-45ab8f7a2e32)
   )

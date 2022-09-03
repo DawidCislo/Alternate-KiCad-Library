@@ -1,6 +1,6 @@
 (footprint "D_5KPW_P7.62mm_Vertical_KathodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09372)
+  (tedit 62230F88)
   (descr "Diode, 5KPW series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=9*8mm^2, , http://www.diodes.com/_files/packages/8686949.gif, Alternate KiCad Library")
   (tags "Diode 5KPW series Axial Vertical pin pitch 7.62mm  length 9mm diameter 8mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 15a661e5-e378-4e49-b8ce-4f25ddd23120)
   )
-  (fp_text value "D_5KPW_P7.62mm_Vertical_KathodeUp" (at 3.81 5.12) (layer "F.Fab")
+  (fp_text value "D_5KPW_P7.62mm_Vertical_KathodeUp" (at 3.81 5.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 91e80c0d-3358-4209-aa7c-a68b100c1965)
   )
@@ -26,7 +26,7 @@
   )
   (fp_line (start 2.54 1.27) (end 2.54 -1.27) (layer "F.SilkS") (width 0.12) (tstamp 124bfcf9-3be5-4f8b-81cb-5919d6b83d91))
   (fp_line (start 1.905 0) (end 5.72 0) (layer "F.SilkS") (width 0.12) (tstamp 48ae05b5-9068-44d1-b826-c00d705a800a))
-  (fp_arc (start 3.810001 -1.651) (mid 11.772336 0) (end 3.810001 1.650999) (layer "F.SilkS") (width 0.12) (tstamp beaebe3b-17f5-4edc-902f-b77bdb32d033))
+  (fp_arc (start 3.810001 -1.651) (mid 11.772335 -0.000001) (end 3.810001 1.650999) (layer "F.SilkS") (width 0.12) (tstamp beaebe3b-17f5-4edc-902f-b77bdb32d033))
   (fp_poly (pts
       (xy 5.08 1.27)
       (xy 2.54 0)

@@ -1,6 +1,6 @@
 (footprint "R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7BB31)
+  (tedit 623186B9)
   (descr "Resistor, Axial_Power series, Box, pin pitch=66.04mm, 25W, length*width*height=60*14*14mm^3, http://cdn-reichelt.de/documents/datenblatt/B400/5WAXIAL_9WAXIAL_11WAXIAL_17WAXIAL%23YAG.pdf")
   (tags "Resistor Axial_Power series Box pin pitch 66.04mm 25W length 60mm width 14mm height 14mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7e21781a-1368-462f-b685-bc0011f4a0ed)
   )
-  (fp_text value "R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" (at 33.02 8.12) (layer "F.Fab")
+  (fp_text value "R_Axial_Power_L60.0mm_W14.0mm_P66.04mm" (at 33.02 8.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e2900583-a4a3-4902-a720-2374cd441947)
   )

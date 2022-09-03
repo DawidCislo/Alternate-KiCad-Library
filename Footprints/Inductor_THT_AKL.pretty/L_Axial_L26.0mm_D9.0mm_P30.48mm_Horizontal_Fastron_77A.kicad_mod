@@ -1,6 +1,6 @@
 (footprint "L_Axial_L26.0mm_D9.0mm_P30.48mm_Horizontal_Fastron_77A" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D84B)
+  (tedit 62286BD7)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=30.48mm, , length*diameter=26*9mm^2, Fastron, 77A, http://cdn-reichelt.de/documents/datenblatt/B400/DS_77A.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 30.48mm  length 26mm diameter 9mm Fastron 77A")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 752ef8f8-9f5e-453e-bfc8-b21913eb07e9)
   )
-  (fp_text value "L_Axial_L26.0mm_D9.0mm_P30.48mm_Horizontal_Fastron_77A" (at 15.24 5.62) (layer "F.Fab")
+  (fp_text value "L_Axial_L26.0mm_D9.0mm_P30.48mm_Horizontal_Fastron_77A" (at 15.24 5.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a48a518b-dc94-4a33-abd5-4e997384167d)
   )

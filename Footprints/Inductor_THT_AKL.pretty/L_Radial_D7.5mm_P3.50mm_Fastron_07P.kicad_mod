@@ -1,6 +1,6 @@
 (footprint "L_Radial_D7.5mm_P3.50mm_Fastron_07P" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D9C3)
+  (tedit 62286E6A)
   (descr "Inductor, Radial series, Radial, pin pitch=3.50mm, , diameter=7.5mm, Fastron, 07P, http://www.fastrongroup.com/image-show/39/07P.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 3.50mm  diameter 7.5mm Fastron 07P")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1601dd25-cd0e-408d-98b8-d59cb2364ffd)
   )
-  (fp_text value "L_Radial_D7.5mm_P3.50mm_Fastron_07P" (at 1.75 5) (layer "F.Fab")
+  (fp_text value "L_Radial_D7.5mm_P3.50mm_Fastron_07P" (at 1.75 5) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5e962efa-6821-4294-838d-6969f0c46ca2)
   )

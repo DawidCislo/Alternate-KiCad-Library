@@ -1,6 +1,6 @@
 (footprint "D_DO-201_P5.08mm_Vertical_KathodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A11414)
+  (tedit 62232114)
   (descr "Diode, DO-201 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf, Alternate KiCad Library")
   (tags "Diode DO-201 series Axial Vertical pin pitch 5.08mm  length 9.53mm diameter 5.21mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8796d650-c5c6-42b5-86c8-c1dcbaa2bbb4)
   )
-  (fp_text value "D_DO-201_P5.08mm_Vertical_KathodeUp" (at 2.54 3.725) (layer "F.Fab")
+  (fp_text value "D_DO-201_P5.08mm_Vertical_KathodeUp" (at 2.54 3.725) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 33d996a5-1e8e-4233-8427-1c864298ded9)
   )

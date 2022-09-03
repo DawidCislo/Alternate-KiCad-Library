@@ -1,6 +1,6 @@
 (footprint "WLCSP-56_3.170x3.444mm_Layout7x8_P0.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A2193C)
+  (tedit 622B2E74)
   (descr "WLCSP-56, 7x8 raster, 3.170x3.444mm package, pitch 0.4mm; see section 48.2.4 of http://ww1.microchip.com/downloads/en/DeviceDoc/DS60001479B.pdf, Alternate KiCAD Library")
   (tags "BGA 56 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 319334b9-62cc-4e0d-901c-d4d501915ce1)
   )
-  (fp_text value "WLCSP-56_3.170x3.444mm_Layout7x8_P0.4mm" (at 0 2.722) (layer "F.Fab")
+  (fp_text value "WLCSP-56_3.170x3.444mm_Layout7x8_P0.4mm" (at 0 2.722) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 83483edd-2a21-48a5-9f98-33e156adebf0)
   )

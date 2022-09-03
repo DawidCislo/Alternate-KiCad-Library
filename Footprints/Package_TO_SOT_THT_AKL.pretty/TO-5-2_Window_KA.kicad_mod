@@ -1,6 +1,6 @@
 (footprint "TO-5-2_Window_KA" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A4BFBC)
+  (tedit 62305808)
   (descr "TO-5-2_Window, Window, Alternate KiCad Library")
   (tags "TO-5-2_Window Window")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 10380312-ebd7-41e7-a576-e0c078e1d7af)
   )
-  (fp_text value "TO-5-2_Window_KA" (at 2.54 5.82) (layer "F.Fab")
+  (fp_text value "TO-5-2_Window_KA" (at 2.54 5.82) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b2074df2-dd3c-4fbf-8742-7bfe95cfeccd)
   )

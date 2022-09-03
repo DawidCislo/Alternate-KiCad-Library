@@ -1,6 +1,6 @@
 (footprint "L_Radial_L11.5mm_W11.5mm_Px6.00mm_Py6.00mm_Neosid_NE-CPB-11EN_Drill1.8mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DF75)
+  (tedit 62287305)
   (descr "Inductor, Radial series, Radial, pin pitch=6.00*6.00mm^2, , length*width=11.5*11.5mm^2, Neosid, NE-CPB-11EN, Drill1.8mm, http://www.neosid.de/produktblaetter/neosid_Festinduktivitaet_NE_CPB11EN.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 6.00*6.00mm^2  length 11.5mm width 11.5mm Neosid NE-CPB-11EN Drill1.8mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f953affe-184a-4839-9bbb-454bc2bf8ef5)
   )
-  (fp_text value "L_Radial_L11.5mm_W11.5mm_Px6.00mm_Py6.00mm_Neosid_NE-CPB-11EN_Drill1.8mm" (at 3 4) (layer "F.Fab")
+  (fp_text value "L_Radial_L11.5mm_W11.5mm_Px6.00mm_Py6.00mm_Neosid_NE-CPB-11EN_Drill1.8mm" (at 3 4) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp de08150b-3ae1-47f1-a036-92732b6d4162)
   )

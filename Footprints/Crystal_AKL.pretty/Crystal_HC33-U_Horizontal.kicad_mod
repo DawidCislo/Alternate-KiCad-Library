@@ -1,6 +1,6 @@
 (footprint "Crystal_HC33-U_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAF8F)
+  (tedit 6222FEC6)
   (descr "Crystal THT HC-33/U http://pdi.bentech-taiwan.com/PDI/GEN20SPEV20HC3320U.pdf, Alternate KiCad Library")
   (tags "THT crystal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 523bd4c8-1da5-4162-8a0a-325b01cc1c8e)
   )
-  (fp_text value "Crystal_HC33-U_Horizontal" (at 17.16 4.6125 90) (layer "F.Fab")
+  (fp_text value "Crystal_HC33-U_Horizontal" (at 17.16 4.6125 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d27738bd-eaa2-419a-b74a-ebc185814bf5)
   )

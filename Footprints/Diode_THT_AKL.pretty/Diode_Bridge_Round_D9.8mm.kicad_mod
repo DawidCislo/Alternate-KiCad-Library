@@ -1,6 +1,6 @@
 (footprint "Diode_Bridge_Round_D9.8mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09306)
+  (tedit 62232D69)
   (descr "4-lead round diode bridge package, diameter 9.8mm, pin pitch 5.08mm, see http://www.vishay.com/docs/88769/woo5g.pdf")
   (tags "diode bridge 9.8mm WOG pitch 5.08mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 38a41a71-ed76-412a-9f13-83570978c679)
   )
-  (fp_text value "Diode_Bridge_Round_D9.8mm" (at 2.6035 8.509) (layer "F.Fab")
+  (fp_text value "Diode_Bridge_Round_D9.8mm" (at 2.6035 8.509) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0446a0d1-312c-4335-ae0e-1bd7eea0e109)
   )

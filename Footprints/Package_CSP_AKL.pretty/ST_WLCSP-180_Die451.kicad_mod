@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-180_Die451" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218DA)
+  (tedit 622B2DCB)
   (descr "WLCSP-180, 13x14 raster, 5.537x6.095mm package, pitch 0.4mm; see section 6.6 of http://www.st.com/resource/en/datasheet/DM00273119.pdf, Alternate KiCAD Library")
   (tags "BGA 180 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c9a56ecb-6c29-4a54-a4be-302b14a128ab)
   )
-  (fp_text value "ST_WLCSP-180_Die451" (at 0 4.0475) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-180_Die451" (at 0 4.0475) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 914250b5-cd8e-4c72-9837-f5ad3f55e9ab)
   )

@@ -1,6 +1,6 @@
 (footprint "R_Radial_Power_L12.0mm_W8.0mm_P5.00mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7BDF8)
+  (tedit 623187B2)
   (descr "Resistor, Radial_Power series, Radial, pin pitch=5.00mm, 3W, length*width=12.0*8.0mm^2, http://www.vishay.com/docs/30218/cpcx.pdf")
   (tags "Resistor Radial_Power series Radial pin pitch 5.00mm 3W length 12.0mm width 8.0mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2022ff67-9016-484e-a928-4a900d951282)
   )
-  (fp_text value "R_Radial_Power_L12.0mm_W8.0mm_P5.00mm" (at 2.5 5.25) (layer "F.Fab")
+  (fp_text value "R_Radial_Power_L12.0mm_W8.0mm_P5.00mm" (at 2.5 5.25) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ff0730bd-ff07-4dba-b6bb-085a24e94d86)
   )

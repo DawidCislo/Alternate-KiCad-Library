@@ -1,6 +1,6 @@
 (footprint "SOT-227" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A4BE9E)
+  (tedit 622F83FC)
   (descr "SOT-227 / SOT-227B / ISOTOP, M4 mounting screws (https://www.vishay.com/docs/95423/sot227g2.pdf, https://www.vishay.com/docs/95793/vs-fc420sa10.pdf), Alternate KiCad Library")
   (tags "sot 227 isotop")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6883484c-2adc-4520-a122-fca309aeca39)
   )
-  (fp_text value "SOT-227" (at 7.525 7.375) (layer "F.Fab")
+  (fp_text value "SOT-227" (at 7.525 7.375) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a1f71f3f-9bb9-4400-bcd2-a2157f041b5f)
   )

@@ -1,6 +1,6 @@
 (footprint "L_Axial_L26.7mm_D14.0mm_P7.62mm_Vertical_Vishay_IHA-104" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D8A1)
+  (tedit 62286C91)
   (descr "Inductor, Axial series, Axial, Vertical, pin pitch=7.62mm, , length*diameter=26.67*13.97mm^2, Vishay, IHA-104, http://www.vishay.com/docs/34014/iha.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Vertical pin pitch 7.62mm  length 26.67mm diameter 13.97mm Vishay IHA-104")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp be67d65b-44e0-45ed-ab33-b2b3c56bf32b)
   )
-  (fp_text value "L_Axial_L26.7mm_D14.0mm_P7.62mm_Vertical_Vishay_IHA-104" (at 3.81 8.105) (layer "F.Fab")
+  (fp_text value "L_Axial_L26.7mm_D14.0mm_P7.62mm_Vertical_Vishay_IHA-104" (at 3.81 8.105) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a3c044ae-3fde-435a-8b21-b1569c51bfa4)
   )

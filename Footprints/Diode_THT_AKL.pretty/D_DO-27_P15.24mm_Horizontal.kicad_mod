@@ -1,6 +1,6 @@
 (footprint "D_DO-27_P15.24mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09657)
+  (tedit 62231274)
   (descr "Diode, DO-27 series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=9.52*5.33mm^2, , http://www.slottechforum.com/slotinfo/Techstuff/CD2%20Diodes%20and%20Transistors/Cases/Diode%20DO-27.jpg, Alternate KiCad Library")
   (tags "Diode DO-27 series Axial Horizontal pin pitch 15.24mm  length 9.52mm diameter 5.33mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4ebe72bc-44dd-4376-9a55-ab17cac83395)
   )
-  (fp_text value "D_DO-27_P15.24mm_Horizontal" (at 7.62 3.785) (layer "F.Fab")
+  (fp_text value "D_DO-27_P15.24mm_Horizontal" (at 7.62 3.785) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0f2e20aa-4a4a-443d-b11f-a85f6f50e7c8)
   )

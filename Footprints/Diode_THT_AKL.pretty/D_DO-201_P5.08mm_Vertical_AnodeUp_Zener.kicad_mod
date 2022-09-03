@@ -1,6 +1,6 @@
 (footprint "D_DO-201_P5.08mm_Vertical_AnodeUp_Zener" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1140B)
+  (tedit 62232108)
   (descr "Diode, DO-201 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf, Alternate KiCad Library")
   (tags "Diode DO-201 series Axial Vertical pin pitch 5.08mm  length 9.53mm diameter 5.21mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f8b3ec45-4d01-4ff9-b0e1-c2e5d50f9d79)
   )
-  (fp_text value "D_DO-201_P5.08mm_Vertical_AnodeUp_Zener" (at 2.54 3.725) (layer "F.Fab")
+  (fp_text value "D_DO-201_P5.08mm_Vertical_AnodeUp_Zener" (at 2.54 3.725) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 807b2847-062a-457b-9716-c64d921b104e)
   )
@@ -27,7 +27,7 @@
   (fp_line (start 1.778 1.016) (end 1.778 -1.016) (layer "F.SilkS") (width 0.12) (tstamp 172524b2-66b6-4e38-9abb-341f91f8fb67))
   (fp_line (start 1.524 0) (end 3.556 0) (layer "F.SilkS") (width 0.12) (tstamp 2964139b-348d-4950-a474-a28a9e905162))
   (fp_line (start 1.778 -1.016) (end 2.032 -1.016) (layer "F.SilkS") (width 0.12) (tstamp a651765d-79a8-4e13-a8c1-60acc35c9d6f))
-  (fp_arc (start 2.539999 1.27) (mid -2.839805 0) (end 2.539999 -1.269999) (layer "F.SilkS") (width 0.12) (tstamp 722b8ad8-79f6-4af3-a47b-6a535354dc6c))
+  (fp_arc (start 2.539999 1.27) (mid -2.839805 0.000001) (end 2.539999 -1.269999) (layer "F.SilkS") (width 0.12) (tstamp 722b8ad8-79f6-4af3-a47b-6a535354dc6c))
   (fp_poly (pts
       (xy 3.302 1.016)
       (xy 1.778 0)

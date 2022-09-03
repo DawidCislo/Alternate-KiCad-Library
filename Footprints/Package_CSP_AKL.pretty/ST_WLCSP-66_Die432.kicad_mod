@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-66_Die432" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21878)
+  (tedit 622B2D6B)
   (descr "WLCSP-66, 8x9 raster, 3.767x4.229mm package, pitch 0.4mm; see section 7.2 of http://www.st.com/resource/en/datasheet/stm32f378vc.pdf, Alternate KiCAD Library")
   (tags "BGA 66 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 096f31e8-7e07-4ae5-909c-46b07acc2043)
   )
-  (fp_text value "ST_WLCSP-66_Die432" (at 0 3.1145) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-66_Die432" (at 0 3.1145) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e64f1643-91cc-43da-b243-d124df1c6be8)
   )

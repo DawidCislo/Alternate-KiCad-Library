@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-168_Die434" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218D4)
+  (tedit 622B2DC7)
   (descr "WLCSP-168, 12x14 raster, 4.891x5.692mm package, pitch 0.4mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f469ni.pdf, Alternate KiCAD Library")
   (tags "BGA 168 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 42e1f664-6642-42a6-9398-8605c56aa6d0)
   )
-  (fp_text value "ST_WLCSP-168_Die434" (at 0 3.846) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-168_Die434" (at 0 3.846) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 377c6dac-f3fd-41b3-85c9-9e7bc2d3df03)
   )

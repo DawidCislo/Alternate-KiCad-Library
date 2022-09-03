@@ -1,6 +1,6 @@
 (footprint "R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7BD5F)
+  (tedit 623186EF)
   (descr "Resistor, Bare_Metal_Element series, Bare Metal Strip/Wire, Horizontal, pin pitch=15.3mm, 3W, length*width=16.3*4.8mm^2, https://www.bourns.com/pdfs/PWR4412-2S.pdf")
   (tags "Resistor Bare_Metal_Element series Bare Metal Strip Wire Horizontal pin pitch 15.3mm 3W length 16.3mm width 4.8mm ")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d0af69ee-8425-4ad3-bad6-a533a8f9c8ed)
   )
-  (fp_text value "R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm" (at 7.65 3.52) (layer "F.Fab")
+  (fp_text value "R_Bare_Metal_Element_L16.3mm_W4.8mm_P15.30mm" (at 7.65 3.52) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e479d977-ee61-4dee-b1d9-349120686059)
   )

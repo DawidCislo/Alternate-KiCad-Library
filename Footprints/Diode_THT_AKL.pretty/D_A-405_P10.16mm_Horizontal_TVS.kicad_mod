@@ -1,6 +1,6 @@
 (footprint "D_A-405_P10.16mm_Horizontal_TVS" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A094E6)
+  (tedit 62231146)
   (descr "Diode, A-405 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf, Alternate KiCad Library")
   (tags "Diode A-405 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3d793b11-636b-4438-ba22-8b20f364c49f)
   )
-  (fp_text value "D_A-405_P10.16mm_Horizontal_TVS" (at 5.08 2.47) (layer "F.Fab")
+  (fp_text value "D_A-405_P10.16mm_Horizontal_TVS" (at 5.08 2.47) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8c5b5217-11eb-492a-8113-27487bb7ce2b)
   )

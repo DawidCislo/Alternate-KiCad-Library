@@ -1,6 +1,6 @@
 (footprint "Crystal_HC49-4H_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAFE5)
+  (tedit 6222FEDE)
   (descr "Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf, Alternate KiCad Library")
   (tags "THT crystalHC-49-4H")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e521d9d1-38f4-4e6e-8fdd-38ccc14c31b9)
   )
-  (fp_text value "Crystal_HC49-4H_Vertical" (at 2.44 3.525) (layer "F.Fab")
+  (fp_text value "Crystal_HC49-4H_Vertical" (at 2.44 3.525) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp af5ed4cd-41c8-4fba-bb66-b9e57f8a455c)
   )

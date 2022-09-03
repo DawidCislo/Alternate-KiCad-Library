@@ -1,6 +1,6 @@
 (footprint "CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal_Supported" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619C8F3C)
+  (tedit 6221ED5A)
   (descr "CP, Axial series, Axial, Horizontal, Additional holes for supports, pin pitch=49mm, , length*diameter=42.5*20mm^2, Electrolytic Capacitor, Alternate KiCad Library")
   (tags "CP Axial series Axial Horizontal pin pitch 49mm  length 42.5mm diameter 20mm Electrolytic Capacitor Support")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e9c81430-1438-4af7-8ac1-07b98b5868f9)
   )
-  (fp_text value "CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal_supported" (at 24.5 11.12) (layer "F.Fab")
+  (fp_text value "CP_Axial_L42.5mm_D20.0mm_P49.00mm_Horizontal_supported" (at 24.5 11.12) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0ea72b33-24cd-47de-805b-ad75d28620e4)
   )

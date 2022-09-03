@@ -1,6 +1,6 @@
 (footprint "TO-92_Inline_W4.0mm_Horizontal_FlatSideDown" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A5D198)
+  (tedit 623073ED)
   (descr "TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf), Alternate KiCad Library")
   (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e415d43f-8180-4758-bc18-1a7010f3d0ea)
   )
-  (fp_text value "TO-92_Inline_W4.0mm_Horizontal_FlatSideDown" (at 1.27 -1.778) (layer "F.Fab")
+  (fp_text value "TO-92_Inline_W4.0mm_Horizontal_FlatSideDown" (at 1.27 -1.778) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6ce46c7b-c6fc-440e-9701-aa5c640eda15)
   )

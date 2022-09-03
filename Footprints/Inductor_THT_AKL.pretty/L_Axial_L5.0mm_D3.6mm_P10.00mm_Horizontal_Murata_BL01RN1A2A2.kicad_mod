@@ -1,6 +1,6 @@
 (footprint "L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D5F4)
+  (tedit 6227834A)
   (descr "Inductor, Murata BL01RN1A2A2, Axial, Horizontal, pin pitch=10.00mm, length*diameter=5*3.6mm, https://www.murata.com/en-global/products/productdetail?partno=BL01RN1A2A2%23, Alternate KiCad Library")
   (tags "inductor axial horizontal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d5680c3e-c81e-450c-a8fd-c623eca269c8)
   )
-  (fp_text value "L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (at 5 3) (layer "F.Fab")
+  (fp_text value "L_Axial_L5.0mm_D3.6mm_P10.00mm_Horizontal_Murata_BL01RN1A2A2" (at 5 3) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2e563ebd-db29-49b6-8409-ccecc1c72cca)
   )

@@ -1,6 +1,6 @@
 (footprint "Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAE4A)
+  (tedit 6222FE16)
   (descr "Crystal THT DS10 4.3mm length 1.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf, Alternate KiCad Library")
   (tags "['DS10']")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 001480c1-0295-4f44-a158-e607e31d929b)
   )
-  (fp_text value "Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style1" (at 3.02 1.075 90) (layer "F.Fab")
+  (fp_text value "Crystal_DS10_D1.0mm_L4.3mm_Horizontal_1EP_style1" (at 3.02 1.075 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 17ff6e0b-1632-42cf-8f4c-4ad02cbf593f)
   )
@@ -40,5 +40,5 @@
   (fp_line (start 0.6 1.5) (end 0 0.75) (layer "F.Fab") (width 0.1) (tstamp edc0a203-e4ba-44dd-84d6-73c2f22d9a6d))
   (pad "1" thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask) (tstamp b8671c51-97b7-4884-9a35-11b623df8cab))
   (pad "2" thru_hole circle (at 1.5 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask) (tstamp 324c53c6-a745-444a-a890-6856da952aa6))
-  (pad "3" smd rect (at 0.75 4.15) (size 1.5 4.3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0f9ea73d-8a04-432f-9205-3d92a2157ac3))
+  (pad "3" smd roundrect (at 0.75 4.15) (size 1.5 4.3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1666666667) (tstamp 0f9ea73d-8a04-432f-9205-3d92a2157ac3))
 )

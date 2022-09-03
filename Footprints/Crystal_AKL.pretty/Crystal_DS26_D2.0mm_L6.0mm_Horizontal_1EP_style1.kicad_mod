@@ -1,6 +1,6 @@
 (footprint "Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAF16)
+  (tedit 6222FE65)
   (descr "Crystal THT DS26 6.0mm length 2.0mm diameter http://www.microcrystal.com/images/_Product-Documentation/03_TF_metal_Packages/01_Datasheet/DS-Series.pdf, Alternate KiCad Library")
   (tags "['DS26']")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cc78f906-9b82-42ea-a714-d13d908c49d2)
   )
-  (fp_text value "Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style1" (at 3.72 1.625 90) (layer "F.Fab")
+  (fp_text value "Crystal_DS26_D2.0mm_L6.0mm_Horizontal_1EP_style1" (at 3.72 1.625 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 11ea9505-c956-4c1f-9617-014af622e900)
   )
@@ -39,5 +39,5 @@
   (fp_line (start -0.05 8) (end 1.95 8) (layer "F.Fab") (width 0.1) (tstamp e042973d-2290-48a6-90aa-afdd816123be))
   (pad "1" thru_hole circle (at 0 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask) (tstamp cd0bfa1f-8488-4698-913a-375f66c6badc))
   (pad "2" thru_hole circle (at 1.9 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask) (tstamp f6316b01-b985-48a5-9404-7ee21449b441))
-  (pad "3" smd rect (at 0.95 5.5) (size 2.5 6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 08d3ae81-d257-496f-8703-0fe5d694b2b9))
+  (pad "3" smd roundrect (at 0.95 5.5) (size 2.5 6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 08d3ae81-d257-496f-8703-0fe5d694b2b9))
 )

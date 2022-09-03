@@ -1,6 +1,6 @@
 (footprint "D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp_Zener" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A09693)
+  (tedit 622312B8)
   (descr "Diode, DO-34_SOD68 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.04*1.6mm^2, , https://www.nxp.com/docs/en/data-sheet/KTY83_SER.pdf, Alternate KiCad Library")
   (tags "Diode DO-34_SOD68 series Axial Vertical pin pitch 2.54mm  length 3.04mm diameter 1.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1c477670-00ab-4f83-b8c8-295d6cea7237)
   )
-  (fp_text value "D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp_Zener" (at 1.27 3.14466) (layer "F.Fab")
+  (fp_text value "D_DO-34_SOD68_P2.54mm_Vertical_KathodeUp_Zener" (at 1.27 3.14466) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 72cb261b-f07d-477a-9776-d6e2bfb692e6)
   )

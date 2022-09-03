@@ -1,6 +1,6 @@
 (footprint "Crystal_HC51_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB14C)
+  (tedit 6222FF1D)
   (descr "Crystal THT HC-51 http://www.crovencrystals.com/croven_pdf/HC-51_Crystal_Holder_Rev_00.pdf, Alternate KiCad Library")
   (tags "THT crystal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b2588a89-cda5-48cc-ab26-cbe4c5a5a4ec)
   )
-  (fp_text value "Crystal_HC51_Horizontal" (at 17.2 4.7625 90) (layer "F.Fab")
+  (fp_text value "Crystal_HC51_Horizontal" (at 17.2 4.7625 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 61157716-f001-4e18-a177-bb53418ef464)
   )

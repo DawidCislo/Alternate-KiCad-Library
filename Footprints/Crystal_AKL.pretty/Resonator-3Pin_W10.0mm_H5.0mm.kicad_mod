@@ -1,6 +1,6 @@
 (footprint "Resonator-3Pin_W10.0mm_H5.0mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB9A0)
+  (tedit 622302AF)
   (descr "Ceramic Resomator/Filter 10.0x5.0mm^2 RedFrequency MG/MT/MX series, http://www.red-frequency.com/download/datenblatt/redfrequency-datenblatt-ir-zta.pdf, length*width=10.0x5.0mm^2 package, package length=10.0mm, package width=5.0mm, 3 pins, Alternate KiCad Library")
   (tags "THT ceramic resonator filter")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a7b0158e-2a67-4467-86fd-813afed1a101)
   )
-  (fp_text value "Resonator-3Pin_W10.0mm_H5.0mm" (at 2.5 3.7) (layer "F.Fab")
+  (fp_text value "Resonator-3Pin_W10.0mm_H5.0mm" (at 2.5 3.7) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1bcb99c9-7b50-406c-818b-741a5ae3c3a3)
   )

@@ -1,6 +1,6 @@
 (footprint "D_5KP_P12.70mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A093D0)
+  (tedit 62230FF0)
   (descr "Diode, 5KP series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=7.62*9.53mm^2, , http://www.diodes.com/_files/packages/8686949.gif, Alternate KiCad Library")
   (tags "Diode 5KP series Axial Horizontal pin pitch 12.7mm  length 7.62mm diameter 9.53mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6fbfc407-57d0-4cd2-bbc5-a31230773755)
   )
-  (fp_text value "D_5KP_P12.70mm_Horizontal" (at 6.35 5.885) (layer "F.Fab")
+  (fp_text value "D_5KP_P12.70mm_Horizontal" (at 6.35 5.885) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 72521182-fa34-43c5-ae5e-38fd43f5d737)
   )

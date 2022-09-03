@@ -1,6 +1,6 @@
 (footprint "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A7B78A)
+  (tedit 623181BE)
   (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf, Alternate KiCad Library")
   (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ad022c9b-9e8c-4d90-a982-57247345b566)
   )
-  (fp_text value "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 3.81 1.92) (layer "F.Fab")
+  (fp_text value "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 3.81 1.92) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8e5ae65a-a559-4e94-844e-6f6d720da762)
   )

@@ -1,6 +1,6 @@
 (footprint "D_DO-201_P3.81mm_Vertical_AnodeUp_Zener" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A113EB)
+  (tedit 622320E0)
   (descr "Diode, DO-201 series, Axial, Vertical, pin pitch=3.81mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf, Alternate KiCad Library")
   (tags "Diode DO-201 series Axial Vertical pin pitch 3.81mm  length 9.53mm diameter 5.21mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ef57f390-c37e-445a-ada9-0ef75b9f9874)
   )
-  (fp_text value "D_DO-201_P3.81mm_Vertical_AnodeUp_Zener" (at 1.905 5.0585) (layer "F.Fab")
+  (fp_text value "D_DO-201_P3.81mm_Vertical_AnodeUp_Zener" (at 1.905 5.0585) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c6e20379-3985-43aa-8931-386e89f2bd71)
   )

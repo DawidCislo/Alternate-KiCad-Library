@@ -1,6 +1,6 @@
 (footprint "WLCSP-36_2.82x2.67mm_Layout6x6_P0.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21930)
+  (tedit 622B2E63)
   (descr "WLCSP-36, https://www.nxp.com/docs/en/package-information/98ASA00949D.pdf, Alternate KiCAD Library")
   (tags "WLCSP-36")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5b807f53-8500-4694-92f0-8805a50ab03f)
   )
-  (fp_text value "WLCSP-36_2.82x2.67mm_Layout6x6_P0.4mm" (at 0 3.57) (layer "F.Fab")
+  (fp_text value "WLCSP-36_2.82x2.67mm_Layout6x6_P0.4mm" (at 0 3.57) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0a7f1e08-cc76-438d-9b4a-32c415c2b5a7)
   )

@@ -1,6 +1,6 @@
 (footprint "NEC_Molded_7x4x9mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A4BE3C)
+  (tedit 622F83AB)
   (descr "Molded Japan Transistor Package 7x4x9mm^3, http://rtellason.com/transdata/2sb734.pdf, Alternate KiCad Library")
   (tags "Japan transistor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1f3a60f9-d6c5-4a04-a788-fd58752a2229)
   )
-  (fp_text value "NEC_Molded_7x4x9mm" (at 1.7 2.55) (layer "F.Fab")
+  (fp_text value "NEC_Molded_7x4x9mm" (at 1.7 2.55) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 095d1994-43de-4ba7-85e7-f45ca42d84c9)
   )

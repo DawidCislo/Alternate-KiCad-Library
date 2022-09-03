@@ -1,6 +1,6 @@
 (footprint "L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D687)
+  (tedit 62278438)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=15.24mm, , length*diameter=11*4.5mm^2, Fastron, MECC, http://www.fastrongroup.com/image-show/21/MECC.pdf?type=Complete-DataSheet&productType=series, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 15.24mm  length 11mm diameter 4.5mm Fastron MECC")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp dc01950a-a1f4-411a-bf9a-3bc5ec316997)
   )
-  (fp_text value "L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC" (at 7.62 3.37) (layer "F.Fab")
+  (fp_text value "L_Axial_L11.0mm_D4.5mm_P15.24mm_Horizontal_Fastron_MECC" (at 7.62 3.37) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 48a81908-9c6f-47b4-b1b3-421ad6a525f6)
   )

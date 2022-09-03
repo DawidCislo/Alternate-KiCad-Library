@@ -1,6 +1,6 @@
 (footprint "TO-92_W4.0mm_StaggerEven_Horizontal_FlatSideDown" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A5D27F)
+  (tedit 62307497)
   (descr "TO-92 horizontal, leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf), Alternate KiCad Library")
   (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 8b186fa8-3b1e-43bc-b7d6-7b5604b9e6bd)
   )
-  (fp_text value "TO-92_W4.0mm_StaggerEven_Horizontal_FlatSideDown" (at 1.27 -3.048) (layer "F.Fab")
+  (fp_text value "TO-92_W4.0mm_StaggerEven_Horizontal_FlatSideDown" (at 1.27 -3.048) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fc423f67-26f8-4f08-a868-985ceb40de3f)
   )

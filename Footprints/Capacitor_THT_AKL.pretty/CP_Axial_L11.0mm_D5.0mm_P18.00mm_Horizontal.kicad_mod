@@ -1,6 +1,6 @@
 (footprint "CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619A7AB3)
+  (tedit 6221E44B)
   (descr "CP, Axial series, Axial, Horizontal, pin pitch=18mm, , length*diameter=11*5mm^2, Electrolytic Capacitor, Alternate KiCad Library")
   (tags "CP Axial series Axial Horizontal pin pitch 18mm  length 11mm diameter 5mm Electrolytic Capacitor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 70bdfbfe-6d45-47fe-8746-6210f0340386)
   )
-  (fp_text value "CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" (at 9 3.62) (layer "F.Fab")
+  (fp_text value "CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" (at 9 3.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 58d956b8-c7a3-4b33-914a-c66cd686d80b)
   )

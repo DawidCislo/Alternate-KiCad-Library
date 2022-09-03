@@ -1,6 +1,6 @@
 (footprint "L_Radial_D29.8mm_P28.30mm_muRATA_1400series" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DEAB)
+  (tedit 62287081)
   (descr "Inductor, Radial series, Radial, pin pitch=28.30mm, , diameter=29.8mm, muRATA, 1400series, http://www.murata-ps.com/data/magnetics/kmp_1400.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 28.30mm  diameter 29.8mm muRATA 1400series")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ce395700-9152-4ecc-b403-2d2fc390b61c)
   )
-  (fp_text value "L_Radial_D29.8mm_P28.30mm_muRATA_1400series" (at 14.15 16.15) (layer "F.Fab")
+  (fp_text value "L_Radial_D29.8mm_P28.30mm_muRATA_1400series" (at 14.15 16.15) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 071f19d5-3e0c-4abd-adf7-f4ae7cf96deb)
   )

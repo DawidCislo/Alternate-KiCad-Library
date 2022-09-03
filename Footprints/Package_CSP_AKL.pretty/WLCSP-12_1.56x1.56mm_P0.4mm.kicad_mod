@@ -1,6 +1,6 @@
 (footprint "WLCSP-12_1.56x1.56mm_P0.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21909)
+  (tedit 622B2E29)
   (descr "WLCSP 12 1.56x1.56 https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMM150-DS001-01.pdf, Alternate KiCAD Library")
   (tags "BMM150 WLCSP")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9dfa690c-bc42-461f-9c2f-6b37088720e3)
   )
-  (fp_text value "WLCSP-12_1.56x1.56mm_P0.4mm" (at 0 2) (layer "F.Fab")
+  (fp_text value "WLCSP-12_1.56x1.56mm_P0.4mm" (at 0 2) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 76f4c184-b7e8-496b-8b17-82c8134cce05)
   )

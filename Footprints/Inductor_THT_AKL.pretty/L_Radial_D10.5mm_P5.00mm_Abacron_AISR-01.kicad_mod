@@ -1,6 +1,6 @@
 (footprint "L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1DD52)
+  (tedit 62286EF6)
   (descr "Inductor, Radial series, Radial, pin pitch=5.00mm, , diameter=10.5mm, Abacron, AISR-01, http://www.abracon.com/Magnetics/radial/AISR-01.pdf, Alternate KiCad Library")
   (tags "Inductor Radial series Radial pin pitch 5.00mm  diameter 10.5mm Abacron AISR-01")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d6824735-81aa-4631-b4ae-c4f0e3058f0a)
   )
-  (fp_text value "L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" (at 2.5 6.5) (layer "F.Fab")
+  (fp_text value "L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01" (at 2.5 6.5) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 39d4d5a4-4b6f-46f4-92e3-ad465ce0f1f2)
   )

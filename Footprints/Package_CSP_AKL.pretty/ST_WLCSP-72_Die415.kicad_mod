@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-72_Die415" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A2187D)
+  (tedit 622B2D71)
   (descr "WLCSP-72, 9x9 raster, 4.4084x3.7594mm package, pitch 0.4mm; see section 7.5 of http://www.st.com/resource/en/datasheet/stm32l476me.pdf, Alternate KiCAD Library")
   (tags "BGA 72 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4984c522-af7f-48a8-830d-306334205c2f)
   )
-  (fp_text value "ST_WLCSP-72_Die415" (at 0 2.8797) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-72_Die415" (at 0 2.8797) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1bddfd2b-4845-41ff-b2f4-f3b7d8cc3855)
   )

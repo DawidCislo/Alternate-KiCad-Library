@@ -1,6 +1,6 @@
 (footprint "Diode_Bridge_19.0x3.5x10.0mm_P5.0mm_B" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A115DA)
+  (tedit 62232E0A)
   (descr "Vishay GBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88606/g3sba20.pdf")
   (tags "Vishay GBU rectifier diode bridge")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6b86b846-9ebc-4244-bb04-e18f8fb68d2f)
   )
-  (fp_text value "Diode_Bridge_19.0x3.5x10.0mm_P5.0mm_B" (at -7.9 2.8 180) (layer "F.Fab")
+  (fp_text value "Diode_Bridge_19.0x3.5x10.0mm_P5.0mm_B" (at -7.9 2.8 180) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 577a95a9-2329-4d03-aff8-53d8b0859e88)
   )

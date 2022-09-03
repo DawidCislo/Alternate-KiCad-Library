@@ -1,6 +1,6 @@
 (footprint "Crystal_HC52-U_Horizontal_1EP_style1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB268)
+  (tedit 6222FF5A)
   (descr "Crystal THT HC-51/U http://www.kvg-gmbh.de/assets/uploads/files/product_pdfs/XS71xx.pdf, Alternate KiCad Library")
   (tags "THT crystal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp aefb7f83-b17f-4aca-b743-9892a9b50758)
   )
-  (fp_text value "Crystal_HC52-U_Horizontal_1EP_style1" (at 7.525 2.175 90) (layer "F.Fab")
+  (fp_text value "Crystal_HC52-U_Horizontal_1EP_style1" (at 7.525 2.175 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 74ff438c-2a02-48e8-b71a-34543fdef7c9)
   )
@@ -46,7 +46,7 @@
   (fp_line (start -2.45 1.5) (end -2.45 1.4) (layer "F.Fab") (width 0.1) (tstamp f0ba0357-501a-4be7-b3b1-abdcd5577dc1))
   (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp 15bd47a8-d79a-418d-9072-0814e10122b7))
   (pad "2" thru_hole circle (at 3.8 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp 346c20f6-a3ce-4d40-bac2-2be9241143b2))
-  (pad "3" smd rect (at 1.9 6.25) (size 8.5 9.5) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8439545a-8829-4834-954c-75c4b268a80c))
+  (pad "3" smd roundrect (at 1.9 6.25) (size 8.5 9.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.02941176471) (tstamp 8439545a-8829-4834-954c-75c4b268a80c))
   (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC52-U_Horizontal_1EP_style1.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

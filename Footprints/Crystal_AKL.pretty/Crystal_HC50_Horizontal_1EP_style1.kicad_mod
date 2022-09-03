@@ -1,6 +1,6 @@
 (footprint "Crystal_HC50_Horizontal_1EP_style1" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FB102)
+  (tedit 6222FF0A)
   (descr "Crystal THT HC-50 http://www.crovencrystals.com/croven_pdf/HC-50_Crystal_Holder_Rev_00.pdf, Alternate KiCad Library")
   (tags "THT crystal")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7762e6f3-a0e3-42e4-8437-65ee02e91d7f)
   )
-  (fp_text value "Crystal_HC50_Horizontal_1EP_style1" (at 9.575 3.25 90) (layer "F.Fab")
+  (fp_text value "Crystal_HC50_Horizontal_1EP_style1" (at 9.575 3.25 90) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c8ec047-9d5d-459f-81e0-caf9389b8761)
   )
@@ -46,7 +46,7 @@
   (fp_line (start 8.325 2.4) (end 8.325 2.5) (layer "F.Fab") (width 0.1) (tstamp f8f17ab6-a01d-4c0c-b142-35691bdf79b0))
   (pad "1" thru_hole circle (at 0 0) (size 2.3 2.3) (drill 1.5) (layers *.Cu *.Mask) (tstamp bbfa2555-c72e-442b-83e6-e93401635c74))
   (pad "2" thru_hole circle (at 4.9 0) (size 2.3 2.3) (drill 1.5) (layers *.Cu *.Mask) (tstamp c29967cb-d053-4b66-9762-d0ae84ed5e9c))
-  (pad "3" smd rect (at 2.45 9.5) (size 11.5 14) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6eeae01c-5048-43ae-91d2-e06cee2e87b1))
+  (pad "3" smd roundrect (at 2.45 9.5) (size 11.5 14) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.02173913043) (tstamp 6eeae01c-5048-43ae-91d2-e06cee2e87b1))
   (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC50_Horizontal_1EP_style1.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

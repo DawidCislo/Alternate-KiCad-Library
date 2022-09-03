@@ -1,6 +1,6 @@
 (footprint "PowerIntegrations_TO-220-7C" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A4BE6D)
+  (tedit 622F83AF)
   (descr "Non Isolated Modified TO-220 7pin Package, see http://www.farnell.com/datasheets/5793.pdf, Alternate KiCad Library")
   (tags "Power Integration Y Package")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 19b3483b-c573-49a4-bd0c-88243b695c9d)
   )
-  (fp_text value "PowerIntegrations_TO-220-7C" (at 3.81 2.22) (layer "F.Fab")
+  (fp_text value "PowerIntegrations_TO-220-7C" (at 3.81 2.22) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ebdc6898-8a6d-4d35-ab40-79e8425969af)
   )

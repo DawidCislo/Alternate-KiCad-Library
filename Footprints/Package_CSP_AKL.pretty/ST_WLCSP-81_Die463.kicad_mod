@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-81_Die463" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A21897)
+  (tedit 622B2D8A)
   (descr "WLCSP-81, 9x9 raster, 4.039x3.951mm package, pitch 0.4mm; see section 7.1 of http://www.st.com/resource/en/datasheet/DM00282249.pdf, Alternate KiCAD Library")
   (tags "BGA 81 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 09e4dbda-9446-44fe-bf15-75c8cc1331d0)
   )
-  (fp_text value "ST_WLCSP-81_Die463" (at 0 2.9755) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-81_Die463" (at 0 2.9755) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp fb832123-c1be-4a9b-9154-88978f9a8eaf)
   )

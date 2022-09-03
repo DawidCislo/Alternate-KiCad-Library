@@ -1,6 +1,6 @@
 (footprint "L_Axial_L29.9mm_D14.0mm_P38.00mm_Horizontal_Vishay_IHA-105" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A1D8B7)
+  (tedit 62286CA5)
   (descr "Inductor, Axial series, Axial, Horizontal, pin pitch=38mm, , length*diameter=29.85*13.97mm^2, Vishay, IHA-105, http://www.vishay.com/docs/34014/iha.pdf, Alternate KiCad Library")
   (tags "Inductor Axial series Axial Horizontal pin pitch 38mm  length 29.85mm diameter 13.97mm Vishay IHA-105")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp eb973f22-90c0-4272-a861-24e425626592)
   )
-  (fp_text value "L_Axial_L29.9mm_D14.0mm_P38.00mm_Horizontal_Vishay_IHA-105" (at 19 8.105) (layer "F.Fab")
+  (fp_text value "L_Axial_L29.9mm_D14.0mm_P38.00mm_Horizontal_Vishay_IHA-105" (at 19 8.105) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f7410ee6-62f8-4dd2-9d20-7b81f5706534)
   )

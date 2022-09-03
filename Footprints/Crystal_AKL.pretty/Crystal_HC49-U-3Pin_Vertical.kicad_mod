@@ -1,6 +1,6 @@
 (footprint "Crystal_HC49-U-3Pin_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619FAFED)
+  (tedit 6222FEE4)
   (descr "Crystal THT HC-49/U, 3pin-version, http://www.raltron.com/products/pdfspecs/crystal_hc_49_45_51.pdf, Alternate KiCad Library")
   (tags "THT crystalHC-49/U")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6b55d7d2-5158-4bf3-888c-fea86304e728)
   )
-  (fp_text value "Crystal_HC49-U-3Pin_Vertical" (at 2.44 3.525) (layer "F.Fab")
+  (fp_text value "Crystal_HC49-U-3Pin_Vertical" (at 2.44 3.525) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b722222f-87ab-473a-b085-08c767b50fc7)
   )

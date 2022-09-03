@@ -1,6 +1,6 @@
 (footprint "D_DO-201_P3.81mm_Vertical_TVS" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A113FC)
+  (tedit 622320FE)
   (descr "Diode, DO-201 series, Axial, Vertical, pin pitch=3.81mm, , length*diameter=9.53*5.21mm^2, , http://www.diodes.com/_files/packages/DO-201.pdf, Alternate KiCad Library")
   (tags "Diode DO-201 series Axial Vertical pin pitch 3.81mm  length 9.53mm diameter 5.21mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 38d886fa-0c4c-4e5f-8de5-8e7e1a5ad76c)
   )
-  (fp_text value "D_DO-201_P3.81mm_Vertical_TVS" (at 1.905 5.0585) (layer "F.Fab")
+  (fp_text value "D_DO-201_P3.81mm_Vertical_TVS" (at 1.905 5.0585) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0fa66ef7-616e-46e3-907e-51342070943b)
   )

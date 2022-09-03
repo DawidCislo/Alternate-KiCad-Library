@@ -1,6 +1,6 @@
 (footprint "ST_WLCSP-36_Die440" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A217E6)
+  (tedit 622B2CF4)
   (descr "WLCSP-36, 6x6 raster, 2.605x2.703mm package, pitch 0.4mm; see section 7.5 of http://www.st.com/resource/en/datasheet/stm32f051t8.pdf, Alternate KiCAD Library")
   (tags "BGA 36 0.4")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b39873fc-a0e2-4698-9ccd-e8a385000b01)
   )
-  (fp_text value "ST_WLCSP-36_Die440" (at 0 2.3515) (layer "F.Fab")
+  (fp_text value "ST_WLCSP-36_Die440" (at 0 2.3515) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp bdc406d8-9f66-4f3e-99ed-62f189f78fbe)
   )

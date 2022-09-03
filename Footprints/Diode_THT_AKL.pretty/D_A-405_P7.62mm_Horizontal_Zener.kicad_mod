@@ -1,6 +1,6 @@
 (footprint "D_A-405_P7.62mm_Horizontal_Zener" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A094D3)
+  (tedit 6223112E)
   (descr "Diode, A-405 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/A-405.pdf, Alternate KiCad Library")
   (tags "Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ca45d90d-719b-4284-a852-b21d5ba656f3)
   )
-  (fp_text value "D_A-405_P7.62mm_Horizontal_Zener" (at 3.81 2.47) (layer "F.Fab")
+  (fp_text value "D_A-405_P7.62mm_Horizontal_Zener" (at 3.81 2.47) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b24cecc2-bc0c-45b5-b5e1-57aba36ad03d)
   )

@@ -1,6 +1,6 @@
 (footprint "TO-92_Wide" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A5D29B)
+  (tedit 623074A4)
   (descr "TO-92 leads molded, wide, drill 0.75mm (see NXP sot054_po.pdf), Alternate KiCad Library")
   (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1779555d-53af-45f0-97f2-d20c23b9d16f)
   )
-  (fp_text value "TO-92_Wide" (at 2.54 2.79) (layer "F.Fab")
+  (fp_text value "TO-92_Wide" (at 2.54 2.79) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e00da27f-bf40-47a9-a38d-88ea800e807b)
   )

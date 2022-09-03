@@ -1,6 +1,6 @@
 (footprint "WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A218F9)
+  (tedit 622B2E02)
   (descr "WLCSP/XFBGA 8-pin package, staggered pins, http://www.adestotech.com/wp-content/uploads/DS-AT25DF041B_040.pdf, Alternate KiCAD Library")
   (tags "WLCSP WLCSP-8 XFBGA XFBGA-8  CSP BGA Chip-Scale Glass-Top")
   (attr smd)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3fb7e9fe-4a01-4874-a515-df78ed5a8861)
   )
-  (fp_text value "WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" (at 0 2.76) (layer "F.Fab")
+  (fp_text value "WLCSP-8_1.58x1.63x0.35mm_Layout3x5_P0.35x0.4mm_Ball0.25mm_Pad0.25mm_NSMD" (at 0 2.76) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d0774fdd-d7e0-4205-ab2b-54bc222d08f8)
   )

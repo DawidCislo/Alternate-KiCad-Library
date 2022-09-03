@@ -1,6 +1,6 @@
 (footprint "CP_Axial_L37.0mm_D13.0mm_P43.00mm_Horizontal_Supported" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 619C8E91)
+  (tedit 6221E505)
   (descr "CP, Axial series, Axial, Horizontal, Additional holes for supports, pin pitch=43mm, , length*diameter=37*13mm^2, Electrolytic Capacitor, , http://www.kemet.com/Lists/ProductCatalog/Attachments/424/KEM_AC102.pdf, Alternate KiCad Library")
   (tags "CP Axial series Axial Horizontal pin pitch 43mm  length 37mm diameter 13mm Electrolytic Capacitor Support")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5103b125-21ae-43fc-8159-4e020fabd5dd)
   )
-  (fp_text value "CP_Axial_L37.0mm_D13.0mm_P43.00mm_Horizontal_Supported" (at 21.5 7.62) (layer "F.Fab")
+  (fp_text value "CP_Axial_L37.0mm_D13.0mm_P43.00mm_Horizontal_Supported" (at 21.5 7.62) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e054d619-8a57-4ce2-bad2-f74f0be0076e)
   )

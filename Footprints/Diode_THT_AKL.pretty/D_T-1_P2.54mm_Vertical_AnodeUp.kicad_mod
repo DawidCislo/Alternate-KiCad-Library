@@ -1,6 +1,6 @@
 (footprint "D_T-1_P2.54mm_Vertical_AnodeUp" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61A114D8)
+  (tedit 62232A4F)
   (descr "Diode, T-1 series, Axial, Vertical, pin pitch=2.54mm, , length*diameter=3.2*2.6mm^2, , http://www.diodes.com/_files/packages/T-1.pdf, Alternate KiCad Library")
   (tags "Diode T-1 series Axial Vertical pin pitch 2.54mm  length 3.2mm diameter 2.6mm")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 4bbc45cc-60fa-49c5-a3f8-bfe751a24f17)
   )
-  (fp_text value "D_T-1_P2.54mm_Vertical_AnodeUp" (at 1.27 3.498214) (layer "F.Fab")
+  (fp_text value "D_T-1_P2.54mm_Vertical_AnodeUp" (at 1.27 3.498214) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1e5e8a9a-8d86-471b-a00e-a649167fdd0b)
   )
