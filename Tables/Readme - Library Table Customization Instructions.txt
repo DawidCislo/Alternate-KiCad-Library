@@ -18,7 +18,7 @@ This naming results in AKL libraries being grouped in one place when browsing li
 AKL_Lib1
 AKL_Lib2
 AKL_Lib3
-...		<- standard KiCad libraries startying with B
+...		<- standard KiCad libraries starting with B
 ...
 
 
