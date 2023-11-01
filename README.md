@@ -2,55 +2,70 @@
 
 Alternate KiCad Library
 
-Installation instructions for Plugin and Content Manager:
-KiCAD uses library tables to keep track of installed libraries. Content Manager DOES NOT automatically update these library tables.
-To do it manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
+## Installation instructions for Plugin and Content Manager:
+
+KiCad 7 automatically adds third-party libraries to library tables, but by default it also adds the 'PCM_' prefix to their names.
+This breaks symbol-footprint association and user action is needed for the library to work as intended.
+
+### Either:
+Before downloading go to `Preferences` (Ctrl + ,), then to `Plugin and Content Manager` and delete anything found in the `Library nickname prefix` text box. You can then use the PCM to download the library and it will install automatically.
+### Or:
+After downloading the library from PCM, open `Manage Footprint Libraries` from the Preferences tab. Locate and rename all AKL footprint libraries, so that they no longer have the `PCM_` prefix. Example:
+`PCM_Fuse_AKL` rename to `Fuse_AKL`.
+For reference, all AKL footprint libraries have `AKL` in their name, see the User Manual PDF for more details.
+
+All symbols should now have correct footprint links.
+
+### KiCad 6 Setup
+KiCad uses library tables to keep track of installed libraries. Content Manager does not automatically update these library tables.
+To do it manually, go to `Manage Footprint Libraries` in the preferences tab.
  
 Press the Folder icon below the table and locate:
-<KiCAD 6 user directory>\3rdparty\footprints\alternate-kicad-library
+`<KiCad 6 user directory>\3rdparty\footprints\alternate-kicad-library`
 
-Multiple folders ending in .Pretty should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press ‘Select Folder’
+Multiple folders ending in `.Pretty` should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press `Select Folder`
 
-Next, go to ‘Manage Symbol Libraries’ in the preferences tab. 
+Next, go to `Manage Symbol Libraries` in the preferences tab. 
  
 Press the Folder icon below the table and locate:
-<KiCAD 6 user directory>\3rdparty\symbols\alternate-kicad-library
+`<KiCad 6 user directory>\3rdparty\symbols\alternate-kicad-library`
 
-Multiple files ending in .kicad_sym should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press ‘Open’.
+Multiple files ending in `.kicad_sym` should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press `Open`.
 
 All the installed libraries should be now accessible.
 
-# Manual installation:
+## Manual installation (all KiCad versions):
+
 Extract the downloaded AKL files into any folder you want.
 
-KiCAD uses library tables to keep track of installed libraries.
-To install libraries manually, go to ‘Manage Footprint Libraries’ in the preferences tab.
+KiCad uses library tables to keep track of installed libraries.
+To install libraries manually, go to `Manage Footprint Libraries` in the preferences tab.
  
 Press the Folder icon below the table and locate the folder with the extracted footprint library files
 
-Multiple folders ending in .Pretty should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press ‘Select Folder’
+Multiple folders ending in `.Pretty` should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press `Select Folder`
 
-Next, go to ‘Manage Symbol Libraries’ in the preferences tab. 
+Next, go to `Manage Symbol Libraries` in the preferences tab. 
  
 Press the Folder icon below the table and locate the folder with the extracted symbol library files
 
-Multiple files ending in .kicad_sym should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press ‘Open’.
+Multiple files ending in `.kicad_sym` should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press `Open`.
 
 All the installed libraries should be now accessible.
 
 # File description
 
-"Footprints" folder contains AKL footprint libraries.
+`Footprints` folder contains AKL footprint libraries.
 
-"Symbols" folder contains AKL symbol libraries.
+`Symbols` folder contains AKL symbol libraries.
 
-"Alternate KiCAD Library User Manual.pdf" is a comprehensive guide with detailed description of each added library.
+`AKL User Manual.pdf` is a comprehensive guide with detailed description of each added library.
 
-"KiCAD Files" folder contains original license and readme files from the first-party KiCAD library.
+`KiCad Files` folder contains original license and readme files from the first-party KiCAD library.
 
-"Sources" Contains catalogs and data sheets that are no longer widely accessible that were used for reference.
+`Sources` Contains catalgues and data sheets that are no longer widely accessible that were used for reference.
 
-"PCM_Releases" folder contains legacy 2.0 package used by KiCAD's content manager.
+`PCM_Releases` folder contains legacy 2.0 package used by KiCad's content manager.
 
 License:
 
@@ -71,7 +86,7 @@ If you wish to redistribute the Alternate KiCad Library, or its parts (including
 collection you need to share it under the same license agreement. Libraries must also retain attribution
 information and license documents which are distributed with the library files.
 
-About:
+## About:
 
 Alternate KiCAD Library is a massive symbol and footprint library containing refreshed, new symbols and footprints for KiCAD focused on improving Schematic and PCB readability and aesthetics, mainly intended for hobbyist use.
 
@@ -90,12 +105,15 @@ Also check that the footprint has correct pad/hole spacing referencing the part�
 
 Refer to the user manual for installation instructions and more.
 
-Compatibility:
+### Compatibility:
+
+Alternate KiCad Library 3.0 works with KiCad 6 and 7 (with minor tweaks, see installation instructions above)
+
 Alternate KiCad Library 2.0 is known to work with KiCad 6.0.0-rc-1 but should be cross-compatible with all KiCad 6 versions.
 Footprint library should be backwards compatible with KiCAD 5
 
 
-Changelog:
+## Changelog:
 
 Version 3.0
 NEW SYMBOLS:
