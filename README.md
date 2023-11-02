@@ -12,7 +12,7 @@ Before downloading go to `Preferences` (Ctrl + ,), then to `Plugin and Content M
 ### Or:
 After downloading the library from PCM, open `Manage Footprint Libraries` from the Preferences tab. Locate and rename all AKL footprint libraries, so that they no longer have the `PCM_` prefix. Example:
 `PCM_Fuse_AKL` rename to `Fuse_AKL`.
-For reference, all AKL footprint libraries have `AKL` in their name, see the User Manual PDF for more details.
+For reference, all AKL footprint libraries have `AKL` in their name, see the User Manual PDF for more detailed list of all library filenames.
 
 All symbols should now have correct footprint links.
 
