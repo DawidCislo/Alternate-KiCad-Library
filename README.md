@@ -57,7 +57,6 @@ All the installed libraries should be now accessible.
 
 Some symbols or footprints might contain mistakes, this list contains info on all known bugs before they'll get fixed in a new update:
 
-Symbols:
 - ADS626: +VS pin has a wrong electrical type, should be "Power Input"
 - INA132: Symbol graphics shows 25k resistors, should be 40k
 - AD8307: OUT and GND pins are misaligned
