@@ -53,6 +53,29 @@ Multiple files ending in `.kicad_sym` should be visible. Each of these is a sepa
 
 All the installed libraries should be now accessible.
 
+# Known issues
+
+Some symbols or footprints might contain mistakes, this list contains info on all known bugs before they'll get fixed in a new update:
+
+Symbols:
+- ADS626: +VS pin has a wrong electrical type, should be "Power Input"
+- INA132: Symbol graphics shows 25k resistors, should be 40k
+- AD8307: OUT and GND pins are misaligned
+- DTV1500MD has a wrong footprint, should be "Package_TO_SOT_THT_AKL:TO-220-2_Vertical_KA"
+- Quad CC and CA diode pins are not aligned to grid (1SS308, 1SS309)
+- TSMPxxA series of TVS diodes have incorrect footprints, new footprint is needed, since cathode and anode is reversed
+- BZX79 series of Zener diodews have a bad datasheet link
+- Some Zener diodes are not derived from the generic symbols, but are stand-alone symbols instead
+- VOM617A and VOM618A have a wrong footprint, should be "Package_SO_AKL:SO-4_4.4x3.9mm_P2.54mm"
+- Some Dual-gate MOSFETs have a wrong mode indicated on the symbol graphics, depletion-mode mosfets now have a solid line instead of dashed for the "channel" (3N200, BF998, BF998R)
+- MJ3000 and MJ3001 transistors have the wrong type, should be NPN
+- MJ2500 and MJ2501 transistors have the wrong type, should be PNP
+- BC212, BC213, BC214 transistors have the wrong type, should be PNP
+- D_SOD-57_P12,70mm_Horizontal_Zener should have a dot '.' instead of a comma ',' in it's filename
+- Some TO-252 parts with 4 or 5 pins will not fit the footprint. Both 1.14mm and 1.27mm pad pitch is used by different manufacturers, needs a new footprint. Affected parts: DMC3021LK4, DMG4511SK4
+
+If you find any bugs, missing or wrong footprints, missing or invalid datasheet links, wrong symbol graphics or incorrect footprint geometry, please open an issue!
+
 # File description
 
 `Footprints` folder contains AKL footprint libraries.
