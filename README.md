@@ -58,6 +58,7 @@ All the installed libraries should be now accessible.
 Some symbols or footprints might contain mistakes, this list contains info on all known bugs before they'll get fixed in a new update:
 
 - ADS626: +VS pin has a wrong electrical type, should be "Power Input"
+- AD8209: Wrong datasheet link
 - INA132: Symbol graphics shows 25k resistors, should be 40k
 - AD8307: OUT and GND pins are misaligned
 - DTV1500MD has a wrong footprint, should be "Package_TO_SOT_THT_AKL:TO-220-2_Vertical_KA"
@@ -66,7 +67,7 @@ Some symbols or footprints might contain mistakes, this list contains info on al
 - BZX79 series of Zener diodews have a bad datasheet link
 - Some Zener diodes are not derived from the generic symbols, but are stand-alone symbols instead
 - VOM617A and VOM618A have a wrong footprint, should be "Package_SO_AKL:SO-4_4.4x3.9mm_P2.54mm"
-- Some Dual-gate MOSFETs have a wrong mode indicated on the symbol graphics, depletion-mode mosfets now have a solid line instead of dashed for the "channel" (3N200, BF998, BF998R)
+- Some Dual-gate MOSFETs have a wrong mode indicated on the symbol graphics, depletion-mode mosfets should have a solid line instead of dashed for the channel (3N200, BF998, BF998R)
 - MJ3000 and MJ3001 transistors have the wrong type, should be NPN
 - MJ2500 and MJ2501 transistors have the wrong type, should be PNP
 - BC212, BC213, BC214 transistors have the wrong type, should be PNP
