@@ -61,6 +61,7 @@ Some symbols or footprints might contain mistakes, this list contains info on al
 - AD8209: Wrong datasheet link
 - INA132: Symbol graphics shows 25k resistors, should be 40k
 - AD8307: OUT and GND pins are misaligned
+- MCP6H82T-E-MNY: Symbol has reduntant hidden NC pins on the first unit
 - DTV1500MD has a wrong footprint, should be "Package_TO_SOT_THT_AKL:TO-220-2_Vertical_KA"
 - Quad CC and CA diode pins are not aligned to grid (1SS308, 1SS309)
 - TSMPxxA series of TVS diodes have incorrect footprints, new footprint is needed, since cathode and anode is reversed
