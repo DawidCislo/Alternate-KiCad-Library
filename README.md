@@ -74,6 +74,7 @@ Some symbols or footprints might contain mistakes, this list contains info on al
 - BC212, BC213, BC214 transistors have the wrong type, should be PNP
 - D_SOD-57_P12,70mm_Horizontal_Zener should have a dot '.' instead of a comma ',' in it's filename
 - Some TO-252 parts with 4 or 5 pins will not fit the footprint. Both 1.14mm and 1.27mm pad pitch is used by different manufacturers, needs a new footprint. Affected parts: DMC3021LK4, DMG4511SK4
+- MCP6044 is derived from a wrong generic symbol, as a result it's only dual instead of a quad opamp symbol. As a workaround use MCP6054 instead and rename it to MCP6044 in your schematic.
 
 If you find any bugs, missing or wrong footprints, missing or invalid datasheet links, wrong symbol graphics or incorrect footprint geometry, please open an issue!
 
