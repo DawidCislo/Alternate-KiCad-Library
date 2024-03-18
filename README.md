@@ -22,6 +22,8 @@ Most NC pins were changed to Free unless explicitly indicated as 'Do not connect
 
 Full documentation is yet to be completed, and once it's ready the V4.0 will be released via PCM.
 
+All the bugs from the "Known Issues" section have been fixed.
+
 New footprint libraries:
 - LED_SMD_AKL - surface-mount LED footprints used by the LED_AKL symbol library
 - LED_THT_AKL - through-hole LED footprints used by the LED_AKL symbol library
