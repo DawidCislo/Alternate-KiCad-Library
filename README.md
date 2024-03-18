@@ -57,6 +57,7 @@ All the installed libraries should be now accessible.
 
 Some symbols or footprints might contain mistakes, this list contains info on all known bugs before they'll get fixed in a new update:
 
+- AD8662: Uses wrong generic symbol (single instead of dual), fix commited by aprgl. Users downloading via PCM will have to wait until the next update.
 - ADS626: +VS pin has a wrong electrical type, should be "Power Input"
 - AD8209: Wrong datasheet link
 - INA132: Symbol graphics shows 25k resistors, should be 40k
