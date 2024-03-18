@@ -1,0 +1,168 @@
+(footprint "LED_PLCC-2_3014"
+	(version 20231212)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(descr "SMD LED, PLCC-2 3.0mm length, 1.4mm width, https://www.tme.eu/Document/6c0a43580aa62cfe77aa9a31554c3255/LTW-K140SZRXX-EU.pdf, Alternate KiCad Library")
+	(tags "LED plcc2 3.0x1.4")
+	(property "Reference" "REF**"
+		(at 0 -2.15 0)
+		(layer "F.SilkS")
+		(uuid "a4c362d5-0d26-4625-adc9-02c35e7796c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_PLCC-2_3014"
+		(at 0 2.1 0)
+		(layer "F.Fab")
+		(uuid "66633ba5-494a-43c1-8b5b-e68cb76da608")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e51c49f-9d00-4a32-b830-eeb13525bf9a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fef421cd-e515-4f5f-bd0f-5cb93c5678c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.05 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62cdb07e-997a-47ce-812c-34a261d52fe6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2 -1)
+		(end 2 1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "80c55446-1309-4ee3-8436-ace6fd705929")
+	)
+	(fp_rect
+		(start -1.2 -1.3)
+		(end -0.5 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a7ad69de-449e-4f94-8b8d-3a15cec7cc93")
+	)
+	(fp_rect
+		(start -1.2 1)
+		(end -0.5 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8b2e70bc-6475-4c6f-b2d1-b2a275549b59")
+	)
+	(fp_rect
+		(start -1.9 -0.95)
+		(end 1.9 0.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c80aed60-deb8-4759-baad-1e4d42d8b34a")
+	)
+	(fp_line
+		(start -1.35 -0.25)
+		(end -0.9 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9451b22c-8a5b-441e-838b-fdaf634c6053")
+	)
+	(fp_rect
+		(start -1.35 -0.7)
+		(end 1.35 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "39f5d32c-ca62-4aff-918e-d4581bb8f2d2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "143c3f1c-fede-409f-a0a5-31e985dd0705")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.675 0 180)
+		(size 1.95 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "80404f9a-7657-426b-bbac-f27af16c86f2")
+	)
+	(pad "2" smd roundrect
+		(at 1.075 0 180)
+		(size 1.15 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "8c405511-426b-4007-a12e-481cf157ef86")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_miniPLCC_2315.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

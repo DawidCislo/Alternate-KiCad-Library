@@ -1,0 +1,271 @@
+(footprint "LED_1.8mm_GullWing"
+	(version 20231212)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(descr "1.8mm subminiature LED, Gull wing leads, 1.8mm diameter, https://www.tme.eu/Document/4f49387584433289ec12a23aabbb9450/OSXX212411C-TR7_VER.A.3.2.pdf, Alternate KiCad Library")
+	(tags "LED gull wing 1.8mm subminiature")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "76114d94-dfd0-472d-ad28-41a9ea2eaf59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_1.8mm_GullWing"
+		(at 0 2.425 0)
+		(layer "F.Fab")
+		(uuid "1185d416-5cb4-4e8d-b235-e34a4fda9d11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18b41a81-50e7-4956-bc7d-f91c2545ce4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e54e965-cff9-436f-ba48-3fb1b1595998")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "734bd68d-3ba2-4e0e-803a-2f294fc75ce6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.15 -1.3)
+		(end 1.15 -1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fca69d1b-7c42-4757-b6ca-662abd311167")
+	)
+	(fp_line
+		(start -1.15 -0.3)
+		(end -1.5 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5cda9dd6-efb5-4673-a44a-7fb597cbeefa")
+	)
+	(fp_line
+		(start -1.15 0.3)
+		(end -1.5 0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa7119ea-438d-42f6-b05e-631f05be07bb")
+	)
+	(fp_line
+		(start 1.15 -1.3)
+		(end 1.15 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df3c5500-cf6e-4111-8658-0058410d9f10")
+	)
+	(fp_line
+		(start 1.15 -0.3)
+		(end 1.5 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e9cf2c0-8a85-40d1-bee5-14fa2a4d458b")
+	)
+	(fp_line
+		(start 1.15 0.3)
+		(end 1.15 1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f615e161-9d27-4a4f-9823-d5ee9d7136e7")
+	)
+	(fp_line
+		(start 1.15 1.3)
+		(end -1.15 1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f6ef74e-1fed-47d5-a129-fdd3e34103da")
+	)
+	(fp_line
+		(start 1.5 0.3)
+		(end 1.15 0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5643ab4a-649b-4dfc-8740-e525147d6ed1")
+	)
+	(fp_rect
+		(start -1.35 -1.3)
+		(end -1.15 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "00f74e9b-70ad-4752-a45a-8ad19e8fe6ae")
+	)
+	(fp_rect
+		(start -1.35 0.3)
+		(end -1.15 1.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bdbbd82f-5c9a-44c4-9518-f17f9903c969")
+	)
+	(fp_rect
+		(start -3.45 -1.45)
+		(end 3.45 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "560eae85-7dc4-4c68-bbc1-8e2196e20b53")
+	)
+	(fp_rect
+		(start -2.9 -0.2)
+		(end -1.05 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a537ff27-4342-4fc8-a5ca-d2decdaff82a")
+	)
+	(fp_rect
+		(start -1.05 -1.2)
+		(end 1.05 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1aad6520-6149-4b10-9418-881b3131bb77")
+	)
+	(fp_rect
+		(start 1.05 -0.2)
+		(end 2.9 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1f62bb96-c2ad-409f-90be-4a6781ac5d7e")
+	)
+	(fp_circle
+		(center -0.75 -0.9)
+		(end -0.65 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "9f1f2620-cf82-4fef-ba48-3c5912b6a39d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a5cae125-a978-48fc-ad98-22b987637d25")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9506d7eb-006c-47e0-a17b-7e25fe1e11fc")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.6)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.45 0)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "357e6b1d-f43f-4b8b-a487-c8e55ef7cad9")
+	)
+	(pad "2" smd roundrect
+		(at 2.45 0)
+		(size 1.5 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "ca374b43-73d5-4245-999b-7670a3d67a17")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Osram_Lx_P47F_D2mm_ReverseMount.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

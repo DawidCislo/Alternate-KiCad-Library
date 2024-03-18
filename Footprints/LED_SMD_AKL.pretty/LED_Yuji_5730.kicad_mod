@@ -1,0 +1,298 @@
+(footprint "LED_Yuji_5730"
+	(version 20231212)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(descr "LED,Yuji,5730,https://cdn.shopify.com/s/files/1/0344/6401/files/YJWJ014-1.1_YJ-BC-5730L-G02.pdf")
+	(tags "LED Yuji 5730")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "c8ca66ee-c3d2-4c66-882c-89232cba566d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Yuji_5730"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "5292ad88-80ce-460d-b906-e7314923b415")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cfd14ac-d5b7-4e5b-aa4e-0e77902b34f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20b5e58d-3842-4b9e-bce3-e60b4786d3a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fe240ee-b4d4-4025-91dc-106c5d89b730")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.7 -1.8)
+		(end -3.7 1.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d46cdf05-5633-45ee-9d48-0f85101fcdae")
+	)
+	(fp_line
+		(start -3.7 1.8)
+		(end 3.7 1.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af0f0cd9-25fd-4341-8250-1a4539f9d631")
+	)
+	(fp_line
+		(start 3.7 -1.8)
+		(end -3.7 -1.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "91eb56a1-f0e1-400d-9685-432454150202")
+	)
+	(fp_line
+		(start 3.7 1.8)
+		(end 3.7 -1.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a67595ad-19a4-4ac2-b880-a5b76de51d45")
+	)
+	(fp_rect
+		(start -2.3 -2.2)
+		(end -1.1 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8a3d07dc-5c9a-421e-9827-09ed003fc3ae")
+	)
+	(fp_rect
+		(start -2.3 1.8)
+		(end -1.1 2.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8fc1fe71-14d6-47da-82ef-bb74433a78be")
+	)
+	(fp_line
+		(start -3.65 -1.75)
+		(end 3.65 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39617e5b-bae4-4a07-9612-45c1c32b74ce")
+	)
+	(fp_line
+		(start -3.65 1.75)
+		(end -3.65 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "854aa41b-f814-4c23-ab6a-1ac13edc1e89")
+	)
+	(fp_line
+		(start 3.65 -1.75)
+		(end 3.65 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e6d19cdf-4727-42ac-8f44-18b0ad98a019")
+	)
+	(fp_line
+		(start 3.65 1.75)
+		(end -3.65 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "172a55d0-a795-4cab-be2e-f1ebe6a631cd")
+	)
+	(fp_line
+		(start -2.35 -1.5)
+		(end 2.35 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "268a60eb-55dc-4516-b1a7-d8d71453f7fc")
+	)
+	(fp_line
+		(start -2.35 -1.1)
+		(end -1.95 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27fa27c8-b66b-4ae9-ba2f-0f7d861edab5")
+	)
+	(fp_line
+		(start -2.35 1.5)
+		(end -2.35 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32de0079-4f08-4e1b-bfb2-6ce99d1ccb99")
+	)
+	(fp_line
+		(start 2.35 -1.5)
+		(end 2.35 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60e9519a-89b7-4758-806d-982aae200c87")
+	)
+	(fp_line
+		(start 2.35 1.5)
+		(end -2.35 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a027aaab-5469-4916-be4b-3b4edf22c8fe")
+	)
+	(fp_rect
+		(start -2.85 -0.7)
+		(end -2.35 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ba89b6fa-61c0-40d3-968a-44767c13f644")
+	)
+	(fp_rect
+		(start 2.35 -0.7)
+		(end 2.85 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "c9d840bf-fc0b-472c-9a3e-b7fd93098f70")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cc75e538-d8d7-4d4c-b4dc-bc8982b7bf15")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.25 0)
+		(size 0.9 1.2)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0e80d671-5076-4c37-82ed-77f09b1bb69f")
+	)
+	(pad "" smd roundrect
+		(at 0.95 0)
+		(size 0.9 1.2)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "051e7f3e-3fda-45fb-a0d7-02e94538c36b")
+	)
+	(pad "1" smd roundrect
+		(at -2.85 0)
+		(size 1.1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
+		(uuid "8d5aab54-4c01-408a-bf5e-4d078cab9c65")
+	)
+	(pad "2" smd roundrect
+		(at 2.85 0)
+		(size 1.1 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2272727273)
+		(uuid "df18c477-fcc8-49bc-adf1-af4567383fd8")
+	)
+	(pad "3" smd roundrect
+		(at 0.35 0)
+		(size 2.5 1.7)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.1470588235)
+		(uuid "a2396170-26b9-40ec-9433-69bc72270dae")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Yuji_5730.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

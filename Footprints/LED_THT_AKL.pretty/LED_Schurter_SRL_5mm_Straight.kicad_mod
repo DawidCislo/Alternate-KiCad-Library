@@ -1,0 +1,267 @@
+(footprint "LED_Schurter_SRL_5mm_Straight"
+	(version 20231212)
+	(generator "pcbnew")
+	(generator_version "7.99")
+	(layer "F.Cu")
+	(descr "5mm LED indicator, Schurter SRL series, 7.3mm by 7.3mm body size, https://www.tme.eu/Document/ee8b9318a1543bda98440e4c4b2eb62a/0035.1261.pdf, Alternate KiCad Library")
+	(tags "LED diameter 5.0mm 2 pins indicator 7.3x7.3 schurter srl")
+	(property "Reference" "REF**"
+		(at 1.27 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "94a3b9b0-cb77-4b32-a811-76cfe987f607")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Schurter_SRL_5mm_Straight"
+		(at 1.27 4.6 0)
+		(layer "F.Fab")
+		(uuid "a203b1b7-047b-45a3-8a3f-48dd0c30e186")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "665e40e3-8990-48a3-8e37-cabf35146dcb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8cfb88c7-9dbe-4f0b-ba0d-11dc3853347b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adf87011-bee8-49f6-b4ba-74cdae2d65f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start 0.6985 -1.143)
+		(end 1.2065 -1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70060bfd-f7ef-4cd3-a388-fb7fb1138bc2")
+	)
+	(fp_line
+		(start 0.9525 -0.5715)
+		(end 0.9525 0.5715)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5742c197-9a35-4011-ba6b-8391886e44bd")
+	)
+	(fp_line
+		(start 1.3335 -1.143)
+		(end 1.8415 -1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27215516-dbc1-4203-9e04-a5eca8a47b65")
+	)
+	(fp_rect
+		(start -2.43 -3.7)
+		(end 4.97 3.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d3ae55d2-e34f-4625-aa19-0c15afa1bdbe")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "679ce6ca-4981-4adb-b87d-62093cf487bd")
+	)
+	(fp_poly
+		(pts
+			(xy 1.2065 -1.397) (xy 0.9525 -1.651) (xy 1.2065 -1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "369bd4da-443e-4460-b56c-88afa9ab861c")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 0.5715) (xy 0.9525 0) (xy 1.5875 -0.5715)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d952117a-3dd7-4114-9efd-b097de991a04")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8415 -1.397) (xy 1.5875 -1.651) (xy 1.8415 -1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "aebc4d90-1d84-493b-8e4f-538cd5ae7a34")
+	)
+	(fp_rect
+		(start -2.58 -3.85)
+		(end 5.12 3.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0b2b1b69-f630-45d4-839b-da1d843e63af")
+	)
+	(fp_line
+		(start 0.47 0)
+		(end 0.47 -0.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a17ed87b-4319-4caf-ab48-44417a70e33f")
+	)
+	(fp_line
+		(start 0.47 0)
+		(end 0.47 0.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "208f4214-af93-4a49-b5ef-fd803f1cf8b0")
+	)
+	(fp_line
+		(start 2.47 0)
+		(end 0.07 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "97ccacd4-0569-4fd8-a874-c2cd84b7ccee")
+	)
+	(fp_rect
+		(start -2.33 -3.6)
+		(end 4.87 3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9b27cdf0-26e8-419e-946b-f12f5d3f3be6")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7544508b-e948-46ed-90ef-56642a036888")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 4.87 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "f52fa417-e88e-45cc-aa12-848d85635fd4")
+	)
+	(fp_poly
+		(pts
+			(xy 0.47 0) (xy 2.07 -0.8) (xy 2.07 0.8)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "dc170bdc-9c44-4a61-924d-ebf7e517b4b1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.143 -4.445 0)
+		(layer "F.Fab")
+		(uuid "9e50249c-c715-4f85-9d2a-e61fb30d8107")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9577f07a-76ee-4d05-a7cf-1e37a7e2edea")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a590e3a8-bd5f-4f47-a568-24fed102fe76")
+	)
+)
