@@ -2,6 +2,30 @@
 
 Alternate KiCad Library
 
+## Preview of version 4 is out now.
+
+For now only available on GitHub. Requires KiCad 8. See the Manual Installation sections for instructions on how to install.
+
+Changes:
+![image](https://github.com/DawidCislo/Alternate-KiCad-Library/assets/48568748/327ff410-a5ca-45b5-af7f-f3d73abfbcc6)
+New symbol libraries:
+- Crystal_AKL - symbols for crystal resonators and oscillators with pre-assigned footprints
+- LED_AKL - colorful symbols for LEDs with pre-assigned footprints (disable 'override individual item colors' in preferences -> colors)
+- Voltage_Regulator_AKL - symbols for linear voltage regulators with pre-assigned footprints based on part numbers.
+
+Some symbols have new Alternate Body Styles. Go to symbol properties and check the "Alternate symbol (deMorgan)" checkbox
+- 2-pin resistors, diodes and capacitors have a 45-degree rotated version with pins still on the 50 mil grid
+- Dual common anode, common cathode and series diodes have an alternative symbol.
+- Analog ICs with resistors in their symbols have a US-style resistor version.
+
+Most NC pins were changed to Free unless explicitly indicated as 'Do not connect" by the manufacturer. In some cases having an ability to route through the NC pads or tie them to a heat-sink plane is useful. Now KiCad will allow connecting tracks to these pins, unless they already have an assigned net (i.e. there is already a track running through it)
+
+Full documentation is yet to be completed, and once it's ready the V4.0 will be released via PCM.
+
+New footprint libraries:
+LED_SMD_AKL - surface-mount LED footprints used by the LED_AKL symbol library
+LED_THT_AKL - through-hole LED footprints used by the LED_AKL symbol library
+
 ## Installation instructions for Plugin and Content Manager:
 
 KiCad 7 automatically adds third-party libraries to library tables, but by default it also adds the 'PCM_' prefix to their names.
