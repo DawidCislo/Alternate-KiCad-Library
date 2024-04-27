@@ -7799,7 +7799,7 @@
 			)
 		)
 		(symbol "MCP6G03T-E-MS_1_2"
-			(pin no_connect line
+			(pin free line
 				(at -2.54 -3.81 0)
 				(length 2.54) hide
 				(name "NC"
@@ -7871,7 +7871,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -2.54 -6.35 0)
 				(length 2.54) hide
 				(name "NC"
@@ -8541,7 +8541,7 @@
 			)
 		)
 		(symbol "MCP6G03T-E-SN_1_2"
-			(pin no_connect line
+			(pin free line
 				(at -2.54 -3.81 0)
 				(length 2.54) hide
 				(name "NC"
@@ -8613,7 +8613,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -2.54 -6.35 0)
 				(length 2.54) hide
 				(name "NC"
