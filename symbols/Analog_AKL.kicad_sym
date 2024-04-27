@@ -7164,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/ef34da4ef98f753a0548f97e5bc18e16/ad603.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD604.pdf"
 			(at -1.27 -16.51 0)
 			(effects
 				(font
@@ -7872,7 +7872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/ef34da4ef98f753a0548f97e5bc18e16/ad603.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD604.pdf"
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -8580,7 +8580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/ef34da4ef98f753a0548f97e5bc18e16/ad603.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD604.pdf"
 			(at 0 -16.51 0)
 			(effects
 				(font
