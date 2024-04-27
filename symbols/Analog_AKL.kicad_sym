@@ -11998,7 +11998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/051229474e48273d778e94d63e47d549/ad8307anz.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8310.pdf"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -12425,6 +12425,46 @@
 		)
 		(symbol "AD8310ARMZ_0_1"
 			(rectangle
+				(start 13.335 0)
+				(end 14.605 -3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AD8310ARMZ_0_2"
+			(polyline
+				(pts
+					(xy 14.478 -2.3495) (xy 13.462 -2.8575) (xy 13.97 -3.1115)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 13.97 -0.0635) (xy 14.478 -0.3175) (xy 13.462 -0.8255) (xy 14.478 -1.3335) (xy 13.462 -1.8415)
+					(xy 14.478 -2.3495)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AD8310ARMZ_1_0"
+			(rectangle
 				(start -24.13 -3.81)
 				(end 3.81 -6.35)
 				(stroke
@@ -12579,19 +12619,154 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 13.335 0)
-				(end 14.605 -3.175)
-				(stroke
-					(width 0.254)
-					(type default)
+		)
+		(symbol "AD8310ARMZ_1_1"
+			(pin input line
+				(at -33.02 -1.27 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type none)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 34.29 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -33.02 -5.08 0)
+				(length 2.54)
+				(name "OFLT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 1.27 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 34.29 8.89 180)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 34.29 6.35 180)
+				(length 2.54)
+				(name "BIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 8.89 0)
+				(length 2.54)
+				(name "ENBL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -33.02 3.81 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
-		(symbol "AD8310ARMZ_1_1"
+		(symbol "AD8310ARMZ_1_2"
 			(pin input line
 				(at -33.02 -1.27 0)
 				(length 2.54)
