@@ -51043,7 +51043,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -51061,7 +51061,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -52346,7 +52346,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -52364,7 +52364,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -53649,7 +53649,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -53667,7 +53667,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -54952,7 +54952,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -54970,7 +54970,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -56255,7 +56255,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -56273,7 +56273,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -57558,7 +57558,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -57576,7 +57576,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -58861,7 +58861,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -58879,7 +58879,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -60164,7 +60164,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -10.16 0)
 				(length 2.54) hide
 				(name "NC"
@@ -60182,7 +60182,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -61467,7 +61467,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -61485,7 +61485,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -62770,7 +62770,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -62788,7 +62788,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
@@ -64073,7 +64073,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -12.7 0)
 				(length 2.54) hide
 				(name "NC"
@@ -64091,7 +64091,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at -1.27 -15.24 0)
 				(length 2.54) hide
 				(name "NC"
