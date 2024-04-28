@@ -165466,7 +165466,7 @@
 		)
 	)
 	(symbol "TLC374CD"
-		(extends "CMP_Dual_OC_Generic")
+		(extends "CMP_Quad_OC_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
 			(effects
@@ -165523,7 +165523,7 @@
 		)
 	)
 	(symbol "TLC374CN"
-		(extends "CMP_Dual_OC_Generic")
+		(extends "CMP_Quad_OC_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
 			(effects
@@ -165580,7 +165580,7 @@
 		)
 	)
 	(symbol "TLC374CNS"
-		(extends "CMP_Dual_OC_Generic")
+		(extends "CMP_Quad_OC_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
 			(effects
@@ -165637,7 +165637,7 @@
 		)
 	)
 	(symbol "TLC374CPW"
-		(extends "CMP_Dual_OC_Generic")
+		(extends "CMP_Quad_OC_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
 			(effects
@@ -165694,7 +165694,7 @@
 		)
 	)
 	(symbol "TLC374ID"
-		(extends "CMP_Dual_OC_Generic")
+		(extends "CMP_Quad_OC_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
 			(effects
@@ -165751,7 +165751,7 @@
 		)
 	)
 	(symbol "TLC374IN"
-		(extends "CMP_Dual_OC_Generic")
+		(extends "CMP_Quad_OC_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
 			(effects
