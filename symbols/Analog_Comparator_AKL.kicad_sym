@@ -159138,63 +159138,6 @@
 			)
 		)
 	)
-	(symbol "MAX9032ASD"
-		(extends "CMP_Quad_Alt_Hys_Generic")
-		(property "Reference" "U"
-			(at 1.27 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX9032ASD"
-			(at 1.27 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/dfac3eba91dca74176b6f2ecddaca912/MAX9031AUK+T.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SO-14 Quad Comparator with 4mV Hysteresis, 188ns Propagation Delay, 5mV Offset, Alternate KiCAD Library"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "quad comparator voltage analog hysteresis built-in  MAX9034"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "MAX9032AUA"
 		(extends "CMP_Dual_Hys_Generic")
 		(property "Reference" "U"
@@ -159252,7 +159195,7 @@
 			)
 		)
 	)
-	(symbol "MAX9032AUD"
+	(symbol "MAX9034ASD"
 		(extends "CMP_Quad_Alt_Hys_Generic")
 		(property "Reference" "U"
 			(at 1.27 6.35 0)
@@ -159263,7 +159206,64 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX9032AUD"
+		(property "Value" "MAX9034ASD"
+			(at 1.27 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO_AKL:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/dfac3eba91dca74176b6f2ecddaca912/MAX9031AUK+T.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-14 Quad Comparator with 4mV Hysteresis, 188ns Propagation Delay, 5mV Offset, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "quad comparator voltage analog hysteresis built-in  MAX9034"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MAX9034AUD"
+		(extends "CMP_Quad_Alt_Hys_Generic")
+		(property "Reference" "U"
+			(at 1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAX9034AUD"
 			(at 1.27 3.81 0)
 			(effects
 				(font
