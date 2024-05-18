@@ -63162,7 +63162,7 @@
 				)
 			)
 		)
-		(property "Value" "BAS116T"
+		(property "Value" "BAS678"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -189955,7 +189955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -189973,7 +189973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 50V, 3A, 150ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 50V, 3A, 150ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190083,7 +190083,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190101,7 +190101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 100V, 3A, 150ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 100V, 3A, 150ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190211,7 +190211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190229,7 +190229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 200V, 3A, 150ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 200V, 3A, 150ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190339,7 +190339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190357,7 +190357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 400V, 3A, 150ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 400V, 3A, 150ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190467,7 +190467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190485,7 +190485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 600V, 3A, 250ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 600V, 3A, 250ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190595,7 +190595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190613,7 +190613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 800V, 3A, 500ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 800V, 3A, 500ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190659,7 +190659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMC"
+		(property "Footprint" "Diode_SMD_AKL:D_SMB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -190677,7 +190677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMC Diode, Fast Rectifier, 1000V, 3A, 500ns, Alternate KiCad Library"
+		(property "Description" "SMB Diode, Fast Rectifier, 1000V, 3A, 500ns, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
