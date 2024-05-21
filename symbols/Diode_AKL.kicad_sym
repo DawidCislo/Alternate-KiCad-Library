@@ -25902,7 +25902,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at 0 -1.27 0)
 				(length 2.54) hide
 				(name "NC"
@@ -26010,7 +26010,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at 0 1.27 0)
 				(length 2.54) hide
 				(name "NC"
@@ -26705,7 +26705,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at 0 -1.27 0)
 				(length 2.54) hide
 				(name "NC"
@@ -26777,7 +26777,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin free line
 				(at 0 1.27 0)
 				(length 2.54) hide
 				(name "NC"
