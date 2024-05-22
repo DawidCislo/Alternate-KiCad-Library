@@ -218543,7 +218543,7 @@
 		)
 	)
 	(symbol "STTH806G"
-		(extends "D_Generic")
+		(extends "D_Generic_xKA")
 		(property "Reference" "D"
 			(at 0 5.08 0)
 			(effects
