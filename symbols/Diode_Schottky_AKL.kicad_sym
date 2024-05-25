@@ -41201,6 +41201,61 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "SOT-143 Dual schottky diode, independent, 4V, 130mA, Alternate KiCad Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual schottky independent BAT17-07"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "BAT17-07s"
+		(extends "D_Schottky_Generic_Dual_Sep_K1A2K2A1")
+		(property "Reference" "D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT17-07s"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-143"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/6d3152782a850c1a686c05dd659ba9c5/BAT1704E6327HTSA1.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Description" "SOT-143 Dual schottky diode, independent, 4V, 130mA, Alternate KiCAD Library"
 			(at 0 0 0)
 			(effects
