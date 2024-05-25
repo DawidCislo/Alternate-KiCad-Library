@@ -41796,7 +41796,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOT-563 Dual schottky diode, independent, 40V, 200mA, Alternate KiCAD Library"
+		(property "Description" "SOT-563 Dual schottky diode, independent, 40V, 200mA, Alternate KiCad Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual independent schottky BAT40V"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "BAT40Vs"
+		(extends "D_Schottky_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "D"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT40Vs"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-563"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/14433fb56339707cb2fe83ff6bb72e65/BAT40V.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-563 Dual schottky diode, independent, 40V, 200mA, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
