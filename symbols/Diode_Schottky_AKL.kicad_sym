@@ -83219,16 +83219,8 @@
 		)
 	)
 	(symbol "MBR40250"
-		(extends "D_Schottky_Generic_Dual_Kcom_AKA")
+		(extends "D_Schottky_Generic")
 		(property "Reference" "D"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MBR40250"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -83236,8 +83228,16 @@
 				)
 			)
 		)
+		(property "Value" "MBR40250"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Package_TO_SOT_THT_AKL:TO-220-3_Vertical_AKA"
-			(at 0 8.89 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83246,7 +83246,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tme.eu/Document/a9c41cbcc6131246e01ac2807a9240e1/MBR40250G.PDF"
-			(at 0 8.89 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83254,7 +83254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TO-220 Dual schottky diode, common cathode, 250V, 40A, Alternate KiCAD Library"
+		(property "Description" "TO-220 Schottky diode, 250V, 40A, Alternate KiCad Library"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83263,7 +83263,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "dual schottky diode commoncathode MBR40250"
+		(property "ki_keywords" "schottky diode MBR40250"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 			(at 0 0 0)
 			(effects
 				(font
