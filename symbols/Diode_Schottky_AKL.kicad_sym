@@ -88124,7 +88124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.littelfuse.com/~{{/media/electronics/datasheets/power_semiconductors/littelfuse_power_semiconductor_schottky_diode_mbrf10200ct_datasheet.pdf.pdf}}"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/ds36512.pdf"
 			(at 0 8.89 0)
 			(effects
 				(font
