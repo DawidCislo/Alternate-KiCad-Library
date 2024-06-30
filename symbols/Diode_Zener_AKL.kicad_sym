@@ -158290,6 +158290,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5221BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5221BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 2.4V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5222"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -158473,6 +158528,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5223BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5223BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 2.7V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5225"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -158548,6 +158658,61 @@
 			)
 		)
 		(property "Value" "MMBZ5225BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 3V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5225BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5225BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -158711,6 +158876,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5226BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5226BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 3.3V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5227"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -158786,6 +159006,61 @@
 			)
 		)
 		(property "Value" "MMBZ5227BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 3.6V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5227BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5227BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -158949,6 +159224,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5228BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5228BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 3.9V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5229"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -159024,6 +159354,61 @@
 			)
 		)
 		(property "Value" "MMBZ5229BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 4.3V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5229BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5229BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -159187,6 +159572,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5230BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5230BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 4.7V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5231"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -159262,6 +159702,61 @@
 			)
 		)
 		(property "Value" "MMBZ5231BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 5.1V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5231BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5231BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -159425,6 +159920,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5232BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5232BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 5.6V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5233"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -159500,6 +160050,61 @@
 			)
 		)
 		(property "Value" "MMBZ5233BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 6V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5233BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5233BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -159663,6 +160268,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5234BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5234BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 6.2V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5235"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -159738,6 +160398,61 @@
 			)
 		)
 		(property "Value" "MMBZ5235BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 6.8V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5235BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5235BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -159901,6 +160616,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5236BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5236BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 7.5V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5237"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -159976,6 +160746,61 @@
 			)
 		)
 		(property "Value" "MMBZ5237BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 8.2V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5237BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5237BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -160139,6 +160964,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5238BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5238BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 8.7V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5239"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -160214,6 +161094,61 @@
 			)
 		)
 		(property "Value" "MMBZ5239BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 9.1V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5239BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5239BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -160377,6 +161312,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5240BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5240BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 10V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5241"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -160452,6 +161442,61 @@
 			)
 		)
 		(property "Value" "MMBZ5241BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 11V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5241BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5241BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -160615,6 +161660,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5242BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5242BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 12V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5243"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -160690,6 +161790,61 @@
 			)
 		)
 		(property "Value" "MMBZ5243BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 13V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5243BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5243BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -160853,6 +162008,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5245BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5245BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 15V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5246"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -160928,6 +162138,61 @@
 			)
 		)
 		(property "Value" "MMBZ5246BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 16V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5246BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5246BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -161091,6 +162356,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5248BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5248BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 18V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5250"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -161166,6 +162486,61 @@
 			)
 		)
 		(property "Value" "MMBZ5250BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 20V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5250BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5250BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -161329,6 +162704,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5251BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5251BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 22V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5252"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -161404,6 +162834,61 @@
 			)
 		)
 		(property "Value" "MMBZ5252BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 24V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5252BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5252BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -161567,6 +163052,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5254BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5254BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 27V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5255"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -161642,6 +163182,61 @@
 			)
 		)
 		(property "Value" "MMBZ5255BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 28V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5255BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5255BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -161805,6 +163400,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5256BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5256BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 30V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5257"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -161880,6 +163530,61 @@
 			)
 		)
 		(property "Value" "MMBZ5257BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 33V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5257BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5257BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -162043,6 +163748,61 @@
 			)
 		)
 	)
+	(symbol "MMBZ5258BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5258BSs"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 36V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "MMBZ5259"
 		(extends "D_Zener_Generic_AxK")
 		(property "Reference" "DZ"
@@ -162118,6 +163878,61 @@
 			)
 		)
 		(property "Value" "MMBZ5259BS"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-363_SC-70-6"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/81dd731b09ce1ccc8458cecce6db6715/MMBZ52xxBS.pdf"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-363 Dual Zener diode, independent, 39V, 200mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode dual zener generic independent MMBZBS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "MMBZ5259BSs"
+		(extends "D_Zener_Generic_Dual_Sep_A1xK2A2xK1")
+		(property "Reference" "DZ"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBZ5259BSs"
 			(at 0 6.35 0)
 			(effects
 				(font
