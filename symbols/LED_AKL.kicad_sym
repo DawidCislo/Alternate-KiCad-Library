@@ -153466,6 +153466,70 @@
 			)
 		)
 	)
+	(symbol "LED_Indicator_2x5mm_W6.1mm_L11.0mm_Yellow_Yellow"
+		(extends "LED_Indicator_Dual_Generic_Yellow_Yellow")
+		(property "Reference" "LED"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Indicator_2x5mm_W6.1mm_L11.0mm_Yellow_Yellow"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT_AKL:LED_Indicator_Dual_D5.0mm_W6.1mm_L11.0mm"
+			(at -2.54 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Yellow 5mm LED indicator, 6.1mm width, 11.0mm length, Alternate KiCad Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED dual indicator 5mm 6.1x11.0 yellow"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "LED_Indicator_3x3mm_W4.5mm_L12.5mm"
 		(extends "LED_Indicator_Triple_Generic")
 		(property "Reference" "LED"
