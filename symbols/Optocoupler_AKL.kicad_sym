@@ -115863,7 +115863,7 @@
 		)
 	)
 	(symbol "TLP109"
-		(extends "Optocoupler_PD_Generic")
+		(extends "Optocoupler_PD_Generic_5pin")
 		(property "Reference" "OC"
 			(at 8.89 1.27 0)
 			(effects
@@ -115932,7 +115932,7 @@
 		)
 	)
 	(symbol "TLP112"
-		(extends "Optocoupler_PD_Generic")
+		(extends "Optocoupler_PD_Generic_5pin")
 		(property "Reference" "OC"
 			(at 8.89 1.27 0)
 			(effects
