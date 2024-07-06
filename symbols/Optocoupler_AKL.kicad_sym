@@ -2436,6 +2436,369 @@
 			)
 		)
 	)
+	(symbol "Optocoupler_Base_Generic_Alt3_5pin"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OC"
+			(at 7.62 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Optocoupler_Base_Generic_Alt3"
+			(at 7.62 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -0.254 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Transistor output with base connection, Generic symbol, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NPN Optocoupler transistor output base generic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Optocoupler_Base_Generic_Alt3_5pin_0_1"
+			(arc
+				(start -4.4675 2.54)
+				(mid -6.9851 0)
+				(end -4.4675 -2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.715 -0.635) (xy -4.445 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 2.54) (xy 4.572 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.048 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0.635) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -2.54) (xy -4.445 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -5.08 -1.27) (xy -5.08 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.27 0) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 1.905) (xy 3.175 -1.905) (xy 3.175 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -0.635) (xy -5.715 0.635) (xy -4.445 0.635) (xy -5.08 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 -0.508) (xy -0.762 -0.508) (xy -1.143 -0.635) (xy -1.143 -0.381) (xy -0.762 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 0.508) (xy -0.762 0.508) (xy -1.143 0.381) (xy -1.143 0.635) (xy -0.762 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.651) (xy 4.191 -1.143) (xy 4.699 -2.159) (xy 3.683 -1.651) (xy 3.683 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 2.54) (xy 4.826 2.54) (xy 5.334 2.413) (xy 5.969 2.159) (xy 6.604 1.524) (xy 6.985 0.762)
+					(xy 7.112 0) (xy 6.985 -0.889) (xy 6.477 -1.651) (xy 5.969 -2.159) (xy 5.334 -2.413) (xy 4.699 -2.54)
+					(xy -5.08 -2.54) (xy -5.08 -2.54) (xy -5.842 -2.032) (xy -6.35 -1.778) (xy -6.858 -0.508) (xy -6.858 0.254)
+					(xy -6.858 1.016) (xy -6.35 1.778) (xy -5.588 2.286) (xy -4.826 2.54) (xy -3.81 2.54)
+				)
+				(stroke
+					(width 0.01)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start 4.5945 -2.54)
+				(mid 7.1121 0)
+				(end 4.5945 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Optocoupler_Base_Generic_Alt3_5pin_1_1"
+			(pin passive line
+				(at -5.08 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "Optocoupler_Bidirectional_Generic"
 		(pin_names
 			(offset 1.016)
@@ -112878,7 +113241,7 @@
 		)
 	)
 	(symbol "TCLT1100"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -112947,7 +113310,7 @@
 		)
 	)
 	(symbol "TCLT1102"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113016,7 +113379,7 @@
 		)
 	)
 	(symbol "TCLT1103"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113085,7 +113448,7 @@
 		)
 	)
 	(symbol "TCLT1104"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113154,7 +113517,7 @@
 		)
 	)
 	(symbol "TCLT1105"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113223,7 +113586,7 @@
 		)
 	)
 	(symbol "TCLT1106"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113292,7 +113655,7 @@
 		)
 	)
 	(symbol "TCLT1107"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113361,7 +113724,7 @@
 		)
 	)
 	(symbol "TCLT1108"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
@@ -113430,7 +113793,7 @@
 		)
 	)
 	(symbol "TCLT1109"
-		(extends "Optocoupler_Base_Generic_Alt3")
+		(extends "Optocoupler_Base_Generic_Alt3_5pin")
 		(property "Reference" "OC"
 			(at 7.62 1.27 0)
 			(effects
