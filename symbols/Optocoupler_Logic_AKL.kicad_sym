@@ -14614,7 +14614,7 @@
 		)
 	)
 	(symbol "FODM611"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
@@ -14683,7 +14683,7 @@
 		)
 	)
 	(symbol "FODM8061"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
@@ -14752,7 +14752,7 @@
 		)
 	)
 	(symbol "FODM8071"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -8.89 11.43 0)
 			(effects
