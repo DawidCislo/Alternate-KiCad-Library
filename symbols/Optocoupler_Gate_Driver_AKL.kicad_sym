@@ -2891,6 +2891,319 @@
 			)
 		)
 	)
+	(symbol "Optocoupler_Driver_Generic_Alt4_5pin"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "OC"
+			(at -7.62 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Optocoupler_Driver_Generic_Alt4_5pin"
+			(at -7.62 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Optocoupler, Gate Driver output, Generic symbol, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Optocoupler gate driver output generic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Optocoupler_Driver_Generic_Alt4_5pin_0_0"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 6.35 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 0 -2.54) (xy 0 2.54) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 0) (xy 1.27 3.81) (xy 1.27 -3.81) (xy 6.35 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Optocoupler_Driver_Generic_Alt4_5pin_0_1"
+			(polyline
+				(pts
+					(xy -5.715 -0.635) (xy -4.445 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 2.54) (xy -5.08 2.54) (xy -5.08 -0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -0.635) (xy -5.08 -2.54) (xy -7.62 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -0.635) (xy -5.715 0.635) (xy -4.445 0.635) (xy -5.08 -0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 -0.508) (xy -1.778 -0.508) (xy -2.159 -0.635) (xy -2.159 -0.381) (xy -1.778 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.048 0.508) (xy -1.778 0.508) (xy -2.159 0.381) (xy -2.159 0.635) (xy -1.778 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Optocoupler_Driver_Generic_Alt4_5pin_1_1"
+			(polyline
+				(pts
+					(xy 0.635 0.635) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.635) (xy 0.635 -0.635) (xy -0.635 -0.635) (xy 0 0.635)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 5.08 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ACNW3130"
 		(extends "Optocoupler_Driver_Generic_Alt2")
 		(property "Reference" "OC"
@@ -7101,7 +7414,7 @@
 		)
 	)
 	(symbol "TLP152"
-		(extends "Optocoupler_Driver_Generic_Alt4")
+		(extends "Optocoupler_Driver_Generic_Alt4_5pin")
 		(property "Reference" "OC"
 			(at -7.62 12.7 0)
 			(effects
