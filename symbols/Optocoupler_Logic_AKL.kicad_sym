@@ -25405,7 +25405,7 @@
 		)
 	)
 	(symbol "TLP104"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
@@ -25474,7 +25474,7 @@
 		)
 	)
 	(symbol "TLP108"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -25543,7 +25543,7 @@
 		)
 	)
 	(symbol "TLP116"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -25612,7 +25612,7 @@
 		)
 	)
 	(symbol "TLP116A"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -25681,7 +25681,7 @@
 		)
 	)
 	(symbol "TLP118"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
