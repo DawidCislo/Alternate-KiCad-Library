@@ -9070,7 +9070,7 @@
 		)
 	)
 	(symbol "VOL3120"
-		(extends "Optocoupler_Driver_Generic")
+		(extends "Optocoupler_Driver_Generic_Alt4_5pin")
 		(property "Reference" "OC"
 			(at -7.62 12.7 0)
 			(effects
