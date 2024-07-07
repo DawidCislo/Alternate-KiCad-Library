@@ -22756,7 +22756,7 @@
 		)
 	)
 	(symbol "HCPL-M600"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
@@ -22825,7 +22825,7 @@
 		)
 	)
 	(symbol "HCPL-M601"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
@@ -22894,7 +22894,7 @@
 		)
 	)
 	(symbol "HCPL-M611"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
