@@ -28651,6 +28651,75 @@
 			)
 		)
 	)
+	(symbol "VO0631Ts"
+		(extends "Optocoupler_Logic_Inv_OC_Dual_Generic_Sep")
+		(property "Reference" "OC"
+			(at 3.81 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VO0631Ts"
+			(at 3.81 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO_AKL:SO-8_3.9x4.9mm_P1.27mm"
+			(at -7.62 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/eb2b4d37e72fe36c62c6dee1881d21c8/VO06XXT-DTE.pdf"
+			(at -2.159 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SO-8 Optocoupler, Dual Open Collector/Drain output, Inverting, 4kV, 10Mbps, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Optocoupler logic output inverting dual open collector drain OC OD VO0631T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIP*W7.62mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "VO0661T"
 		(extends "Optocoupler_Logic_Inv_OC_Dual_Generic")
 		(property "Reference" "OC"
