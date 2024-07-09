@@ -26375,7 +26375,7 @@
 		)
 	)
 	(symbol "TLP2348"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -26444,7 +26444,7 @@
 		)
 	)
 	(symbol "TLP2355"
-		(extends "Optocoupler_Logic_Generic")
+		(extends "Optocoupler_Logic_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -26513,7 +26513,7 @@
 		)
 	)
 	(symbol "TLP2361"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -26582,7 +26582,7 @@
 		)
 	)
 	(symbol "TLP2362"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
@@ -26651,7 +26651,7 @@
 		)
 	)
 	(symbol "TLP2366"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -26720,7 +26720,7 @@
 		)
 	)
 	(symbol "TLP2367"
-		(extends "Optocoupler_Logic_Inv_Generic")
+		(extends "Optocoupler_Logic_Inv_Generic_5pin")
 		(property "Reference" "OC"
 			(at -10.16 11.43 0)
 			(effects
@@ -26789,7 +26789,7 @@
 		)
 	)
 	(symbol "TLP2368"
-		(extends "Optocoupler_Logic_Inv_OC_Generic")
+		(extends "Optocoupler_Logic_Inv_OC_Generic_5pin")
 		(property "Reference" "OC"
 			(at -11.43 11.43 0)
 			(effects
