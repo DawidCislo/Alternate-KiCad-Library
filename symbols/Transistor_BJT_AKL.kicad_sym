@@ -57118,6 +57118,63 @@
 			)
 		)
 	)
+	(symbol "BC807Us"
+		(extends "Q_PNP_DUAL_Generic_SEP_E1B1C2E2B2C1")
+		(property "Reference" "Q"
+			(at 3.81 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC807Us"
+			(at 3.81 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO_AKL:TSOP-6_1.65x3.05mm_P0.95mm"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/b038a6211c62764e189393900f367e18/BC807UE6327.pdf"
+			(at 0 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual PNP TSOP-6 transistor, 45V, 500mA, 330mW, Alternate KiCAD Library"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PNP transistor dual BC807U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(symbol "BC807W"
 		(extends "Q_PNP_Generic_BEC")
 		(property "Reference" "Q"
