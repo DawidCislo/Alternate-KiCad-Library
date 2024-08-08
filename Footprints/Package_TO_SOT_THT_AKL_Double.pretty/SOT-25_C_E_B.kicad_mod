@@ -1,4 +1,4 @@
-(footprint "SOT-25_C_B_E"
+(footprint "SOT-25_C_E_B"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-25_C_B_E"
+	(property "Value" "SOT-25_C_E_B"
 		(at 2.54 2.79 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "577de17e-c00d-4498-abce-0f9cede7a30a")
+		(uuid "a30896dd-4361-4525-95d5-ad4d3a53a102")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3f3ac1a-a123-4985-a8f9-f1a80fd3dd34")
+		(uuid "b5ac54dd-08f3-4b0c-b0cb-20f2030fc77a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e079b22c-6bf0-4d1d-8dec-282ca2c55719")
+		(uuid "b64127fd-388d-4b3c-868a-bec1102f59fa")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -257,7 +257,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "B"
+	(fp_text user "E"
 		(at 2.54 -0.635 0)
 		(unlocked yes)
 		(layer "B.SilkS")
@@ -270,7 +270,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "E"
+	(fp_text user "B"
 		(at 5.08 2.032 0)
 		(unlocked yes)
 		(layer "B.SilkS")
@@ -296,7 +296,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "E"
+	(fp_text user "B"
 		(at 5.08 2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -320,7 +320,7 @@
 			)
 		)
 	)
-	(fp_text user "B"
+	(fp_text user "E"
 		(at 2.54 2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")

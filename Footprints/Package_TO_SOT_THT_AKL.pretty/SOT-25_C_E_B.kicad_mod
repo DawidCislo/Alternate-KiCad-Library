@@ -1,4 +1,4 @@
-(footprint "SOT-25_C_B_E"
+(footprint "SOT-25_C_E_B"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT-25_C_B_E"
+	(property "Value" "SOT-25_C_E_B"
 		(at 2.54 2.79 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "577de17e-c00d-4498-abce-0f9cede7a30a")
+		(uuid "45763e96-22d1-45f6-8951-7acbcd445c28")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3f3ac1a-a123-4985-a8f9-f1a80fd3dd34")
+		(uuid "c26b14e2-7d51-43b9-91e3-a6a5cbc15565")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +56,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e079b22c-6bf0-4d1d-8dec-282ca2c55719")
+		(uuid "a2d5ed61-ed93-4535-9a57-27147cba4f5d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -245,58 +245,7 @@
 		(layer "F.Fab")
 		(uuid "fbf38c2e-bdae-4c72-b7f5-a581457baf3f")
 	)
-	(fp_text user "${REFERENCE}"
-		(at 2.54 -4.191 0)
-		(layer "B.SilkS")
-		(uuid "28206aba-f213-4b16-ae94-adbc68422766")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
 	(fp_text user "B"
-		(at 2.54 -0.635 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "3708b5e2-1d8e-43fe-90d1-64a9566e8633")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "E"
-		(at 5.08 2.032 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "3d14dec5-32b0-48a6-89be-9c2ff4e373d0")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "C"
-		(at 0 2.032 0)
-		(unlocked yes)
-		(layer "B.SilkS")
-		(uuid "7a24738a-066e-46e2-9eab-a1bbecf41abc")
-		(effects
-			(font
-				(size 0.9 0.9)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "E"
 		(at 5.08 2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -320,7 +269,7 @@
 			)
 		)
 	)
-	(fp_text user "B"
+	(fp_text user "E"
 		(at 2.54 2.032 0)
 		(unlocked yes)
 		(layer "F.SilkS")
