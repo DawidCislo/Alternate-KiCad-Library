@@ -1,0 +1,343 @@
+(footprint "LED_2512_6332Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -2.62 0)
+		(layer "F.SilkS")
+		(uuid "1111ce68-7fb0-430a-9691-d7dd23a4e417")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_2512_6332Metric"
+		(at 0 2.62 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a824ac8-00e8-4fd1-998b-7500be926f05")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf05c8a6-8bd7-43ab-909d-6f06f2d5e083")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "745f33bb-cbdf-4361-b129-0c7811812f89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cac9543a-276b-49db-8eff-3b42a9aad48f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.143 -0.635)
+		(end -1.143 1.651)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "314dc559-31d7-4ff5-a277-6af2cd460532")
+	)
+	(fp_line
+		(start -1.016 -1.651)
+		(end -0.381 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4d4930c-ff03-4ad3-8aee-52cc2670fcc8")
+	)
+	(fp_line
+		(start 0.254 -1.651)
+		(end 0.889 -1.016)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2501ba38-54e8-4051-a32f-9c23570e2aea")
+	)
+	(fp_line
+		(start 1.905 0.508)
+		(end -1.905 0.508)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "48104d8b-dd41-42e3-ac6e-f4558821333c")
+	)
+	(fp_rect
+		(start -3.9 -2)
+		(end 3.9 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "12a903b3-637e-4ba1-800d-6caa787d212e")
+	)
+	(fp_rect
+		(start -3.3 -2.4)
+		(end -2.3 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "19111467-f29d-4d7a-9049-99d6f8aaf53e")
+	)
+	(fp_rect
+		(start -3.3 2)
+		(end -2.3 2.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e1264516-0f7c-4ddc-a02d-73a0bcd4ee5b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.143 0.508) (xy 1.143 -0.635) (xy 1.143 1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7447f87e-f110-4e84-bff7-39ce9fc2d040")
+	)
+	(fp_poly
+		(pts
+			(xy -1.016 -1.27) (xy -0.635 -1.651) (xy -1.016 -1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "50802e73-b29b-4f77-b3a1-49f6ea4475fe")
+	)
+	(fp_poly
+		(pts
+			(xy 0.254 -1.27) (xy 0.635 -1.651) (xy 0.254 -1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ce1110c9-501f-42a6-809f-580c812fdc24")
+	)
+	(fp_line
+		(start -3.82 -1.92)
+		(end 3.82 -1.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3d2681d-d9c0-4139-91d1-2b962aa6db77")
+	)
+	(fp_line
+		(start -3.82 1.92)
+		(end -3.82 -1.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae331cdb-1603-4c3a-8884-1a40b5303616")
+	)
+	(fp_line
+		(start 3.82 -1.92)
+		(end 3.82 1.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "195d4b13-8987-47fe-a931-dd57bf447fbe")
+	)
+	(fp_line
+		(start 3.82 1.92)
+		(end -3.82 1.92)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1db7a0b3-3d27-4253-b2c9-6b15f854ffa1")
+	)
+	(fp_line
+		(start -3.15 -1.6)
+		(end -3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d074a9fd-3432-42a9-aba8-f880244da8c7")
+	)
+	(fp_line
+		(start -3.15 1.6)
+		(end 3.15 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a29dc666-cd82-4284-8c76-de9d39f6d562")
+	)
+	(fp_line
+		(start -2.7 0)
+		(end 2.7 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3ee2d214-b3ca-48d6-87d9-2ca76914c42d")
+	)
+	(fp_line
+		(start -1.2 -1.2)
+		(end -1.2 1.2)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "105fd5ec-4df4-4f27-a77f-f307fab3ee42")
+	)
+	(fp_line
+		(start -1.2 0)
+		(end 1.2 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2b3fe604-60fa-4556-ac06-e9600685a547")
+	)
+	(fp_line
+		(start 1.2 -1.2)
+		(end 1.2 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "89d2e5cf-d8d6-429c-879c-727173ae8227")
+	)
+	(fp_line
+		(start 1.2 1.2)
+		(end -1.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "aba60386-bb68-4a24-9271-53b2883933b5")
+	)
+	(fp_line
+		(start 3.15 -1.6)
+		(end -3.15 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "50e0a847-405b-4bf9-a076-24b5c22e03b5")
+	)
+	(fp_line
+		(start 3.15 1.6)
+		(end 3.15 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f297871-dce1-46f8-bffe-98db545d53b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.6 0)
+		(layer "F.Fab")
+		(uuid "360c81de-fe58-48be-8105-d3e88200d251")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.9 0)
+		(size 1.35 3.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "53a2631b-c2da-4b21-8568-2328607bcd2c")
+	)
+	(pad "2" smd roundrect
+		(at 2.9 0)
+		(size 1.35 3.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.185185)
+		(uuid "ec92ed61-c21f-4a53-b436-ba970cef7ea1")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_2512_6332Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

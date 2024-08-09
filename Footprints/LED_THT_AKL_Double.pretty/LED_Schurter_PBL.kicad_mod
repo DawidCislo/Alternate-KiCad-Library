@@ -6,7 +6,7 @@
 	(descr "3mm LED indicator, Schurter PBL series, 4mm by 10.5mm body size, https://www.tme.eu/Document/af1fe1f72ec623150447baab24054c5e/pbl.pdf, Alternate KiCad Library")
 	(tags "LED diameter 3.0mm 2 pins indicator 4x10.5 schurter pbl")
 	(property "Reference" "REF**"
-		(at 0 -2.921 0)
+		(at 0 -3.048 0)
 		(layer "F.SilkS")
 		(uuid "94a3b9b0-cb77-4b32-a811-76cfe987f607")
 		(effects
@@ -66,6 +66,82 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(fp_line
+		(start 1.5875 2.3495)
+		(end 2.413 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "bd5577dc-c378-45b6-a861-185191ef6822")
+	)
+	(fp_line
+		(start 1.778 -0.381)
+		(end 1.778 1.143)
+		(stroke
+			(width 0.16)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "ed142710-345f-478b-9e4e-3b52ba1843df")
+	)
+	(fp_line
+		(start 2.54 2.3495)
+		(end 3.3655 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "29e602fe-1d0e-4c87-9f72-516a60ca73e5")
+	)
+	(fp_line
+		(start 3.81 0.381)
+		(end 1.27 0.381)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "4c4f225f-0723-4ae5-a663-bd6629ca88fb")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 1.9685) (xy 1.9685 2.3495) (xy 1.5875 2.3495)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "d3524123-45d7-48a0-8a10-288d3af07c1c")
+	)
+	(fp_poly
+		(pts
+			(xy 1.778 0.381) (xy 3.302 1.143) (xy 3.302 -0.381)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "24e6cc84-56d5-42d8-91ba-fdaf1251d46a")
+	)
+	(fp_poly
+		(pts
+			(xy 2.54 1.9685) (xy 2.921 2.3495) (xy 2.54 2.3495)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "2a703561-2faa-4667-b687-4476a205c12d")
 	)
 	(fp_line
 		(start -6.3 -1.6)
@@ -237,6 +313,18 @@
 		)
 		(layer "F.Fab")
 		(uuid "655dd239-050b-4250-a421-7a8a58981bdc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.65 -1.65 0)
+		(layer "B.SilkS")
+		(uuid "34c14af2-2735-469a-963f-e9f99cb570aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 1.2 0 0)

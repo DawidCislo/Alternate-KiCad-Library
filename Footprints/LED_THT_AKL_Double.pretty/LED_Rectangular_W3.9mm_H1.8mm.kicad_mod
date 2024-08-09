@@ -1,0 +1,344 @@
+(footprint "LED_Rectangular_W3.9mm_H1.8mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED_Rectangular, Rectangular,  Rectangular size 3.9x1.8mm^2, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-2774GD(Ver.7B).pdf")
+	(tags "LED_Rectangular Rectangular  Rectangular size 3.9x1.8mm^2 2 pins")
+	(property "Reference" "REF**"
+		(at 1.27 -1.935 0)
+		(layer "F.SilkS")
+		(uuid "9923cb21-14ca-4c19-93c6-205fd7e2d36c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Rectangular_W3.9mm_H1.8mm"
+		(at 1.27 1.935 0)
+		(layer "F.Fab")
+		(uuid "11182d56-13b7-4a36-8f6d-86d49758d0b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "345438e8-367f-4c9f-a4b5-c3cf3aa5655d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "16b53f22-36b3-46a9-9a94-141ed6c84197")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "880b368d-b3f0-47f2-aa63-6f05affa1aba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.9525 -0.5715)
+		(end 0.9525 0.5715)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1d697127-9688-4b40-93d7-a258329a1d91")
+	)
+	(fp_line
+		(start 1.0795 0.889)
+		(end 0.5715 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "6ed0c211-03a5-4b3d-a234-203f40fbf70e")
+	)
+	(fp_line
+		(start 1.7145 0.889)
+		(end 1.2065 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "1a8a559a-7b92-4730-855a-5b9bd8f693d5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.5715 1.143) (xy 0.8255 1.397) (xy 0.5715 1.397)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "be3133b2-e9d6-47f9-a2b2-5544f28a3b77")
+	)
+	(fp_poly
+		(pts
+			(xy 1.2065 1.143) (xy 1.4605 1.397) (xy 1.2065 1.397)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "9ed265d6-a366-4577-8c92-ab4d97117ba5")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 0.5715) (xy 0.9525 0) (xy 1.5875 -0.5715)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "c3ae4504-c6e7-439b-a023-18924c5ed1c3")
+	)
+	(fp_line
+		(start 0.9525 -0.5715)
+		(end 0.9525 0.5715)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aede58f7-2f4e-4798-a84e-0bef0fd3f6b5")
+	)
+	(fp_line
+		(start 2.0955 -0.975)
+		(end 0.9525 -0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "384d4dac-5c29-4616-871e-b9bd2d936709")
+	)
+	(fp_line
+		(start 2.0955 0.975)
+		(end 0.9525 0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d1ae861-4616-4410-a46d-8aa2d3923edd")
+	)
+	(fp_line
+		(start 2.9845 -0.975)
+		(end 3.32 -0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7adefb4e-07c6-4523-bede-834338e3a11e")
+	)
+	(fp_line
+		(start 3.32 -0.975)
+		(end 3.32 -0.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2c1021c8-9b00-4a3f-8ee1-7617d43d6c68")
+	)
+	(fp_line
+		(start 3.32 0.975)
+		(end 2.9845 0.975)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5556a9c2-237c-411a-b4b7-f47948d545e5")
+	)
+	(fp_line
+		(start 3.32 0.975)
+		(end 3.32 0.635)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7870b50-77b5-418f-839e-eb6d6ff248a1")
+	)
+	(fp_rect
+		(start -1.0795 -0.9525)
+		(end -0.9525 0.9525)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e55ab072-24b6-4a5b-9c11-ca20e5c5d0e6")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 0.5715) (xy 0.9525 0) (xy 1.5875 -0.5715)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "8941c7c7-beb2-4356-a414-aed828189a51")
+	)
+	(fp_line
+		(start -1.15 -1.2)
+		(end -1.15 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cd35c44-550f-4268-931b-478afd78d8b8")
+	)
+	(fp_line
+		(start -1.15 1.2)
+		(end 3.7 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84ef672b-b3a5-4d3f-aa17-0a2fbf44e1c4")
+	)
+	(fp_line
+		(start 3.7 -1.2)
+		(end -1.15 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14f936e5-5a5c-45b2-8421-54cb38453a29")
+	)
+	(fp_line
+		(start 3.7 1.2)
+		(end 3.7 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "354d57d1-9864-4d8f-a182-442fb8d438f5")
+	)
+	(fp_line
+		(start -0.68 -0.875)
+		(end -0.68 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52b416a7-e605-4752-b41e-f46e48db2d5a")
+	)
+	(fp_line
+		(start -0.68 0.875)
+		(end 3.22 0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd2dd5db-0f04-4bfa-bbaa-487191785bb6")
+	)
+	(fp_line
+		(start 3.22 -0.875)
+		(end -0.68 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dbc2ef94-a623-4a50-986a-9b6ba196b323")
+	)
+	(fp_line
+		(start 3.22 0.875)
+		(end 3.22 -0.875)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f604459a-e4d5-421e-ad43-a5a82453e93c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 -1.651 0)
+		(layer "B.SilkS")
+		(uuid "58a06c28-996d-4d41-b2fe-b3b74fd4757c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eefd63c1-caa3-46c3-847a-f7b1ef2f9e63")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edcf5385-dd9c-43a4-9578-c5e78e344340")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_Rectangular_W3.9mm_H1.8mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
