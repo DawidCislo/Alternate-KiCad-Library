@@ -1,4 +1,4 @@
-(footprint "LED_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+(footprint "LED_2512_6332Metric_Pad1.52x3.35mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "LED_2512_6332Metric_Pad1.52x3.35mm_HandSolder"
+	(property "Value" "LED_2512_6332Metric_Pad1.52x3.35mm"
 		(at 0 2.62 0)
 		(layer "F.Fab")
 		(uuid "f72ce2ff-d1e5-40c5-be1a-8d8f1d9fcb4a")
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fb21fe7-9414-47e1-8772-a4e35334092b")
+		(uuid "264cdac4-a533-46a9-866c-a7ec81043171")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "266325eb-c2b1-4980-a1fc-014a051ab550")
+		(uuid "acb181fc-ad3d-4a2e-af12-50f2ac1a9084")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c9770c13-42b2-4c39-b500-7fe7eee55ba4")
+		(uuid "f227715a-8fa4-43f3-8e27-662f4aa70068")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,46 +64,6 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -1.143 -0.635)
-		(end -1.143 1.651)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "afbf2053-a8c1-45fa-87fb-02005209f5eb")
-	)
-	(fp_line
-		(start -1.016 -1.651)
-		(end -0.381 -1.016)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "60a45c7a-15f1-4b13-94b4-5aca072eda42")
-	)
-	(fp_line
-		(start 0.254 -1.651)
-		(end 0.889 -1.016)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c474aabe-fa14-46a2-ad09-ae6b7beb8036")
-	)
-	(fp_line
-		(start 1.905 0.508)
-		(end -1.905 0.508)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "e43e26d6-3fe7-4f62-9a25-af46fa653510")
-	)
 	(fp_rect
 		(start -4.1 -2)
 		(end 4.1 2)
@@ -136,42 +96,6 @@
 		(fill solid)
 		(layer "F.SilkS")
 		(uuid "cb3977b5-735d-4c55-88a3-935717f134ee")
-	)
-	(fp_poly
-		(pts
-			(xy -1.143 0.508) (xy 1.143 -0.635) (xy 1.143 1.651)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "905528fc-e357-4c4e-87ce-0b45e4ef21f9")
-	)
-	(fp_poly
-		(pts
-			(xy -1.016 -1.27) (xy -0.635 -1.651) (xy -1.016 -1.651)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "cf594d26-4db9-4b80-9618-a3b8ca399061")
-	)
-	(fp_poly
-		(pts
-			(xy 0.254 -1.27) (xy 0.635 -1.651) (xy 0.254 -1.651)
-		)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "71798b50-16b1-49b9-ab65-cb48a76fc0cc")
 	)
 	(fp_line
 		(start -4 -1.92)
