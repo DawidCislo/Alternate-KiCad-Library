@@ -19,6 +19,7 @@
 	(property "Value" "LED_1.8mm_GullWing"
 		(at 0 2.425 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "1185d416-5cb4-4e8d-b235-e34a4fda9d11")
 		(effects
 			(font

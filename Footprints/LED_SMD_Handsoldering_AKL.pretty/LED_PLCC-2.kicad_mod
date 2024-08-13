@@ -19,6 +19,7 @@
 	(property "Value" "LED_PLCC-2"
 		(at 0 2.5 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "036d4440-2636-4b3b-ae1a-b506a5b07dab")
 		(effects
 			(font

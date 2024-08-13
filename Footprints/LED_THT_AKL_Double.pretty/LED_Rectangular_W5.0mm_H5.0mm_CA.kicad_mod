@@ -19,6 +19,7 @@
 	(property "Value" "LED_Rectangular_W5.0mm_H5.0mm_CA"
 		(at 2.54 3.56 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5608a70f-53a1-4a99-856d-adf12ee8b298")
 		(effects
 			(font
@@ -393,6 +394,17 @@
 			(justify mirror)
 		)
 	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "e614a217-867a-4bea-9329-7fe8a2aee097")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
 	(pad "1" thru_hole rect
 		(at 0 0)
 		(size 1.4 1.8)
@@ -416,16 +428,5 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5e3fe5ce-3176-4b6d-93ff-37de1c916d09")
-	)
-	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_Rectangular_W5.0mm_H5.0mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
 	)
 )

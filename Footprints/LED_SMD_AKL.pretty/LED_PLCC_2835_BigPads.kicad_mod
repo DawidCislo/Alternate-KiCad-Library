@@ -19,6 +19,7 @@
 	(property "Value" "LED_PLCC_2835_BigPads"
 		(at 0 2.475 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "db86b06b-11a0-47ba-b8bd-95afe01b433f")
 		(effects
 			(font

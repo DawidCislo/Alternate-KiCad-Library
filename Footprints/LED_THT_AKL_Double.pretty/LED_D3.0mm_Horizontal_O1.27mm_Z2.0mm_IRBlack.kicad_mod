@@ -19,6 +19,7 @@
 	(property "Value" "LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 		(at 1.27 7.63 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "c065a232-eb2a-4b6f-948e-13f8119f4a31")
 		(effects
 			(font
@@ -570,7 +571,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 1.27 0 0)
+		(at 1.27 -0.889 0)
 		(layer "F.Fab")
 		(uuid "168b1bb2-35d6-44db-abe6-0ade1db55bcb")
 		(effects

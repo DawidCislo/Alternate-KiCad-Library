@@ -1,86 +1,307 @@
-(footprint "LED_D3.0mm_Clear_BiDir" (version 20220818) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "LED, dual, bidirectional. diameter 3.0mm, 2 pins, color: clear")
-  (tags "LED diameter 3.0mm 2 pins clear dual bidirectional")
-  (fp_text reference "REF**" (at 1.27 -2.96) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d83d9f38-0da9-4736-bbde-2d0376756050)
-  )
-  (fp_text value "LED_D3.0mm_Clear_BiDir" (at 1.27 2.96) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp e628699c-f573-436c-b0df-68c07f3516ea)
-  )
-  (fp_text user "${REFERENCE}" (at 1.47 0) (layer "F.Fab")
-      (effects (font (size 0.8 0.8) (thickness 0.12)))
-    (tstamp f4dcb8f8-99e0-4585-9edb-e94e7e906588)
-  )
-  (fp_line (start -0.29 -1.236) (end -0.29 -1.08)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 31d57a92-8f49-4bd8-abad-57d7aaf6b898))
-  (fp_line (start -0.29 1.08) (end -0.29 1.236)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 114fa8c7-8d10-48c7-83d5-46d6aa53a501))
-  (fp_line (start 0.6985 -1.143) (end 1.2065 -1.651)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7eb66a09-ec85-49fc-9797-9c6597864216))
-  (fp_line (start 0.9525 -0.8255) (end 0.9525 -0.1905)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9a8850f6-4a23-4fee-9ad6-a3f7ef27c54a))
-  (fp_line (start 1.3335 -1.143) (end 1.8415 -1.651)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 194ad528-c405-49b7-953a-0ffaeaf1e76b))
-  (fp_line (start 1.5875 0.8255) (end 1.5875 0.1905)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 2b488a43-f61c-455c-a491-b56771fbb42f))
-  (fp_arc (start -0.29 -1.235516) (mid 1.366487 -1.987659) (end 2.942335 -1.078608)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 50609325-9f29-4b75-9b32-d08fa7847ced))
-  (fp_arc (start 2.942335 1.078608) (mid 1.366487 1.987659) (end -0.29 1.235516)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b9fc9363-2cb5-4a2f-97d3-359cf28862bb))
-  (fp_poly
-    (pts
-      (xy 0.9525 0.1905)
-      (xy 1.5875 0.508)
-      (xy 0.9525 0.8255)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e6bd2f83-4ea4-460b-951b-57e245fabcd3))
-  (fp_poly
-    (pts
-      (xy 1.2065 -1.397)
-      (xy 0.9525 -1.651)
-      (xy 1.2065 -1.651)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e24c05ca-d6f6-47fe-b7f4-c1aed462e6a5))
-  (fp_poly
-    (pts
-      (xy 1.5875 -0.1905)
-      (xy 0.9525 -0.508)
-      (xy 1.5875 -0.8255)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 2c128aa3-06bf-4a7a-ab4e-afbcaea81b2c))
-  (fp_poly
-    (pts
-      (xy 1.8415 -1.397)
-      (xy 1.5875 -1.651)
-      (xy 1.8415 -1.651)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp b551f2ae-6dc7-4e39-ad0c-d810fc73deb0))
-  (fp_line (start -1.15 -2.25) (end -1.15 2.25)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8556ff20-7368-4e6d-a2ea-ef3ed67fe885))
-  (fp_line (start -1.15 2.25) (end 3.7 2.25)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 48ccd0a8-7ed5-4fe4-8aae-f188584fdc6a))
-  (fp_line (start 3.7 -2.25) (end -1.15 -2.25)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8d6a95a6-7655-4498-b8c2-32eb9eb9005a))
-  (fp_line (start 3.7 2.25) (end 3.7 -2.25)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b7d33722-21cb-4c91-a41a-ac31f8323651))
-  (fp_line (start -0.23 -1.16619) (end -0.23 1.16619)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp b9e1b46e-4722-4e42-a075-73cc167d2eaa))
-  (fp_arc (start -0.23 -1.16619) (mid 3.17 0.000452) (end -0.230555 1.165476)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f6851813-bcf6-4410-9f81-08738056a6d4))
-  (fp_circle (center 1.27 0) (end 2.77 0)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 97d9b393-644f-4141-a787-0bb930bc0375))
-  (pad "1" thru_hole rect (at 0 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp eab08fb4-e07e-4c1a-8867-0523cec0a5cd))
-  (pad "2" thru_hole oval (at 2.54 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp 77f08749-c9b3-4d44-84fb-32b5afe2a4d7))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Clear.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_D3.0mm_Clear_BiDir"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED, dual, bidirectional. diameter 3.0mm, 2 pins, color: clear")
+	(tags "LED diameter 3.0mm 2 pins clear dual bidirectional")
+	(property "Reference" "REF**"
+		(at 1.27 -2.96 0)
+		(layer "F.SilkS")
+		(uuid "d83d9f38-0da9-4736-bbde-2d0376756050")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_D3.0mm_Clear_BiDir"
+		(at 1.27 2.96 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e628699c-f573-436c-b0df-68c07f3516ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9558cd2-b715-4d28-8b03-689c85360c70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77a7ea12-a192-4a47-b427-e32d60077e6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d917f45f-c85f-4129-a98a-24835ba4cf0a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.29 -1.236)
+		(end -0.29 -1.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31d57a92-8f49-4bd8-abad-57d7aaf6b898")
+	)
+	(fp_line
+		(start -0.29 1.08)
+		(end -0.29 1.236)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "114fa8c7-8d10-48c7-83d5-46d6aa53a501")
+	)
+	(fp_line
+		(start 0.6985 -1.143)
+		(end 1.2065 -1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7eb66a09-ec85-49fc-9797-9c6597864216")
+	)
+	(fp_line
+		(start 0.9525 -0.8255)
+		(end 0.9525 -0.1905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a8850f6-4a23-4fee-9ad6-a3f7ef27c54a")
+	)
+	(fp_line
+		(start 1.3335 -1.143)
+		(end 1.8415 -1.651)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "194ad528-c405-49b7-953a-0ffaeaf1e76b")
+	)
+	(fp_line
+		(start 1.5875 0.8255)
+		(end 1.5875 0.1905)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b488a43-f61c-455c-a491-b56771fbb42f")
+	)
+	(fp_arc
+		(start -0.29 -1.235516)
+		(mid 1.366487 -1.987659)
+		(end 2.942335 -1.078608)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50609325-9f29-4b75-9b32-d08fa7847ced")
+	)
+	(fp_arc
+		(start 2.942335 1.078608)
+		(mid 1.366487 1.987659)
+		(end -0.29 1.235516)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9fc9363-2cb5-4a2f-97d3-359cf28862bb")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9525 0.1905) (xy 1.5875 0.508) (xy 0.9525 0.8255)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e6bd2f83-4ea4-460b-951b-57e245fabcd3")
+	)
+	(fp_poly
+		(pts
+			(xy 1.2065 -1.397) (xy 0.9525 -1.651) (xy 1.2065 -1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "e24c05ca-d6f6-47fe-b7f4-c1aed462e6a5")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 -0.1905) (xy 0.9525 -0.508) (xy 1.5875 -0.8255)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "2c128aa3-06bf-4a7a-ab4e-afbcaea81b2c")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8415 -1.397) (xy 1.5875 -1.651) (xy 1.8415 -1.651)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b551f2ae-6dc7-4e39-ad0c-d810fc73deb0")
+	)
+	(fp_line
+		(start -1.15 -2.25)
+		(end -1.15 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8556ff20-7368-4e6d-a2ea-ef3ed67fe885")
+	)
+	(fp_line
+		(start -1.15 2.25)
+		(end 3.7 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48ccd0a8-7ed5-4fe4-8aae-f188584fdc6a")
+	)
+	(fp_line
+		(start 3.7 -2.25)
+		(end -1.15 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d6a95a6-7655-4498-b8c2-32eb9eb9005a")
+	)
+	(fp_line
+		(start 3.7 2.25)
+		(end 3.7 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7d33722-21cb-4c91-a41a-ac31f8323651")
+	)
+	(fp_line
+		(start -0.23 -1.16619)
+		(end -0.23 1.16619)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b9e1b46e-4722-4e42-a075-73cc167d2eaa")
+	)
+	(fp_arc
+		(start -0.23 -1.16619)
+		(mid 3.17 0.000452)
+		(end -0.230555 1.165476)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6851813-bcf6-4410-9f81-08738056a6d4")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 2.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "97d9b393-644f-4141-a787-0bb930bc0375")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.47 0 0)
+		(layer "F.Fab")
+		(uuid "f4dcb8f8-99e0-4585-9edb-e94e7e906588")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eab08fb4-e07e-4c1a-8867-0523cec0a5cd")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "77f08749-c9b3-4d44-84fb-32b5afe2a4d7")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Clear.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

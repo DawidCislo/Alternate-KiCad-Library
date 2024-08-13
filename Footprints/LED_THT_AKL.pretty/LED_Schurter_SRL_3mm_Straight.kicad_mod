@@ -1,7 +1,7 @@
 (footprint "LED_Schurter_SRL_3mm_Straight"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "3mm LED indicator, Schurter SRL series, 4.8mm by 4.8mm body size, https://www.tme.eu/Document/ee8b9318a1543bda98440e4c4b2eb62a/0035.1261.pdf, Alternate KiCad Library")
 	(tags "LED diameter 3.0mm 2 pins indicator 4.8x4.8 schurter srl")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_Schurter_SRL_3mm_Straight"
 		(at 1.27 3.302 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a203b1b7-047b-45a3-8a3f-48dd0c30e186")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

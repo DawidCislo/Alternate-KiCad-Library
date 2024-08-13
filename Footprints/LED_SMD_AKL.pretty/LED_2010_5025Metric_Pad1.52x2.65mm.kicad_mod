@@ -19,6 +19,7 @@
 	(property "Value" "LED_2010_5025Metric_Pad1.52x2.65mm"
 		(at 0 2.28 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "153eef72-5b75-421b-a455-30545c010857")
 		(effects
 			(font

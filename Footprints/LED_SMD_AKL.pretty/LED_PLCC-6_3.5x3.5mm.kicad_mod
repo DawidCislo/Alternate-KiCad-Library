@@ -1,7 +1,7 @@
 (footprint "LED_PLCC-6_3.5x3.5mm"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "https://www.tme.eu/Document/166cfa4ad94133d1d5c75c6ae9fdadc3/N0M50S15IC.pdf")
 	(tags "LED RGB PLCC-6")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_PLCC-6_3.5x3.5mm"
 		(at 0 3.25 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "e06e35b3-e0aa-45c8-9c4c-d6ce7c824750")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

@@ -1,7 +1,7 @@
 (footprint "LED_PLCC-2_3014"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "SMD LED, PLCC-2 3.0mm length, 1.4mm width, https://www.tme.eu/Document/6c0a43580aa62cfe77aa9a31554c3255/LTW-K140SZRXX-EU.pdf, Alternate KiCad Library")
 	(tags "LED plcc2 3.0x1.4")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_PLCC-2_3014"
 		(at 0 2.1 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "66633ba5-494a-43c1-8b5b-e68cb76da608")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

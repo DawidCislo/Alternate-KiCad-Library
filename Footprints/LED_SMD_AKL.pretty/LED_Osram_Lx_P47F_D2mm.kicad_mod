@@ -1,7 +1,7 @@
 (footprint "LED_Osram_Lx_P47F_D2mm"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "OSRAM, LED, SMD, 2mm diameter, http://www.farnell.com/datasheets/2711587.pdf")
 	(tags "LED P47F series")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_Osram_Lx_P47F_D2mm"
 		(at 0 2.425 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "1185d416-5cb4-4e8d-b235-e34a4fda9d11")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

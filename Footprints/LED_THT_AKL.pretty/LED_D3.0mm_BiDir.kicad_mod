@@ -1,7 +1,7 @@
 (footprint "LED_D3.0mm_BiDir"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "LED, Dual, Bidirectional, diameter 3.0mm, 2 pins")
 	(tags "LED diameter 3.0mm 2 pins dual bidirectional")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_D3.0mm_BiDir"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a203b1b7-047b-45a3-8a3f-48dd0c30e186")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -264,6 +268,17 @@
 		(fill none)
 		(layer "F.Fab")
 		(uuid "dc5ada93-d6a1-40af-a311-e6beaa42f407")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 -2.667 0)
+		(layer "F.Fab")
+		(uuid "16f69749-a16f-42d5-9aa7-1cf874ebf080")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)

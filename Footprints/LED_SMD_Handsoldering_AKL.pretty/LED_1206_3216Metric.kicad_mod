@@ -19,6 +19,7 @@
 	(property "Value" "LED_1206_3216Metric"
 		(at 0 1.82 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5c401b89-4e81-476e-96aa-54b73ca914a8")
 		(effects
 			(font

@@ -19,6 +19,7 @@
 	(property "Value" "LED_Schurter_SRL_5mm_Straight"
 		(at 1.27 4.6 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "a203b1b7-047b-45a3-8a3f-48dd0c30e186")
 		(effects
 			(font

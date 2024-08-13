@@ -19,6 +19,7 @@
 	(property "Value" "LED_Rectangular_W3.9mm_H1.9mm"
 		(at 1.27 2.01 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "c7e57510-c7ff-4637-8d52-0a7ea676ebd6")
 		(effects
 			(font
@@ -312,6 +313,17 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(layer "F.Fab")
+		(uuid "ce3dfd41-052b-45c8-9d60-31b53640c9c1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
 		)
 	)
 	(pad "1" thru_hole rect

@@ -1,7 +1,7 @@
 (footprint "LED_D5.0mm-4_RGB_Wide_Pins"
-	(version 20231014)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 	(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_D5.0mm-4_RGB_Wide_Pins"
 		(at 3.2385 3.96 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "93614cc0-0401-4caf-9937-2ad73bc39eb2")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

@@ -1,7 +1,7 @@
 (footprint "LED_PLCC-2_3535"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "LED PLCC-2 SMD package, 3.5x3.5mm https://www.tme.eu/Document/5c1b888566ad8bf7fa41166785999271/OSXX3535C1A-150MA_VER%20A.1.1.pdf")
 	(tags "LED PLCC-2 SMD 3.5x3.5")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_PLCC-2_3535"
 		(at 0 2.6 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "036d4440-2636-4b3b-ae1a-b506a5b07dab")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

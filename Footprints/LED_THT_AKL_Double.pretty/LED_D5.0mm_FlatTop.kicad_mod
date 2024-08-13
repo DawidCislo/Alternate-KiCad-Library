@@ -19,6 +19,7 @@
 	(property "Value" "LED_D5.0mm_FlatTop"
 		(at 1.27 4.01 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "57942169-f7bf-4172-b501-3f801944f029")
 		(effects
 			(font
@@ -320,6 +321,17 @@
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(layer "F.Fab")
+		(uuid "06716f4d-f554-44d7-8a9d-143519e0aaaa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
 		)
 	)
 	(pad "1" thru_hole rect

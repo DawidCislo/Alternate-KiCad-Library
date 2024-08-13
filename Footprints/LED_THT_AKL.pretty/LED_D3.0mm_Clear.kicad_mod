@@ -1,7 +1,7 @@
 (footprint "LED_D3.0mm_Clear"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "IR-LED, diameter 3.0mm, 2 pins, color: clear")
 	(tags "IR infrared LED diameter 3.0mm 2 pins clear")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_D3.0mm_Clear"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "e628699c-f573-436c-b0df-68c07f3516ea")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

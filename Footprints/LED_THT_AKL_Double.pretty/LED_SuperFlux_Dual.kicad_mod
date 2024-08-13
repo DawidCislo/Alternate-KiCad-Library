@@ -19,6 +19,7 @@
 	(property "Value" "LED_BL-FL7680RGB"
 		(at 2.54 7.35 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "816140e8-1d7f-4d11-8cc5-60f6435e3301")
 		(effects
 			(font

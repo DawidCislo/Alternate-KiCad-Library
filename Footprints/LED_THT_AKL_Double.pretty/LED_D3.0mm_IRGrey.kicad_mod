@@ -19,6 +19,7 @@
 	(property "Value" "LED_D3.0mm_IRGrey"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "9cf59e4e-4ef0-4e1b-bc22-f5f1ced2efa1")
 		(effects
 			(font

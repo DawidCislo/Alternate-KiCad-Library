@@ -1,72 +1,286 @@
-(footprint "LED_D5.0mm_FlatTop" (version 20220818) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "LED, Round, FlatTop, diameter 5.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-483GDT(Ver.15B).pdf")
-  (tags "LED Round FlatTop diameter 5.0mm 2 pins")
-  (fp_text reference "REF**" (at 1.27 -4.01) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c492c3a4-54e4-4dbb-a207-c40374dec69d)
-  )
-  (fp_text value "LED_D5.0mm_FlatTop" (at 1.27 4.01) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 57942169-f7bf-4172-b501-3f801944f029)
-  )
-  (fp_line (start -1.29 -1.64) (end -1.29 1.64)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ec8fd123-f486-4a1e-99e0-bfc1a05b7585))
-  (fp_line (start 0.381 -1.2065) (end 1.2065 -2.032)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 386a3a22-1249-4740-a1c4-4b16b70f8625))
-  (fp_line (start 0.9525 -0.5715) (end 0.9525 0.5715)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4d3daa2f-c173-4a75-bcc6-a61d5b89fb6a))
-  (fp_line (start 1.3335 -1.2065) (end 2.159 -2.032)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 936f1a9f-940e-4090-826b-ea7911edec34))
-  (fp_arc (start -1.29 -1.639512) (mid 2.125106 -2.917258) (end 4.309999 0.001958)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 67e60f39-d435-430f-8280-b63fb918d6ef))
-  (fp_arc (start 4.309999 -0.001958) (mid 2.125106 2.917258) (end -1.29 1.639512)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 26ff3168-c050-4d97-b9d5-df3c59a8c92b))
-  (fp_circle (center 1.27 0) (end 3.77 0)
-    (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp ce040195-54ea-46d8-9496-8aee38f20746))
-  (fp_poly
-    (pts
-      (xy 1.2065 -1.651)
-      (xy 0.8255 -2.032)
-      (xy 1.2065 -2.032)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 7c59acdc-ac25-420c-b506-e2118202b470))
-  (fp_poly
-    (pts
-      (xy 1.5875 0.5715)
-      (xy 0.9525 0)
-      (xy 1.5875 -0.5715)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 5878c54b-e035-4f5e-b758-986beb28ba2f))
-  (fp_poly
-    (pts
-      (xy 2.159 -1.651)
-      (xy 1.778 -2.032)
-      (xy 2.159 -2.032)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 47ded026-fa7a-4860-bdd4-5bd6722d3f79))
-  (fp_line (start -2 -3.3) (end -2 3.3)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ae5c8e79-a850-4f74-9e56-1f272b4db7e3))
-  (fp_line (start -2 3.3) (end 4.55 3.3)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp fe7734c5-1ff8-404b-a5b2-622623446461))
-  (fp_line (start 4.55 -3.3) (end -2 -3.3)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a558e2d4-5b9d-4056-aeee-22749e9af4c1))
-  (fp_line (start 4.55 3.3) (end 4.55 -3.3)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 83dba97d-c521-490d-acc6-bf46716fa164))
-  (fp_line (start -1.23 -1.566046) (end -1.23 1.566046)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a5eda6a4-ad19-4b00-9c53-85c615dc9325))
-  (fp_arc (start -1.23 -1.566046) (mid 4.22 0.00071) (end -1.230753 1.564843)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 04bd8108-fd73-4cf6-8046-94ccd0c26a0c))
-  (fp_circle (center 1.27 0) (end 3.77 0)
-    (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp 0935e025-231f-429f-91fa-d5fb7db0d281))
-  (pad "1" thru_hole rect (at 0 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp 3a3a041a-5ddb-4285-8d03-f09008de785f))
-  (pad "2" thru_hole oval (at 2.54 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp 7171e2e9-0f2d-420e-8eee-750032e223ba))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_FlatTop.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_D5.0mm_FlatTop"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED, Round, FlatTop, diameter 5.0mm, 2 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-483GDT(Ver.15B).pdf")
+	(tags "LED Round FlatTop diameter 5.0mm 2 pins")
+	(property "Reference" "REF**"
+		(at 1.27 -4.01 0)
+		(layer "F.SilkS")
+		(uuid "c492c3a4-54e4-4dbb-a207-c40374dec69d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_D5.0mm_FlatTop"
+		(at 1.27 4.01 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57942169-f7bf-4172-b501-3f801944f029")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3994a6cc-5ec7-450c-920a-3d418ebc86b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f164a3f-5c5f-441c-a22a-2d817c465d83")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e7092a4-a8b2-4b9d-83c0-75e83423bb92")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.29 -1.64)
+		(end -1.29 1.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec8fd123-f486-4a1e-99e0-bfc1a05b7585")
+	)
+	(fp_line
+		(start 0.381 -1.2065)
+		(end 1.2065 -2.032)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "386a3a22-1249-4740-a1c4-4b16b70f8625")
+	)
+	(fp_line
+		(start 0.9525 -0.5715)
+		(end 0.9525 0.5715)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d3daa2f-c173-4a75-bcc6-a61d5b89fb6a")
+	)
+	(fp_line
+		(start 1.3335 -1.2065)
+		(end 2.159 -2.032)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "936f1a9f-940e-4090-826b-ea7911edec34")
+	)
+	(fp_arc
+		(start -1.29 -1.639512)
+		(mid 2.125106 -2.917258)
+		(end 4.309999 0.001958)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67e60f39-d435-430f-8280-b63fb918d6ef")
+	)
+	(fp_arc
+		(start 4.309999 -0.001958)
+		(mid 2.125106 2.917258)
+		(end -1.29 1.639512)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26ff3168-c050-4d97-b9d5-df3c59a8c92b")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "ce040195-54ea-46d8-9496-8aee38f20746")
+	)
+	(fp_poly
+		(pts
+			(xy 1.2065 -1.651) (xy 0.8255 -2.032) (xy 1.2065 -2.032)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "7c59acdc-ac25-420c-b506-e2118202b470")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 0.5715) (xy 0.9525 0) (xy 1.5875 -0.5715)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5878c54b-e035-4f5e-b758-986beb28ba2f")
+	)
+	(fp_poly
+		(pts
+			(xy 2.159 -1.651) (xy 1.778 -2.032) (xy 2.159 -2.032)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "47ded026-fa7a-4860-bdd4-5bd6722d3f79")
+	)
+	(fp_line
+		(start -2 -3.3)
+		(end -2 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ae5c8e79-a850-4f74-9e56-1f272b4db7e3")
+	)
+	(fp_line
+		(start -2 3.3)
+		(end 4.55 3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe7734c5-1ff8-404b-a5b2-622623446461")
+	)
+	(fp_line
+		(start 4.55 -3.3)
+		(end -2 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a558e2d4-5b9d-4056-aeee-22749e9af4c1")
+	)
+	(fp_line
+		(start 4.55 3.3)
+		(end 4.55 -3.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83dba97d-c521-490d-acc6-bf46716fa164")
+	)
+	(fp_line
+		(start -1.23 -1.566046)
+		(end -1.23 1.566046)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5eda6a4-ad19-4b00-9c53-85c615dc9325")
+	)
+	(fp_arc
+		(start -1.23 -1.566046)
+		(mid 4.22 0.00071)
+		(end -1.230753 1.564843)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04bd8108-fd73-4cf6-8046-94ccd0c26a0c")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "0935e025-231f-429f-91fa-d5fb7db0d281")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(layer "F.Fab")
+		(uuid "6f6b54b1-0ad1-4acb-b4f9-e0edb20e0c50")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3a3a041a-5ddb-4285-8d03-f09008de785f")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7171e2e9-0f2d-420e-8eee-750032e223ba")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm_FlatTop.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

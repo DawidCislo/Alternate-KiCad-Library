@@ -19,6 +19,7 @@
 	(property "Value" "LED_VCCLite_5381H1_6.35x6.35mm"
 		(at 1.27 6 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "579f29e3-9f2b-43a9-8dc8-c56269e02e54")
 		(effects
 			(font

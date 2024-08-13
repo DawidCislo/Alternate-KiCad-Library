@@ -19,6 +19,7 @@
 	(property "Value" "LED_Cree-XQ_BigPads"
 		(at 0 2 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "c6762dd3-130c-4db7-beff-12576caa5a6d")
 		(effects
 			(font

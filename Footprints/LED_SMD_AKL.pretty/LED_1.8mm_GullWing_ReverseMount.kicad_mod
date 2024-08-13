@@ -1,7 +1,7 @@
 (footprint "LED_1.8mm_GullWing_ReverseMount"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "1.8mm subminiature LED, Gull wing leads, reverse-mount, 1.8mm diameter, https://www.tme.eu/Document/73cfb279a48f56dcf1d41531607a6531/km-27id-09.pdf, Alternate KiCad Library")
 	(tags "LED ReverseMount Reverse gull wing 1.8mm subminiature")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_1.8mm_GullWing_ReverseMount"
 		(at 0 2.425 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "1185d416-5cb4-4e8d-b235-e34a4fda9d11")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

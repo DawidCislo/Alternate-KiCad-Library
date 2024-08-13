@@ -1,7 +1,7 @@
 (footprint "LED_PLCC-4_5.6x3mm_1EP_2.6x1.15mm"
-	(version 20231212)
+	(version 20240108)
 	(generator "pcbnew")
-	(generator_version "7.99")
+	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "5.6mm x 3.0mm PLCC4 LED with an exposed thermal pad, https://www.tme.eu/Document/5e5e780f7397a81e8e7da26da30ecd93/OSXX5630C1A-150mA_Ver.a.5.pdf, Alternate KiCad Library")
 	(tags "LED Cree PLCC-4 5.6x3 ep")
@@ -19,6 +19,7 @@
 	(property "Value" "LED_PLCC-4_5.6x3mm_1EP_2.6x1.15mm"
 		(at 0 4 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "cf8d8c9f-b971-425f-ac39-0f7dd2de1921")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)

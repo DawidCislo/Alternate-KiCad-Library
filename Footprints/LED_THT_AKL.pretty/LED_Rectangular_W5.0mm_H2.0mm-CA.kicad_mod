@@ -1,61 +1,257 @@
-(footprint "LED_Rectangular_W5.0mm_H2.0mm-CA" (version 20220818) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "LED_Rectangular, Common Anode, Rectangular size 5.0x2.0mm^2, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf")
-  (tags "LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 3 pins Common Anode")
-  (fp_text reference "REF**" (at 2.54 -2.06) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 748d63a2-f588-4793-8dd7-e406e74d2b65)
-  )
-  (fp_text value "LED_Rectangular_W5.0mm_H2.0mm-3Pins" (at 2.54 2.06) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 94e3aa0b-dc3e-4121-994d-14430490a685)
-  )
-  (fp_line (start -0.06 -1.1) (end 5.14 -1.1)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 12e0694e-7fa0-4227-871a-30601064c6bc))
-  (fp_line (start 0.9525 -0.5715) (end 0.9525 0.5715)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 94df71d0-3e32-4f7c-a3d1-0511a19cb659))
-  (fp_line (start 4.1275 0.5715) (end 4.1275 -0.5715)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 8c3c1b31-ae11-4c42-9c9f-c56b12dd4390))
-  (fp_line (start 5.14 1.1) (end -0.06 1.1)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 5fc0131f-7301-47bb-90d5-8dce03ac6586))
-  (fp_poly
-    (pts
-      (xy 1.5875 0.5715)
-      (xy 0.9525 0)
-      (xy 1.5875 -0.5715)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 76a2a82c-c669-4080-8dda-59975032885f))
-  (fp_poly
-    (pts
-      (xy 3.4925 -0.5715)
-      (xy 4.1275 0)
-      (xy 3.4925 0.5715)
-    )
-
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 3d61fa62-45b9-4649-83a9-23310b210065))
-  (fp_line (start -1.15 -1.35) (end -1.15 1.35)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 2d1cf948-3f2d-45eb-b8b1-cd0ed89f7fed))
-  (fp_line (start -1.15 1.35) (end 6.25 1.35)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 9f5d2b79-4dbc-45dd-96a5-ca7f75faac77))
-  (fp_line (start 6.25 -1.35) (end -1.15 -1.35)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ca8927a6-eb9c-4f9d-8bde-8076a2675516))
-  (fp_line (start 6.25 1.35) (end 6.25 -1.35)
-    (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 14320d0c-546b-4328-91a3-4a3fca75962a))
-  (fp_line (start 0.04 -1) (end 0.04 1)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2cf44631-dc53-4022-8355-f848aeaa49c7))
-  (fp_line (start 0.04 1) (end 5.04 1)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp db2775b0-da3e-41cc-996e-ab9b91c9c1a4))
-  (fp_line (start 5.04 -1) (end 0.04 -1)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ca068001-3935-4a55-9fad-06ce5b96c58f))
-  (fp_line (start 5.04 1) (end 5.04 -1)
-    (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 46dcd0fc-b274-4397-83f6-f02fe219bf14))
-  (pad "1" thru_hole rect (at 0 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp 508e7019-7b4d-4eff-b8db-b57034d3ed0b))
-  (pad "2" thru_hole oval (at 2.54 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp c0eb6997-4177-4fa1-bf13-8f8b78a33c16))
-  (pad "3" thru_hole oval (at 5.08 0) (size 1.4 1.8) (drill 0.8) (layers *.Cu *.Mask) (tstamp 40349dc6-0b1b-4ede-84e3-fedfd956aa1b))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_Rectangular_W5.0mm_H2.0mm-3Pins.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_Rectangular_W5.0mm_H2.0mm-CA"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED_Rectangular, Common Anode, Rectangular size 5.0x2.0mm^2, 3 pins, http://www.kingbright.com/attachments/file/psearch/000/00/00/L-169XCGDK(Ver.9B).pdf")
+	(tags "LED_Rectangular Rectangular  Rectangular size 5.0x2.0mm^2 3 pins Common Anode")
+	(property "Reference" "REF**"
+		(at 2.54 -2.06 0)
+		(layer "F.SilkS")
+		(uuid "748d63a2-f588-4793-8dd7-e406e74d2b65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Rectangular_W5.0mm_H2.0mm-3Pins"
+		(at 2.54 2.06 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94e3aa0b-dc3e-4121-994d-14430490a685")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc3aaa7a-0183-4de8-a4aa-dd04b4adc816")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b17ba04e-a555-4db3-9892-dc4e4e1b7ed2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ab185af-b41f-43b9-bc5b-bcfe0ab6971e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.06 -1.1)
+		(end 5.14 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12e0694e-7fa0-4227-871a-30601064c6bc")
+	)
+	(fp_line
+		(start 0.9525 -0.5715)
+		(end 0.9525 0.5715)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94df71d0-3e32-4f7c-a3d1-0511a19cb659")
+	)
+	(fp_line
+		(start 4.1275 0.5715)
+		(end 4.1275 -0.5715)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c3c1b31-ae11-4c42-9c9f-c56b12dd4390")
+	)
+	(fp_line
+		(start 5.14 1.1)
+		(end -0.06 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fc0131f-7301-47bb-90d5-8dce03ac6586")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5875 0.5715) (xy 0.9525 0) (xy 1.5875 -0.5715)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "76a2a82c-c669-4080-8dda-59975032885f")
+	)
+	(fp_poly
+		(pts
+			(xy 3.4925 -0.5715) (xy 4.1275 0) (xy 3.4925 0.5715)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "3d61fa62-45b9-4649-83a9-23310b210065")
+	)
+	(fp_line
+		(start -1.15 -1.35)
+		(end -1.15 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d1cf948-3f2d-45eb-b8b1-cd0ed89f7fed")
+	)
+	(fp_line
+		(start -1.15 1.35)
+		(end 6.25 1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f5d2b79-4dbc-45dd-96a5-ca7f75faac77")
+	)
+	(fp_line
+		(start 6.25 -1.35)
+		(end -1.15 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca8927a6-eb9c-4f9d-8bde-8076a2675516")
+	)
+	(fp_line
+		(start 6.25 1.35)
+		(end 6.25 -1.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14320d0c-546b-4328-91a3-4a3fca75962a")
+	)
+	(fp_line
+		(start 0.04 -1)
+		(end 0.04 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cf44631-dc53-4022-8355-f848aeaa49c7")
+	)
+	(fp_line
+		(start 0.04 1)
+		(end 5.04 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db2775b0-da3e-41cc-996e-ab9b91c9c1a4")
+	)
+	(fp_line
+		(start 5.04 -1)
+		(end 0.04 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca068001-3935-4a55-9fad-06ce5b96c58f")
+	)
+	(fp_line
+		(start 5.04 1)
+		(end 5.04 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46dcd0fc-b274-4397-83f6-f02fe219bf14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(uuid "8517b518-1a5f-4b13-a9cc-d2d67f24b9fd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "508e7019-7b4d-4eff-b8db-b57034d3ed0b")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c0eb6997-4177-4fa1-bf13-8f8b78a33c16")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 1.4 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "40349dc6-0b1b-4ede-84e3-fedfd956aa1b")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_Rectangular_W5.0mm_H2.0mm-3Pins.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

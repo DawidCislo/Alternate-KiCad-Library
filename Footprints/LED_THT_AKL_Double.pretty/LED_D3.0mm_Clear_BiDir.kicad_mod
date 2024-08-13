@@ -19,6 +19,7 @@
 	(property "Value" "LED_D3.0mm_Clear_BiDir"
 		(at 1.27 2.96 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "e628699c-f573-436c-b0df-68c07f3516ea")
 		(effects
 			(font
