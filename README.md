@@ -1,13 +1,15 @@
 # Alternate-KiCad-Library
 
-Alternate KiCad Library
+Alternate KiCad Library is a symbol and footprint library for KiCad EDA Software. Symbol libraries contain various analog integrated circuits, discrete semiconductors, LEDs and passive components. Footprint libraries contain passives, diode, LED, transistor and IC packages. All symbols and footprints are either edited versions of standard KiCad components or have been created from scratch.
 
-## Preview of version 4 is out now.
+## Version 4.0 is out now, get it via KiCad's PCM or download directly from this repository.
 
-For now only available on GitHub. Requires KiCad 8. See the Manual Installation sections for instructions on how to install.
+[Documentation](https://alternatekicadlibrary.com/rc_images/akl_user_manual.pdf)
 
-Changes:
-![image](https://github.com/DawidCislo/Alternate-KiCad-Library/assets/48568748/327ff410-a5ca-45b5-af7f-f3d73abfbcc6)
+[Installation Instructions](https://alternatekicadlibrary.com/setup.html)
+
+## List of changes:
+
 New symbol libraries:
 - Crystal_AKL - symbols for crystal resonators and oscillators with pre-assigned footprints
 - LED_AKL - colorful symbols for LEDs with pre-assigned footprints (disable 'override individual item colors' in preferences -> colors)
@@ -17,50 +19,67 @@ Some symbols have new Alternate Body Styles. Go to symbol properties and check t
 - 2-pin resistors, diodes and capacitors have a 45-degree rotated version with pins still on the 50 mil grid
 - Dual common anode, common cathode and series diodes have an alternative symbol.
 - Analog ICs with resistors in their symbols have a US-style resistor version.
+![image](https://github.com/DawidCislo/Alternate-KiCad-Library/assets/48568748/327ff410-a5ca-45b5-af7f-f3d73abfbcc6)
 
 Most NC pins were changed to Free unless explicitly indicated as 'Do not connect" by the manufacturer. In some cases having an ability to route through the NC pads or tie them to a heat-sink plane is useful. Now KiCad will allow connecting tracks to these pins, unless they already have an assigned net (i.e. there is already a track running through it)
 
-Full documentation is yet to be completed, and once it's ready the V4.0 will be released via PCM.
-
-All the bugs from the "Known Issues" section have been fixed.
+New symbols for existing symbol libraries:
+- Diode_AKL: 1141 new symbols
+- Diode_Current_Limiting_AKL: 16 new symbols
+- Diode_Schottky_AKL: 396 new symbols
+- Diode_TVS_AKL: 137 new symbols
+- Diode_Zener_AKL: 476 new symbols
+- Diode_Bridge_AKL: 6 new symbols
 
 New footprint libraries:
-- LED_SMD_AKL - surface-mount LED footprints used by the LED_AKL symbol library
-- LED_THT_AKL - through-hole LED footprints used by the LED_AKL symbol library
+- LED_SMD_AKL and LED_SMD_Handsoldering_AKL - surface-mount LED footprints used by the LED_AKL symbol library
+- LED_THT_AKL and LED_THT_AKL_Double - through-hole LED footprints used by the LED_AKL symbol library
+
+New ThermalVias2 footprints for devices with heatsink pads. These footprint variants use standard untented vias surrounded by soldermask instead of expensive via-in-pad. Thermal transfer efficiency is lower but soldering is more repeatable
+![image](https://github.com/user-attachments/assets/2bab1a59-5488-46cc-b884-e96baac72fea)
+
+Crystal_AKL footprint library and it's variants:
+- Added Crystal_SMD_8.7x3.8_P5.50mm
+
+Diode_THT_AKL footprint library and it's variants:
+- Added DO-7 (DO-204AA) series
+- Added 7.3x22mm package used by BY4 series high voltage diodes
+- Added SOD-23 - old plastic rectangular diode package
+- Added SOD-61 series
+- Added SOD-61A series
+- Added CASE-194 series
+
+Package_DFN_QFN_AKL footprint library:
+- Added DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.6mm
+
+Package_SO_AKL footprint library:
+- Added SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x2.29mm and thermal vias variants
+- Added Infineon_PG-SSOP-14 and thermal vias variants
+- Added ST_PowerSSO-12 and thermal vias variants
+
+Package_TO_SOT_SMD_AKL footprint library:
+- Added 1.27mm pin pitch variants for TO-252-4 and TO-252-5 footprints
+- Added Diodes_SOT-89-5
+
+Package_TO_SOT_THT_AKL footprint library and it's variants:
+- Added 'BigPads' handsoldering-friendly versions for most metal-can packages (TO-3, TO-5, TO-18, TO-39, TO-46, TO-78, TO-99 and TO-100)
+- Added TO-71-6 amd TO-71-8 along with BigPads variands
+- Added two-pin TO-3PF and KA variants
+- Added SOT-33 and SOT-33_Inline with pin variants
+- Added SOT-25 with pin variants
+
+Bugfixes (see [commit list](https://github.com/DawidCislo/Alternate-KiCad-Library/commits/main/)
 
 ## Installation instructions for Plugin and Content Manager:
 
-KiCad 7 automatically adds third-party libraries to library tables, but by default it also adds the 'PCM_' prefix to their names.
-This breaks symbol-footprint association and user action is needed for the library to work as intended.
+KiCad 8 automatically adds third-party libraries to library tables, by default it also adds the `PCM_` prefix to their names.
+If you have the defauly `PCM_` prefix in `Preferences` -> `Packages and Updates`, simply choose the defauly 4.0.1 version.
 
-### Either:
-Before downloading go to `Preferences` (Ctrl + ,), then to `Plugin and Content Manager` and delete anything found in the `Library nickname prefix` text box. You can then use the PCM to download the library and it will install automatically.
-### Or:
-After downloading the library from PCM, open `Manage Footprint Libraries` from the Preferences tab. Locate and rename all AKL footprint libraries, so that they no longer have the `PCM_` prefix. Example:
-`PCM_Fuse_AKL` rename to `Fuse_AKL`.
-For reference, all AKL footprint libraries have `AKL` in their name, see the User Manual PDF for more detailed list of all library filenames.
+If you want no prefixes, simply leave the `Library nickname prefix` blank and chose version 4.0 in package manager.
 
-All symbols should now have correct footprint links.
+Refer to [Installation Instructions](https://alternatekicadlibrary.com/setup.html) for more detailed guide
 
-### KiCad 6 Setup
-KiCad uses library tables to keep track of installed libraries. Content Manager does not automatically update these library tables.
-To do it manually, go to `Manage Footprint Libraries` in the preferences tab.
- 
-Press the Folder icon below the table and locate:
-`<KiCad 6 user directory>\3rdparty\footprints\alternate-kicad-library`
-
-Multiple folders ending in `.Pretty` should be visible. Each of these is a separate footprint library. Select all the libraries that you want to install and press `Select Folder`
-
-Next, go to `Manage Symbol Libraries` in the preferences tab. 
- 
-Press the Folder icon below the table and locate:
-`<KiCad 6 user directory>\3rdparty\symbols\alternate-kicad-library`
-
-Multiple files ending in `.kicad_sym` should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press `Open`.
-
-All the installed libraries should be now accessible.
-
-## Manual installation (all KiCad versions):
+## Manual installation:
 
 Extract the downloaded AKL files into any folder you want.
 
@@ -78,32 +97,6 @@ Press the Folder icon below the table and locate the folder with the extracted s
 Multiple files ending in `.kicad_sym` should be visible. Each of these is a separate symbol library. Select all the libraries that you want to install and press `Open`.
 
 All the installed libraries should be now accessible.
-
-# Known issues
-
-Some symbols or footprints might contain mistakes, this list contains info on all known bugs before they'll get fixed in a new update:
-
-- AD8662: Uses wrong generic symbol (single instead of dual), fix commited by aprgl. Users downloading via PCM will have to wait until the next update.
-- ADS626: +VS pin has a wrong electrical type, should be "Power Input"
-- AD8209: Wrong datasheet link
-- INA132: Symbol graphics shows 25k resistors, should be 40k
-- AD8307: OUT and GND pins are misaligned
-- MCP6H82T-E-MNY: Symbol has reduntant hidden NC pins on the first unit
-- DTV1500MD has a wrong footprint, should be "Package_TO_SOT_THT_AKL:TO-220-2_Vertical_KA"
-- Quad CC and CA diode pins are not aligned to grid (1SS308, 1SS309)
-- TSMPxxA series of TVS diodes have incorrect footprints, new footprint is needed, since cathode and anode is reversed
-- BZX79 series of Zener diodews have a bad datasheet link
-- Some Zener diodes are not derived from the generic symbols, but are stand-alone symbols instead
-- VOM617A and VOM618A have a wrong footprint, should be "Package_SO_AKL:SO-4_4.4x3.9mm_P2.54mm"
-- Some Dual-gate MOSFETs have a wrong mode indicated on the symbol graphics, depletion-mode mosfets should have a solid line instead of dashed for the channel (3N200, BF998, BF998R)
-- MJ3000 and MJ3001 transistors have the wrong type, should be NPN
-- MJ2500 and MJ2501 transistors have the wrong type, should be PNP
-- BC212, BC213, BC214 transistors have the wrong type, should be PNP
-- D_SOD-57_P12,70mm_Horizontal_Zener should have a dot '.' instead of a comma ',' in it's filename
-- Some TO-252 parts with 4 or 5 pins will not fit the footprint. Both 1.14mm and 1.27mm pad pitch is used by different manufacturers, needs a new footprint. Affected parts: DMC3021LK4, DMG4511SK4
-- MCP6044 is derived from a wrong generic symbol, as a result it's only dual instead of a quad opamp symbol. As a workaround use MCP6054 instead and rename it to MCP6044 in your schematic.
-
-If you find any bugs, missing or wrong footprints, missing or invalid datasheet links, wrong symbol graphics or incorrect footprint geometry, please open an issue!
 
 # File description
 
@@ -138,37 +131,205 @@ If you wish to redistribute the Alternate KiCad Library, or its parts (including
 collection you need to share it under the same license agreement. Libraries must also retain attribution
 information and license documents which are distributed with the library files.
 
-## About:
-
-Alternate KiCAD Library is a massive symbol and footprint library containing refreshed, new symbols and footprints for KiCAD focused on improving Schematic and PCB readability and aesthetics, mainly intended for hobbyist use.
-
-AKL started as a modification of the KiCAD library, where select footprints received new silkscreen markings helpful during hand-assembly.
-The list of footprints that have been modified and added has been greatly expanded, along with brand new footprints and footprint libraries.
-Double-layer silkscreen variants have been added where symbols have additional information on the bottom silkscreen layer for easier troubleshooting. 
-
-Alternate KiCAD Library now contains massive symbol library 
-(over 20 000 symbols as of version 2.0) with Diodes, Transistors, SCRs and Optocouplers. Each symbol is a separate orderable part number (example 1N4001, 1N4002, 1N4003 etc.), each has pre-assigned footprint and a data sheet link.
-
-This third-party library was not created up to the same quality standard as the first-party KiCAD library, wide range of errors might be present. (improper footprint assigned to a symbol, wrong pinout, incorrect footprint dimensions just to name a few)
-While using AKL please pay attention and double-check that a symbol:
-Has the correct pin arrangement. (Most symbols have pin numbers visible, so it’s easy to check)
-Has the correct footprint assigned in the symbol properties. (Symbol description always states the footprint, but might not always agree with the pre-assigned footprint)
-Also check that the footprint has correct pad/hole spacing referencing the part’s data sheet.
-
-Refer to the user manual for installation instructions and more.
-
 ### Compatibility:
 
-Alternate KiCad Library 3.0 works with KiCad 6 and 7 (with minor tweaks, see installation instructions above)
+Alternate KiCad Library 4.0 works with KiCad 8
+
+Alternate KiCad Library 3.0 works with KiCad 6
 
 Alternate KiCad Library 2.0 is known to work with KiCad 6.0.0-rc-1 but should be cross-compatible with all KiCad 6 versions.
-Footprint library should be backwards compatible with KiCAD 5
+Footprint library should be backwards compatible with KiCad 5
 
 
 ## Changelog:
 
-Version 3.0
+## Version 4.0
 NEW SYMBOLS:
+
+- Crystal_AKL - symbols for crystal resonators and oscillators with pre-assigned footprints
+- LED_AKL - colorful symbols for LEDs with pre-assigned footprints (disable 'override individual item colors' in preferences -> colors)
+- Voltage_Regulator_AKL - symbols for linear voltage regulators with pre-assigned footprints based on part numbers.
+
+Some symbols have new Alternate Body Styles. Go to symbol properties and check the "Alternate symbol (deMorgan)" checkbox
+- 2-pin resistors, diodes and capacitors have a 45-degree rotated version with pins still on the 50 mil grid
+- Dual common anode, common cathode and series diodes have an alternative symbol.
+- Analog ICs with resistors in their symbols have a US-style resistor version.
+
+Most NC pins were changed to Free unless explicitly indicated as 'Do not connect" by the manufacturer. In some cases having an ability to route through the NC pads or tie them to a heat-sink plane is useful. Now KiCad will allow connecting tracks to these pins, unless they already have an assigned net (i.e. there is already a track running through it)
+
+New symbols for existing symbol libraries:
+- Diode_AKL: 1141 new symbols
+- Diode_Current_Limiting_AKL: 16 new symbols
+- Diode_Schottky_AKL: 396 new symbols
+- Diode_TVS_AKL: 137 new symbols
+- Diode_Zener_AKL: 476 new symbols
+- Diode_Bridge_AKL: 6 new symbols
+
+NEW FOOTPRINTS:
+- LED_SMD_AKL and LED_SMD_Handsoldering_AKL - surface-mount LED footprints used by the LED_AKL symbol library
+- LED_THT_AKL and LED_THT_AKL_Double - through-hole LED footprints used by the LED_AKL symbol library
+
+New ThermalVias2 footprints for devices with heatsink pads. These footprint variants use standard untented vias surrounded by soldermask instead of expensive via-in-pad. Thermal transfer efficiency is lower but soldering is more repeatable
+
+Crystal_AKL footprint library and it's variants:
+- Added Crystal_SMD_8.7x3.8_P5.50mm
+
+Diode_THT_AKL footprint library and it's variants:
+- Added DO-7 (DO-204AA) series
+- Added 7.3x22mm package used by BY4 series high voltage diodes
+- Added SOD-23 - old plastic rectangular diode package
+- Added SOD-61 series
+- Added SOD-61A series
+- Added CASE-194 series
+
+Package_DFN_QFN_AKL footprint library:
+- Added DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.6mm
+
+Package_SO_AKL footprint library:
+- Added SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x2.29mm and thermal vias variants
+- Added Infineon_PG-SSOP-14 and thermal vias variants
+- Added ST_PowerSSO-12 and thermal vias variants
+
+Package_TO_SOT_SMD_AKL footprint library:
+- Added 1.27mm pin pitch variants for TO-252-4 and TO-252-5 footprints
+- Added Diodes_SOT-89-5
+
+Package_TO_SOT_THT_AKL footprint library and it's variants:
+- Added 'BigPads' handsoldering-friendly versions for most metal-can packages (TO-3, TO-5, TO-18, TO-39, TO-46, TO-78, TO-99 and TO-100)
+- Added TO-71-6 amd TO-71-8 along with BigPads variands
+- Added two-pin TO-3PF and KA variants
+- Added SOT-33 and SOT-33_Inline with pin variants
+- Added SOT-25 with pin variants
+
+BUGFIXES:
+
+Amplifier_Difference_AKL symbol library: 
+- AD626 – corrected +VS pin’s electrical type to “Power Input”.
+- AD8209 – fixed datasheet link.
+- INA132 – fixed resistor values.
+
+Analog_AKL symbol library:
+- AD8307 – fixed symbol graphics.
+- AD604 – fixed datasheet links.
+
+Amplifier_Operational_AKL symbol library:
+- AD8008 – fixed parent symbol.
+- AD8012 – fixed parent symbol and updated datasheet links.
+- AD8048 – fixed parent symbol and description.
+- AD8513 – fixed parent symbol.
+- AD8534 – fixed parent symbol.
+- AD8539 – fixed parent symbol.
+- AD8554 – fixed parent symbol.
+- AD8594ACPZ – fixed pinout.
+- AD8608 – fixed parent symbol.
+- AD8618 – fixed parent symbol.
+- AD8664 – fixed parent symbol.
+- ADA4522-4ARZ – fixed parent symbol.
+- ADA4638-1ARZ – fixed parent symbol.
+- ADA4891-1 – fixed parent symbol.
+- LMC6042 and LMC6044 – fixed datasheet links
+- LMP7716  – fixed parent symbol, description and datasheet links. 
+- LTC2050 – renamed shutdown pin. 
+- MCP6H82T-E-MNY and MCP6H92T-E-MNY removed duplicate NC pins.
+- MCP617 – fixed parent symbol.
+- MCP6044 – fixed parent symbol.
+- MCP6144 – fixed parent symbol.
+- MCP6232 – fixed parent symbol.
+- MCP6234 – fixed parent symbol.
+- MCP6242 – fixed parent symbol.
+- MCP6244 – fixed parent symbol.
+- MCP6274 – fixed parent symbol.
+- MCP6284 – fixed parent symbol.
+- MCP6294 – fixed parent symbol.
+- NE5534 – fixed datasheet link.
+- OP221 – fixed datasheet link.
+- OP293 – fixed datasheet link.
+- OP413 – fixed footprint.
+- OP491 – fixed parent symbol.
+- OP495GSZ – fixed datasheet link
+- OPA227AIDRM – fixed pinout.
+- OPA551PA’s – fixed FLAG’s pin electrical type.
+- OPA606 – fixed datasheet link.
+- OPA683ID’s – fixed pinout.
+- OPA2337 and OPA2338 – fixed parent symbol.
+- TSX634 – fixed parent symbol.
+- TSV734IP – fixed parent symbol.
+- TS9224 – fixed parent symbol.
+- TLV2464 – fixed parent symbol.
+- TLE2144 – fixed parent symbol.
+- TLC271 – fixed datasheet links.
+- OPA4350UA – fixed parent symbol.
+- OPA4277 – fixed parent symbol.
+- OPA4241 and OPA4251 – fixed parent symbols.
+- OPA4227 and OPA4228 – fixed parent symbols.
+
+Analog_Comparator_AKL symbol library:
+- MAX999 – fixed pinout.
+- MCP6548 – fixed datasheet link.
+- TLV350 – removed incorrect hidden NC pins.
+- TLC374 – fixed parent symbol.
+- MAX9034 – fixed symbol names.
+
+Diode_AKL symbol library:
+- DTV1500MD – fixed footprint.
+- Quad Common cathode and anode generic symbols (and derived symbols) now have their pins aligned to 1.27mm grid.
+- BAS678 – fix symbol name.
+- RS3xB series – fixed footprinds.
+
+Diode_Schottky_AKL symbol library:
+- MBRF10200CT – updated datasheet link.
+- MBR40250 – changed to a correct parent symbol.
+- BAT40V – added separated symbol.
+- BAT17-07 – added separated symbol.
+
+Diode_TVS_AKL symbol library:
+- TSMPxxA series TVS diode – fixed footprints (SMP_Reverse)
+- DT1140-04LP – fixed symbol graphics.
+- D_TVS_Array_Generic_4xLine_L1NL2L3xL4 – fixed pinout.
+
+Diode_Zener_AKL symbol library:
+- BZX79 series – updated datasheet links.
+- MMSZ5221 series – updated datasheet links.
+- MMBZxxxBS series – added additional separated symbols.
+- All specific Zener diode symbols are now derived from their respective generic symbols.
+
+Optocoupler_AKL symbol library:
+- VOM617A and VOM618A series – fixed footprints.
+
+Optocoupler_Gate_Driver_AKL symbol library:
+- VOL3120 – fixed pinout.
+
+Optocoupler_Logic_AKL symbol library:
+- VO0630T, VO0631T and VO661T – added additional separated symbols.
+
+Optocoupler_Triac_AKL symbol library:
+- 5-pin Phototriacs no longer generate missing pin errors while updating PCB from schematic.
+
+Transistor_MOSFET_AKL symbol library:
+- Dual Gate MOSFETs now have the correct mode indicated on the symbol graphics (depletion instead of enhancement)
+
+Transistor_BJT_AKL symbol library:
+- BC212, BC213 and BC214 – fixed parent symbol.
+
+Transistor_BJT_Darlington_AKL symbol library:
+- MJ3000/3001 and MJ2500/2501 – fixed parent symbol.
+
+Transistor_BJT_Pre-Biased symbol library:
+- MUN211x series, MUN213x series, MUN221x series, MUN223x series, MUN511x series, MUN531x series, MUN521x series, MUN523x series – fixed symbol names.
+
+Diode_AKL and Diode_AKL_Double footprint libraries:
+- D_SOD-57_P12,70mm_Horizontal_Zener renamed to D_SOD-57_P12.70mm_Horizontal_Zener ( , replaced with . ) because the old name was not consistent with the naming convention. 
+
+Package_TO_SOT_THT_AKL and Package_TO_SOT_THT_AKL_Double footprint libraries:
+- TO-18-2_Zener footprint now has a reversed symbol on the silkscreen layer to match the BZP630 Zener diode series.
+
+Package_TO_SOT_SMD_AKL footprint libray:
+- SOT-563 now has narrower pads and larger pad-to-pad clearance
+
+## Version 3.0
+
+NEW SYMBOLS:
+
 - Amplifier_Operational_AKL - Over 4250 operational amplifiers and OTAs with assigned footprints and datasheet links.
 - Amplifier_Instrumentation_AKL - 245 Instrumentation amplifiers (IN-AMP) with assigned footprints and datasheet links.
 - Amplifier_Difference_AKL - 98 Difference amplifiers (differential input, single-ended output) with assigned footprints and datasheet links.
@@ -221,7 +382,7 @@ Added R_Array_SIP13_BigPads
 Added R_Array_SIP14_BigPads
 
 
-Version 2.1
+## Version 2.1
 Footprint libraries:
 - Footprints now load default KiCad's 3D models when available.
 - No-Connect Pads will now have empty net name instead of '~'.
@@ -229,7 +390,7 @@ Footprint libraries:
 - All THT trimmers now have proper directional marks with rotor being connected to pin 2.
 - SIP Resistor networks now have more pronounced pin 1 marks.
 
-Version 2.0 (Symbol Library Update)
+## Version 2.0 (Symbol Library Update)
 NEW SYMBOL LIBRARIES: 
 - Diode_AKL – SMD and THT diodes with assigned footprints and data sheet links.
 - Diode_Schottky_AKL – SMD and THT Si and SiC Schottky diodes with assigned footprints and data sheet links.
@@ -408,7 +569,7 @@ Added WLCSP-8_1.825x1.48mm_P0.5mm
 - Resistor_AKL_Double – variant of the Resistor_AKL  library with silkscreen on both sides of the parts.
 
 
-Version 1.1
+## Version 1.1
 - SMD Diode, Capacitor and Inductor footprint libraries have been split into standard and hand soldering variants.
 Capacitor_SMD_Handsoldering_AKL
 Capacitor_Tantalum_SMD_Handsoldering_AKL
@@ -422,7 +583,7 @@ Inductor_SMD_Handsoldering_AKL
 - Some SMD TVS diode footprints had unnecessary polarity marks.
 - Crystal and SMD resistor libraries have no silkscreen under the SMD parts.
 
-Version 1.0
+## Version 1.0
 - Modified KiCad Libraries:
 Capacitor_SMD_AKL
 Capacitor_Tantalum_AKL
