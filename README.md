@@ -1,12 +1,15 @@
 # Alternate-KiCad-Library
 
-Alternate KiCad Library
+Alternate KiCad Library is a symbol and footprint library for KiCad EDA Software. Symbol libraries contain various analog integrated circuits, discrete semiconductors, LEDs and passive components. Footprint libraries contain passives, diode, LED, transistor and IC packages. All symbols and footprints are either edited versions of standard KiCad components or have been created from scratch.
 
-## Preview of version 4 is out now.
+## Version 4.0 is out now, get it via KiCad's PCM or download directly from this repository.
 
-For now only available on GitHub. Requires KiCad 8. See the Manual Installation sections for instructions on how to install.
+[Documentation](https://alternatekicadlibrary.com/rc_images/akl_user_manual.pdf)
 
-Changes:
+[Installation Instructions](https://alternatekicadlibrary.com/setup.html)
+
+## List of changes:
+
 ![image](https://github.com/DawidCislo/Alternate-KiCad-Library/assets/48568748/327ff410-a5ca-45b5-af7f-f3d73abfbcc6)
 New symbol libraries:
 - Crystal_AKL - symbols for crystal resonators and oscillators with pre-assigned footprints
@@ -20,13 +23,37 @@ Some symbols have new Alternate Body Styles. Go to symbol properties and check t
 
 Most NC pins were changed to Free unless explicitly indicated as 'Do not connect" by the manufacturer. In some cases having an ability to route through the NC pads or tie them to a heat-sink plane is useful. Now KiCad will allow connecting tracks to these pins, unless they already have an assigned net (i.e. there is already a track running through it)
 
-Full documentation is yet to be completed, and once it's ready the V4.0 will be released via PCM.
-
-All the bugs from the "Known Issues" section have been fixed.
+New symbols for existing symbol libraries:
+- Diode_AKL: 1141 new symbols
+- Diode_Current_Limiting_AKL: 16 new symbols
+- Diode_Schottky_AKL: 396 new symbols
+- Diode_TVS_AKL: 137 new symbols
+- Diode_Zener_AKL: 476 new symbols
+- Diode_Bridge_AKL: 6 new symbols
 
 New footprint libraries:
-- LED_SMD_AKL - surface-mount LED footprints used by the LED_AKL symbol library
-- LED_THT_AKL - through-hole LED footprints used by the LED_AKL symbol library
+- LED_SMD_AKL and LED_SMD_Handsoldering_AKL - surface-mount LED footprints used by the LED_AKL symbol library
+- LED_THT_AKL and LED_THT_AKL_Double - through-hole LED footprints used by the LED_AKL symbol library
+
+New ThermalVias2 footprints for devices with heatsink pads. These footprint variants use standard untented vias surrounded by soldermask instead of expensive via-in-pad. Thermal transfer efficiency is lower but soldering is more repeatable
+![image](https://github.com/user-attachments/assets/2bab1a59-5488-46cc-b884-e96baac72fea)
+
+Crystal_AKL footprint library and it's variants:
+- Added Crystal_SMD_8.7x3.8_P5.50mm
+
+Diode_THT_AKL footprint library and it's variants:
+- Added DO-7 (DO-204AA) series
+- Added 7.3x22mm package used by BY4 series high voltage diodes
+- Added SOD-23 - old plastic rectangular diode package
+- Added SOD-61 series
+- Added SOD-61A series
+- Added CASE-194 series
+
+Package_DFN_QFN_AKL footprint library:
+- Added DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.6mm
+
+Package_SO_AKL Footprint library
+<todo: finish updating readme>
 
 ## Installation instructions for Plugin and Content Manager:
 
