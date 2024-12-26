@@ -14898,7 +14898,7 @@
 		)
 	)
 	(symbol "VOM1271"
-		(extends "Optocoupler_Photovoltaic_Generic")
+		(extends "Optocoupler_Photovoltaic_Generic_Wide2")
 		(property "Reference" "OC"
 			(at -5.08 11.43 0)
 			(effects
@@ -14917,7 +14917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO_AKL:SOIC-4_4.55x4.4mm_P2.54mm"
+		(property "Footprint" "PCM_Package_SO_AKL:SOIC-4_4.55x4.4mm_P2.54mm"
 			(at -5.08 -5.08 0)
 			(effects
 				(font
