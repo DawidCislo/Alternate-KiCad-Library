@@ -73,7 +73,7 @@ Bugfixes (see [commit list](https://github.com/DawidCislo/Alternate-KiCad-Librar
 ## Installation instructions for Plugin and Content Manager:
 
 KiCad 8 automatically adds third-party libraries to library tables, by default it also adds the `PCM_` prefix to their names.
-If you have the defauly `PCM_` prefix in `Preferences` -> `Packages and Updates`, simply choose the defauly 4.0.1 version.
+If you have the default `PCM_` prefix in `Preferences` -> `Packages and Updates`, simply choose the default 4.0.1 version.
 
 If you want no prefixes, simply leave the `Library nickname prefix` blank and chose version 4.0 in package manager.
 

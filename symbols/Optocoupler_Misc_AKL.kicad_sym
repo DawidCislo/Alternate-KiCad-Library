@@ -14898,7 +14898,7 @@
 		)
 	)
 	(symbol "VOM1271"
-		(extends "Optocoupler_Photovoltaic_Generic")
+		(extends "Optocoupler_Photovoltaic_Generic_Wide2")
 		(property "Reference" "OC"
 			(at -5.08 11.43 0)
 			(effects
